@@ -9,7 +9,7 @@ class Greeting extends React.Component {
         <>
           <Link to="/signup">Sign Up</Link>
           <br />
-          <Link to="/login">Sign In</Link>
+          <Link to="/login">Log In</Link>
         </>
       )
     } else {
