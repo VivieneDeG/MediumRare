@@ -8,7 +8,6 @@ class SessionForm extends React.Component {
       email: "",
       password: "",
     };
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   renderErrors () {
@@ -28,10 +27,12 @@ class SessionForm extends React.Component {
     }
   } 
 
-  handleSubmit(e) {
-    e.preventDefault();
-    const user = Object.assign({}, this.state);
-    this.props.processForm(user);
+  handleSubmit() {
+    return (e) => {
+      e.preventDefault();
+      const user = Object.assign({}, this.state);
+      this.props.processForm(user);
+    }
   }
 
   render() {
@@ -54,7 +55,7 @@ class SessionForm extends React.Component {
       <>
         {this.props.header}
         {this.renderErrors()}
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit()}>
           {nameField}
           <label> Your email
             <br />
