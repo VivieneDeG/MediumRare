@@ -15,9 +15,12 @@ class SessionForm extends React.Component {
       <li key={idx}>{err}</li>
     ));
     return (
-      <ul>
-        {listErrors}
-      </ul>
+      <>
+        <ul className="session-errors">
+          {listErrors}
+        </ul>
+        <br />
+      </>
     )
   }
 
@@ -40,8 +43,7 @@ class SessionForm extends React.Component {
     if (this.props.formType === 'Sign Up') {
       nameField = (
         <>
-          <label> Your name
-            <br />
+          <label>Your name
             <input type="text" value={this.state.name} onChange={this.update('name')} />
           </label>
           <br />
@@ -52,25 +54,27 @@ class SessionForm extends React.Component {
     }
 
     return (
-      <>
+      <div className="session-form-container">
         {this.props.header}
-        {this.renderErrors()}
-        <form onSubmit={this.handleSubmit()}>
+        <br />
+
+        <form onSubmit={this.handleSubmit()} className="session-form">
           {nameField}
-          <label> Your email
-            <br />
+          <label>Your email
             <input type="text" value={this.state.email} onChange={this.update('email')} />
           </label>
           <br />
-          <label> Your password
-          <br />
+          <label>Your password
             <input type="password" value={this.state.password} onChange={this.update('password')} />
           </label>
           <br />
+          {this.renderErrors()}
           <input type="submit" value={this.props.formType} />
         </form>
+
+        <br />
         {this.props.link}
-      </> 
+      </div> 
     )
   }
 }

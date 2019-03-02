@@ -1,0 +1,37 @@
+.session-form-container, .session-form, .session-errors,
+.session-form > label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-header {
+  font-family: 'Playfair Display', Georgia, serif;
+  // font-weight: 600;
+  font-size: 32px;
+}
+
+.session-form-container {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 12px;
+}
+
+.session-form-container > p, .session-form > input {
+  font-size: 14px;
+}
+
+.other-form-link {
+  color: mediumseagreen;
+}
+
+.other-form-link:hover {
+  color: seagreen;
+}
+
+.session-errors {
+  color: firebrick;
+}
+
+.session-form > label > input {
+  border: 1px solid lightgray;
+}

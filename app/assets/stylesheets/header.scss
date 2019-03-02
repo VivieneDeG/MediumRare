@@ -1,0 +1,41 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 82%;
+}
+
+.header-link, .nav-bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-link > h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.nav-bar-login, .nav-bar-signup {
+  padding: 5px 10px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: mediumseagreen;
+}
+
+.nav-bar-login:hover, .nav-bar-signup:hover {
+  color: seagreen;
+}
+
+.nav-bar-right > h3 {
+  padding: 5px 10px;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 16px;
+}
+
+.nav-bar-right > button {
+  padding: 5px 10px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+}
