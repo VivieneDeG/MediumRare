@@ -53,6 +53,8 @@ class SessionForm extends React.Component {
       nameField = <></>
     }
 
+    // add demo user button after form
+    
     return (
       <div className="session-form-container">
         {this.props.header}

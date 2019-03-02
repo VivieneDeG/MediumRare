@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Greeting = ({currentUser, logout}) => {
-  console.log(currentUser);
   if (!currentUser) {
     return (
       <div className="nav-bar-right">
