@@ -1,13 +1,8 @@
-.session-form-container, .session-form, .session-errors,
-.session-form > label {
+.session-form-container, .session-form, .session-form-label,
+.session-errors {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.session-header {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 34px;
 }
 
 .session-form-container {
@@ -15,12 +10,53 @@
   font-size: 12px;
 }
 
-.session-form > label {
-  color: dimgray;
+.session-header {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 34px;
 }
 
-.session-form-container > p, .session-form > input {
+.session-form {
+  margin-top: 20px;
+}
+
+.session-form-label {
+  color: dimgray;
+  margin: 10px;
+}
+
+.session-form-label > input {
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+  font-size: 16px;
+  width: 250px;
+  color: black;
+}
+
+.session-errors {
+  margin: 10px;
+  color: firebrick;
+}
+
+.session-form-submit, .demo-button {
+  margin: 5px;
+  width: 110px;
+  height: 37px;
+  border-radius: 4px;
   font-size: 14px;
+  text-align: center;
+  background: rgba(0,0,0,.84);
+  border-color: rgba(0,0,0,.84);
+  color: white;
+}
+
+.session-form-submit:hover, .demo-button:hover {
+  background: rgba(0,0,0,1);
+}
+
+.session-form-container > p {
+  margin: 10px;
+  font-size: 14px;
+  color: rgb(63, 63, 63);
 }
 
 .other-form-link {
@@ -29,16 +65,4 @@
 
 .other-form-link:hover {
   color: seagreen;
-}
-
-.session-errors {
-  color: firebrick;
-}
-
-.session-form > label > input {
-  padding: 5px;
-  border-bottom: 1px solid lightgray;
-  font-size: 16px;
-  width: 250px;
-  color: black;
 }
