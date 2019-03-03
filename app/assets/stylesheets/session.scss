@@ -7,7 +7,17 @@
 
 .session-form-container {
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 12px;
+  font-size: 12.5px;
+}
+
+.session-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  padding: 0px 10px;
+  font-size: 20px;
+  color: rgb(120, 120, 120);
 }
 
 .session-header {
@@ -20,21 +30,21 @@
 }
 
 .session-form-label {
-  color: dimgray;
+  color: rgb(120, 120, 120);
   margin: 10px;
 }
 
 .session-form-label > input {
-  padding: 5px;
-  border-bottom: 1px solid lightgray;
-  font-size: 16px;
-  width: 250px;
-  color: black;
+  padding: 7px;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  font-size: 17px;
+  width: 290px;
+  color: rgb(40, 40, 40);
 }
 
 .session-errors {
   margin: 10px;
-  color: firebrick;
+  color: #b22222
 }
 
 .session-form-submit, .demo-button {
@@ -46,23 +56,25 @@
   text-align: center;
   background: rgba(0,0,0,.84);
   border-color: rgba(0,0,0,.84);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .session-form-submit:hover, .demo-button:hover {
   background: rgba(0,0,0,1);
 }
 
-.session-form-container > p {
-  margin: 10px;
+.session-form-footer {
+  display: flex;
+  margin: 15px;
   font-size: 14px;
   color: rgb(63, 63, 63);
 }
 
-.other-form-link {
-  color: mediumseagreen;
+.other-form-button {
+  margin-left: 5px;
+  color: rgb(3, 169, 125);
 }
 
-.other-form-link:hover {
-  color: seagreen;
+.other-form-button:hover {
+  color: rgb(1, 143, 105);
 }

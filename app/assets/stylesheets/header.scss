@@ -11,42 +11,42 @@
   align-items: center;
 }
 
-.header-link > h1 {
+.header-link {
   font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 27px;
 }
 
-.nav-bar-login, .nav-bar-signup {
-  padding: 5px 10px;
+.login-button {
+  margin: auto 20px;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
-  color: mediumseagreen;
+  color: rgb(3, 169, 125);
 }
 
-.nav-bar-login:hover, .nav-bar-signup:hover {
-  color: seagreen;
+.login-button:hover {
+  color: rgb(1, 143, 105);
 }
 
-.nav-bar-right > h3 {
-  padding: 5px 10px;
-  font-family: 'Lora', Georgia, serif;
-  font-size: 16px;
-}
-
-.nav-bar-right > button {
-  width: 90px;
-  height: 30px;
+.signup-button, .logout-button {
+  width: 104px;
+  height: 35px;
   border-radius: 4px;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 13px;
   text-align: center;
-  background: white;
-  border: 1px solid mediumseagreen;
-  color: mediumseagreen;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(3, 169, 125);
+  color: rgb(3, 169, 125);
 }
 
-.nav-bar-right > button:hover {
-  border: 1px solid seagreen;
-  color: seagreen;
+.signup-button:hover, .logout-button:hover {
+  border: 1px solid rgb(2, 158, 116);
+  color: rgb(1, 143, 105);
+}
+
+.nav-bar-msg {
+  margin: auto 20px;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 16px;
 }

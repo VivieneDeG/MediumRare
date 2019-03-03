@@ -9,8 +9,12 @@ class SessionForm extends React.Component {
       password: "",
     };
   }
+  
+  componentWillUnmount() {
+    this.props.clearErrors();
+  }
 
-  renderErrors () {
+  renderErrors() {
     const listErrors = this.props.errors.map((err, idx) => (
       <li key={idx}>{err}</li>
     ));
@@ -33,9 +37,9 @@ class SessionForm extends React.Component {
     return (e) => {
       e.preventDefault();
       const demo = { email: "guest@demo.com", password: "watpassword" };
-      this.props.formType === 'Log In' ? 
-      this.props.processForm(demo) : this.props.login(demo);
-      this.props.closeModal();
+      (this.props.formType === 'Log In' ? 
+        this.props.processForm(demo) : this.props.login(demo))
+        .then(this.props.closeModal());
     }
   }
 
@@ -43,7 +47,11 @@ class SessionForm extends React.Component {
     return (e) => {
       e.preventDefault();
       const user = Object.assign({}, this.state);
-      this.props.processForm(user);
+      this.props.processForm(user).then( () => {
+        if (this.props.loggedIn) {
+          this.props.closeModal()
+        }
+      });
     }
   }
 
@@ -65,9 +73,10 @@ class SessionForm extends React.Component {
     
     return (
       <div className="session-form-container">
+        <button className="session-close" onClick={this.props.closeModal} >&times;</button>
         {this.props.header}
 
-        <form onSubmit={this.handleSubmit()} className="session-form">
+        <form className="session-form" onSubmit={this.handleSubmit()}>
           {nameField}
           
           <label className="session-form-label">Your email
@@ -83,13 +92,13 @@ class SessionForm extends React.Component {
           </label>
 
           {this.renderErrors()}
-          <input type="submit"
-            value={this.props.formType}
-            className="session-form-submit" />
+          <input className="session-form-submit"
+            type="submit"
+            value={this.props.formType} />
         </form>
 
-        <button onClick={this.demoLogin()} className="demo-button">Demo Log In</button>
-        <footer>
+        <button className="demo-button" onClick={this.demoLogin()}>Demo Log In</button>
+        <footer className="session-form-footer">
           {this.props.footer} {this.props.otherForm}
         </footer>
       </div> 

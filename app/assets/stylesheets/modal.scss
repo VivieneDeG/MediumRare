@@ -9,8 +9,6 @@
 }
 
 .modal-child {
-  background-image: url(https://cdn-images-1.medium.com/max/1800/1*gnUBeL-INIVDk0_GyL8x1g.png);
-  background-size: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +19,11 @@
   width: 900px;
   height: 550px;
   transform: translate(-50%, -50%);
+  background-image: url(https://cdn-images-1.medium.com/max/1800/1*gnUBeL-INIVDk0_GyL8x1g.png);
+  // background-image: url(https://cdn-images-1.medium.com/max/1800/1*Cs2lqW1GyoPdYqs1U0Xudg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(255, 255, 255);
   border-radius: 4px;
-  background: white;
-  box-shadow: 0px 2px 10px 0px silver;
+  box-shadow: 0px 2px 10px 0px rgb(192, 192, 192);
 }

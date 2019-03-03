@@ -4,15 +4,19 @@ const Greeting = ({currentUser, logout, openModal}) => {
   if (!currentUser) {
     return (
       <div className="nav-bar-right">
-        <button onClick={() => openModal('Log In')}>Log In</button>
-        <button onClick={() => openModal('Sign Up')}>Sign Up</button>
+        <button className="login-button"
+          onClick={() => openModal('Log In')}>Log In</button>
+        <button className="signup-button"
+          onClick={() => openModal('Sign Up')}>Get Started</button>
       </div>
     )
   } else {
     return (
       <div className="nav-bar-right">
-        <h3>Hey {currentUser.name}, what's your big idea today?</h3>
-        <button onClick={logout}>Log Out</button>
+        <h3 className="nav-bar-msg">
+          Hey {currentUser.name}, what's your big idea today?</h3>
+        <button className="logout-button" 
+          onClick={logout}>Log Out</button>
       </div>
     )
   }
