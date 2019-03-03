@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 15px auto;
   width: 82%;
 }
 
@@ -14,7 +14,7 @@
 .header-link > h1 {
   font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .nav-bar-login, .nav-bar-signup {
@@ -35,12 +35,18 @@
 }
 
 .nav-bar-right > button {
-  padding: 5px 10px;
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
+  background: white;
+  border: 1px solid mediumseagreen;
   color: mediumseagreen;
 }
 
 .nav-bar-right > button:hover {
+  border: 1px solid seagreen;
   color: seagreen;
 }

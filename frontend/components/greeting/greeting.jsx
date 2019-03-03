@@ -1,13 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Greeting = ({currentUser, logout}) => {
+const Greeting = ({currentUser, logout, openModal}) => {
   if (!currentUser) {
     return (
       <div className="nav-bar-right">
-        <Link to="/login" className="nav-bar-login">Log In</Link>
-        <br />
-        <Link to="/signup" className="nav-bar-signup">Sign Up</Link>
+        <button onClick={() => openModal('Log In')}>Log In</button>
+        <button onClick={() => openModal('Sign Up')}>Sign Up</button>
       </div>
     )
   } else {

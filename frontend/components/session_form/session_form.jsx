@@ -35,6 +35,7 @@ class SessionForm extends React.Component {
       const demo = { email: "guest@demo.com", password: "watpassword" };
       this.props.formType === 'Log In' ? 
       this.props.processForm(demo) : this.props.login(demo);
+      this.props.closeModal();
     }
   }
 
@@ -88,8 +89,9 @@ class SessionForm extends React.Component {
         </form>
 
         <button onClick={this.demoLogin()} className="demo-button">Demo Log In</button>
-
-        {this.props.link}
+        <footer>
+          {this.props.footer} {this.props.otherForm}
+        </footer>
       </div> 
     )
   }
