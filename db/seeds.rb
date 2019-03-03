@@ -11,11 +11,11 @@ ApplicationRecord.transaction do
 
   # Users
   demoUser = User.create!(name: "Guest User", email: "guest@demo.com", password: "watpassword")
-  user1 = User.create!(name: "Lissa Redbird", email: "spirit@element.org", password: "vampireacademy")
-  user2 = User.create!(name: "Zoey Aether", email: "night@nyx.io", password: "houseofnight")
-  user3 = User.create!(name: "Nicolas Flamel", email: "philosopher@alchemy.io", password: "harrypotter")
-  user4 = User.create!(name: "Raven Dragomir", email: "nevermore@trigon.com", password: "edgarapoe")
+  user1 = User.create!(name: "Rachel Roth", email: "raven@azarath.io", password: "nevermore")
+  user2 = User.create!(name: "Lissa Dragomir", email: "spirit@vacademy.edu", password: "element")
+  user3 = User.create!(name: "Draco Malfoy", email: "ferret@slytherin.io", password: "myfatherwillhearaboutthis")
+  user4 = User.create!(name: "Zoey Redbird", email: "nyx_night@hon.edu", password: "chosen")
   user5 = User.create!(name: "Viviene De G", email: "creator@mediumrare.com", password: "mediumrare")
-  user6 = User.create!(name: "Lancelot du Lac", email: "knight@roundtable.org", password: "kingarthur")
+  user6 = User.create!(name: "Kakashi Hatake", email: "sensei7@konoha.org", password: "copyninja")
 end
  
