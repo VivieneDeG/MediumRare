@@ -6,7 +6,6 @@ import SessionForm from './session_form';
 
 const mapStateToProps = state => ({
   errors: state.errors.session,
-  loggedIn: state.session.id,
   formType: 'Log In',
   header: <h2 className="session-header">Welcome back.</h2>,
   footer: <p>No account?</p>,
