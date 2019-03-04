@@ -47,11 +47,7 @@ class SessionForm extends React.Component {
     return (e) => {
       e.preventDefault();
       const user = Object.assign({}, this.state);
-      this.props.processForm(user).then( () => {
-        if (this.props.loggedIn) {
-          this.props.closeModal()
-        }
-      });
+      this.props.processForm(user).then(this.props.closeModal);
     }
   }
 

@@ -1,5 +1,5 @@
 class Api::PostsController < ApplicationController
-  before_action :require_login
+  before_action :require_login, only: [:create, :update, :destroy]
 
   def create
     @post = Post.new(post_params)
@@ -37,7 +37,6 @@ class Api::PostsController < ApplicationController
   def destroy
     @post = Post.find(params[:id])
     @post.destroy
-    # show or index
     @posts = Post.all
     render 'api/posts/index'
   end
