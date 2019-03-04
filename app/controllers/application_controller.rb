@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
   end
 
   def require_login
-    redirect_to api_session unless logged_in?
+    redirect_to root unless logged_in?
   end
 
   def logout

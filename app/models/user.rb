@@ -20,7 +20,10 @@ class User < ApplicationRecord
   
   attr_reader :password
 
-  # add has_many and belongs_to
+  has_many :posts,
+  primary_key: :id,
+  foreign_key: :author_id,
+  class_name: 'Post'
 
   def self.find_by_credentials(email, password)
     user = User.find_by(email: email)
