@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 import { fetchPost, updatePost} from '../../actions/post_actions';
 import PostForm from './post_form';
 
-const mapStateToProps = (state, ownProps) => ({
-  post: state.entities.posts[ownProps.match.params.postId] || { title: "", body: "" },
+const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
+  post: posts[ownProps.match.params.postId] || { title: "", body: "" },
   formType: "Update Story",
-  currentUserId: state.session.id,
+  currentUserId: session.id,
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -26,7 +26,6 @@ class UpdatePostForm extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     const { post, formType, currentUserId, processForm } = this.props;
     
     if (!post.id) {
@@ -35,8 +34,11 @@ class UpdatePostForm extends React.Component {
     }
 
     if (post.authorId !== currentUserId) {
+      // styling in profile.scss
       return (
-        <h1>Access denied. 401 Unauthorized</h1>
+        <div className="update-post-div">
+          <h1 className="update-post-401">U NO HAVE ACCESS!!! 401 UNAUTHORIZED >:(</h1>
+        </div>
       )
     }
     
