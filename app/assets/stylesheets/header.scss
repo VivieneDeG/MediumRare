@@ -1,14 +1,17 @@
-.nav-bar {
+.nav-bar-container, .nav-bar, .header-link, .nav-bar-right {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 15px auto;
-  width: 82%;
 }
 
-.header-link, .nav-bar-right {
-  display: flex;
-  align-items: center;
+.nav-bar-container {
+  height: 65px;
+  box-shadow: 0px 0px 14px -1px rgb(222, 222, 222);
+}
+
+.nav-bar {
+  justify-content: space-between;
+  margin: auto;
+  width: 82%;
 }
 
 .header-link {

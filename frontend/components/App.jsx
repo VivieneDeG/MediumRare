@@ -7,11 +7,13 @@ const App = () => (
   <>
     <Modal />
     <header>
-      <div className="nav-bar">
-        <Link to="/" className="header-link">
-          <h1>MediumRare</h1>
-        </Link>
-        <GreetingContainer />
+      <div className="nav-bar-container">
+        <nav className="nav-bar">
+          <Link to="/" className="header-link">
+            <h1>MediumRare</h1>
+          </Link>
+          <GreetingContainer />
+        </nav>
       </div>
     </header>
 
