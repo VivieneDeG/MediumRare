@@ -1,4 +1,4 @@
-import merge from 'lodash';
+import { merge } from 'lodash';
 import {
   RECEIVE_ALL_POSTS,
   RECEIVE_POST,
