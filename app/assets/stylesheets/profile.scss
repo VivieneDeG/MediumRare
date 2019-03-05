@@ -1,0 +1,22 @@
+.user-profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile-header {
+  margin: 60px auto;
+  width: 55%;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.user-profile-name {
+  margin: 10px auto;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.user-profile-description {
+  margin: 150px auto;
+  font-size: 12;
+  color: rgb(150, 150, 150);
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Greeting = ({currentUser, logout, openModal}) => {
   if (!currentUser) {
@@ -14,7 +15,8 @@ const Greeting = ({currentUser, logout, openModal}) => {
     return (
       <div className="nav-bar-right">
         <h3 className="nav-bar-msg">
-          Hey {currentUser.name}, what's your big idea today?</h3>
+          Hey <Link to={`/users/${currentUser.id}`} className="profile-link">
+            {currentUser.name}</Link>, what's your big idea today?</h3>
         <button className="logout-button" 
           onClick={logout}>Log Out</button>
       </div>
