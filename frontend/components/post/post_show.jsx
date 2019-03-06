@@ -21,7 +21,7 @@ class PostShow extends React.Component {
           <p className="post-show-author">{post.author}</p>
         </header>
         <div className="post-show-page">
-          <p className="post-show-body">{post.body}</p>
+          <pre className="post-show-body">{post.body}</pre>
         </div>
       </div>
     )
