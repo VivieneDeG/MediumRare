@@ -26,7 +26,7 @@ const App = () => (
       <ProtectedRoute exact path="/posts/new" component={CreatePostFormContainer} />
       <ProtectedRoute exact path="/posts/:postId/edit" component={UpdatePostFormContatiner} />
       <Route exact path="/posts/:postId" component={PostShowContainer} />
-      <Route path="/users/:userId" component={UserShowContainer} />
+      <Route exact path="/users/:userId" component={UserShowContainer} />
       <Route exact path="/" />
       <Redirect to="/" />
     </Switch>
