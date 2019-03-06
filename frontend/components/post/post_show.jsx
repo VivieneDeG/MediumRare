@@ -14,18 +14,14 @@ class PostShow extends React.Component {
   render() {
     const { post } = this.props;
 
-    if (!post) {
-      return null;
-    }
-
     return (
-      <div>
-        <header>
-          <h1>{post.title}</h1>
-          <p>{post.author}</p>
+      <div className="post-show-container">
+        <header className="post-show-header">
+          <h1 className="post-show-title">{post.title}</h1>
+          <p className="post-show-author">{post.author}</p>
         </header>
-        <div>
-          <p>{post.body}</p>
+        <div className="post-show-page">
+          <p className="post-show-body">{post.body}</p>
         </div>
       </div>
     )

@@ -23,17 +23,20 @@ class PostForm extends React.Component {
 
   render() {
     return (
-      <div>
-        <form onSubmit={this.handleSubmit()}>
-          <input type="submit"
+      <div className="post-form-container">
+        <form className="post-form" onSubmit={this.handleSubmit()}>
+          <input className="post-form-submit"
+            type="submit"
             value={this.props.formType} />
 
-          <label> Title <input type="text"
+          <label className="post-form-title">Title
+            <input type="text"
               value={this.state.title}
               onChange={this.update('title')} />
           </label>
 
-          <label> Body <input type="text"
+          <label className="post-form-body">Body
+            <textarea
               value={this.state.body}
               onChange={this.update('body')} />
           </label>

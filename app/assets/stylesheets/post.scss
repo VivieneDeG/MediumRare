@@ -1,3 +1,81 @@
+.post-form-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 40px auto;
+  width: 56%;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lora', Georgia, serif;
+  width: 100%;
+}
+
+.post-form-submit {
+  align-self: flex-end;
+  position: absolute;
+  width: 104px;
+  height: 23px;
+  border-radius: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(3, 169, 125);
+  color: rgb(3, 169, 125);
+}
+
+.post-form-title {
+  width: 100%;
+  font-size: 35px;
+}
+.post-form-title > input {
+  width: 100%;
+}
+
+.post-form-body {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 20px;
+}
+.post-form-body > textarea {
+  width: 100%;
+  height: 500px;
+}
+
+
+.post-form-submit:hover {
+  border: 1px solid rgb(2, 158, 116);
+  color: rgb(1, 143, 105);
+}
+
+.post-show-container {
+  margin: 40px auto;
+  width: 56%;
+}
+
+.post-show-title {
+  margin: 20px auto;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 40px;
+}
+
+.post-show-author {
+  margin: 20px auto;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.post-show-body {
+  line-height: 1.8;
+  letter-spacing: 0.15px;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 19px;
+}
+
+
+
+
 .update-post-div {
   display: flex;
   align-items: center;
