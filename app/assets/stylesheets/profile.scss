@@ -16,25 +16,58 @@
 }
 
 .user-profile-content {
-  margin: 150px auto;
-  font-size: 12;
+  margin: 130px auto;
+  font-size: 16px;
   color: rgb(150, 150, 150);
 }
 
-.preview {
+.user-content-heading {
+  padding-top: 20px;
+  border-top: 1px solid rgb(220, 220, 220);
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
+
+
+
+.user-post-container {
+  margin: 23px auto;
+  padding: 20px;
+  height: 488;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  box-shadow: 0px 1px 4px rgb(220, 220, 220);
+  color: black;
+}
+
+.user-post-name {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.user-post-img-container {
+  display: flex;
+  align-items: center;
+  height: 190px;
+  overflow: hidden;
+}
+.user-post-img-container > img {
+  width: 100%;
+}
+
+.user-post-title {
+  margin: 20px auto;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.user-post-preview {
+  margin: 10px auto;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-
-.img-container {
-  display: flex;
-  align-items: center;
-  margin: auto 20px;
-  height: 200px;
-  overflow: hidden;
-}
-img {
-  width: 100%;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 17px;
 }

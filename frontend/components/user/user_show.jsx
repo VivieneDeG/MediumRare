@@ -1,4 +1,5 @@
 import React from 'react';
+import UserPostItem from './user_post_item';
 
 class UserShow extends React.Component {
   componentDidMount() {
@@ -6,11 +7,12 @@ class UserShow extends React.Component {
   }
   
   componentDidUpdate(prevProps) {
+    const postIds = this.props.user.postIds;
     if (prevProps.user.id != this.props.match.params.userId) {
       this.props.fetchUser(this.props.match.params.userId);
-      if (this.props.user.postIds) {
-        this.props.user.postIds.forEach(id => this.props.fetchPost(id));
-      }
+    }
+    if (postIds && prevProps.user.postIds != postIds) {
+      this.props.user.postIds.forEach(id => this.props.fetchPost(id));
     }
   }
 
@@ -31,18 +33,18 @@ class UserShow extends React.Component {
 
       const postItems = posts.map(post => {
         return (
-          <div>
-            <p>{user.name}</p>
-            <div className="img-container">
-              <img src="https://images.unsplash.com/photo-1519068737630-e5db30e12e42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" />
-            </div>
-            <h1>{post.title}</h1>
-            <h2 className="preview">{post.body}</h2>
-          </div>
-        )
-      })
+          <UserPostItem
+            key={post.id}
+            user={user}
+            post={post} />
+        );
+      });
+
       return (
-        <div className="user-profile-content">{postItems}</div>
+        <div className="user-profile-content">
+          <h3 className="user-content-heading">Featured Stories</h3>
+          {postItems}
+        </div>
       )
     }
 
