@@ -23,27 +23,26 @@ class UpdatePostForm extends React.Component {
     if (prevProps.post.id != this.props.match.params.postId) {
       this.props.fetchPost(this.props.match.params.postId);
     }
+    if (this.props.post.authorId !== this.props.currentUserId) {
+      this.props.history.replace(`/posts/${this.props.post.id}`);
+    }
   }
 
   render() {
-    const { post, formType, currentUserId, processForm } = this.props;
+
+    const { post, formType, processForm, currentUserId, history } = this.props;
     
     if (!post.id) {
-      // maybe redirect or somehow stay on same page
       return <div>Loading...</div>;
-    }
-
-    if (post.authorId !== currentUserId) {
-      // styling in profile.scss
-      return (
-        <div className="update-post-div">
-          <h1 className="update-post-401">U NO HAVE ACCESS!!! 401 UNAUTHORIZED >:(</h1>
-        </div>
-      )
     }
     
     return (
-      <PostForm post={post} formType={formType} processForm={processForm} />
+      <PostForm
+        post={post}
+        formType={formType}
+        processForm={processForm}
+        currentUserId={currentUserId}
+        history={history} />
     );
   }
 }

@@ -10,6 +10,10 @@ const UserPostItem = ({ user, post }) => {
       </div>
       <h1 className="user-post-title">{post.title}</h1>
       <h2 className="user-post-preview">{post.body}</h2>
+      <footer className="user-post-footer">
+        <p className="user-post-claps">Claps</p>
+        <p className="user-post-comments">Comments</p>
+      </footer>
     </div>
   )
 }

@@ -63,11 +63,17 @@
 }
 
 .user-post-preview {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-family: 'Lora', Georgia, serif;
   font-size: 17px;
+}
+
+.user-post-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
 }

@@ -17,8 +17,10 @@ const Greeting = ({currentUser, logout, openModal}) => {
         <h3 className="nav-bar-msg">
           Hey <Link to={`/users/${currentUser.id}`} className="profile-link">
             {currentUser.name}</Link>, what's your big idea today?</h3>
-        <button className="logout-button" 
-          onClick={logout}>Log Out</button>
+        <Link to="/">
+          <button className="logout-button" 
+            onClick={logout}>Log Out</button>
+        </Link>
       </div>
     )
   }

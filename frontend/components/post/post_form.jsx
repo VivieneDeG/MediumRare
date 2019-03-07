@@ -16,7 +16,7 @@ class PostForm extends React.Component {
     return (e) => {
       e.preventDefault();
       const post = Object.assign({}, this.state);
-      this.props.processForm(post);
+      this.props.processForm(post).then(() => this.props.history.push(`/users/${this.props.currentUserId}`));
       // redirect to post show
     }
   }
