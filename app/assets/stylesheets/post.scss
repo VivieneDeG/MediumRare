@@ -1,8 +1,10 @@
+// post_form.jsx
 .post-form-container {
   display: flex;
   justify-content: flex-start;
-  margin: 40px auto;
+  margin: 30px auto;
   width: 700px;
+  height: 800px;
 }
 
 .post-form {
@@ -12,9 +14,13 @@
   width: 100%;
 }
 
-.post-form-submit {
+.post-form-buttons {
   align-self: flex-end;
-  position: absolute;
+  margin: 10px 0px;
+}
+
+.post-form-delete, .post-form-submit {
+  margin-left: 10px;
   width: 104px;
   height: 23px;
   border-radius: 4px;
@@ -26,29 +32,29 @@
   color: rgb(3, 169, 125);
 }
 
-.post-form-title {
-  width: 100%;
-  font-size: 30px;
-  color: rgb(180, 180, 180);
+.post-form-delete:hover, .post-form-submit:hover {
+  border: 1px solid rgb(2, 158, 116);
+  color: rgb(1, 143, 105);
 }
-.post-form-title > input {
-  width: 100%;
+
+.post-form-title {
+  width: 694px;
   padding-left: 5px;
   font-size: 35px;
   border-left: 1px solid rgb(211, 211, 211);
   color: rgb(0, 0, 0);
 }
 
-.post-form-body {
-  margin-top: 20px;
-  width: 100%;
-  font-size: 18px;
+.post-form-title::placeholder {
   color: rgb(180, 180, 180);
 }
-.post-form-body > textarea {
-  width: 100%;
-  height: 500px;
+
+.post-form-body {
+  margin-top: 20px;
   padding-left: 5px;
+  width: 694px;
+  height: 100%;
+  resize: none;
   line-height: 1.8;
   letter-spacing: 0.15px;
   font-size: 19px;
@@ -56,12 +62,12 @@
   color: rgb(0, 0, 0);
 }
 
-
-.post-form-submit:hover {
-  border: 1px solid rgb(2, 158, 116);
-  color: rgb(1, 143, 105);
+.post-form-body::placeholder {
+  color: rgb(180, 180, 180);
 }
 
+
+// post_show.jsx
 .post-show-container {
   margin: 40px auto;
   width: 700px;
@@ -78,25 +84,14 @@
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
+.post-show-author:hover {
+  text-decoration: underline;
+}
+
 .post-show-body {
   line-height: 1.8;
   letter-spacing: 0.15px;
   font-family: 'Lora', Georgia, serif;
   font-size: 19px;
   white-space: pre-wrap;
-}
-
-
-
-
-.update-post-div {
-  display: flex;
-  align-items: center;
-}
-.update-post-401 {
-  margin: 150px auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  color: red;
 }

@@ -12,11 +12,20 @@ class PostForm extends React.Component {
     }
   }
   
+  handleDelete() {
+    return (e) => {
+      e.preventDefault();
+      this.props.deletePost(this.state.id)
+        .then(() => this.props.history.push(`/users/${this.props.currentUserId}`));
+    }
+  }
+  
   handleSubmit() {
     return (e) => {
       e.preventDefault();
       const post = Object.assign({}, this.state);
-      this.props.processForm(post).then(() => this.props.history.push(`/users/${this.props.currentUserId}`));
+      this.props.processForm(post)
+        .then(() => this.props.history.push(`/users/${this.props.currentUserId}`));
     }
   }
 
@@ -24,21 +33,29 @@ class PostForm extends React.Component {
     return (
       <div className="post-form-container">
         <form className="post-form" onSubmit={this.handleSubmit()}>
-          <input className="post-form-submit"
-            type="submit"
-            value={this.props.formType} />
 
-          <label className="post-form-title">Title
-            <input type="text"
-              value={this.state.title}
-              onChange={this.update('title')} />
-          </label>
-
-          <label className="post-form-body">What's on your mind?
-            <textarea
-              value={this.state.body}
-              onChange={this.update('body')} />
-          </label>
+          <div className="post-form-buttons">
+            {this.props.formType == "Update Story" &&
+            <button className="post-form-delete"
+              onClick={this.handleDelete()}>Delete Story</button>
+            }
+              
+            <input className="post-form-submit"
+              type="submit"
+              value={this.props.formType} />
+          </div>
+          
+          <input type="text"
+            className="post-form-title"
+            placeholder="Title"
+            value={this.state.title}
+            onChange={this.update('title')} />
+            
+          <textarea className="post-form-body"
+            placeholder="What's on your mind?"
+            value={this.state.body}
+            onChange={this.update('body')} />
+          
         </form>
       </div>
     )

@@ -19,9 +19,9 @@ class PostShow extends React.Component {
       <div className="post-show-container">
         <header className="post-show-header">
           <h1 className="post-show-title">{post.title}</h1>
-          <Link to={`/users/${post.authorId}`}>
-            <p className="post-show-author">{post.author}</p>
-          </Link>
+          <p className="post-show-author">
+            <Link to={`/users/${post.authorId}`}>{post.author}</Link>
+          </p>
         </header>
         <div className="post-show-page">
           <pre className="post-show-body">{post.body}</pre>

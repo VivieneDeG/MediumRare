@@ -1,6 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchPost, updatePost} from '../../actions/post_actions';
+import {
+  fetchPost,
+  updatePost,
+  deletePost
+} from '../../actions/post_actions';
 import PostForm from './post_form';
 
 const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
@@ -12,6 +16,7 @@ const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
 const mapDispatchToProps = dispatch => ({
   fetchPost: id => dispatch(fetchPost(id)),
   processForm: post => dispatch(updatePost(post)),
+  deletePost: id => dispatch(deletePost(id)),
 });
 
 class UpdatePostForm extends React.Component {
@@ -30,7 +35,7 @@ class UpdatePostForm extends React.Component {
 
   render() {
 
-    const { post, formType, processForm, currentUserId, history } = this.props;
+    const { post, formType, currentUserId, processForm, deletePost, history } = this.props;
     
     if (!post.id) {
       return <div>Loading...</div>;
@@ -40,8 +45,9 @@ class UpdatePostForm extends React.Component {
       <PostForm
         post={post}
         formType={formType}
-        processForm={processForm}
         currentUserId={currentUserId}
+        processForm={processForm}
+        deletePost={deletePost}
         history={history} />
     );
   }

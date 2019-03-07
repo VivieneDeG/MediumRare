@@ -5,9 +5,9 @@ const UserPostItem = ({ user, post }) => {
   return (
     <div className="user-post-container">
 
-      <Link to={`/users/${user.id}`}>
-        <p className="user-post-name">{user.name}</p>
-      </Link>
+      <p className="user-post-name">
+        <Link to={`/users/${user.id}`}>{user.name}</Link>
+      </p>
 
       <Link to={`/posts/${post.id}`}>
         <div className="user-post-img-container">

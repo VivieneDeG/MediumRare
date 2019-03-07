@@ -1,3 +1,4 @@
+// user_show.jsx
 .user-profile-container {
   display: flex;
   align-items: center;
@@ -30,7 +31,7 @@
 }
 
 
-
+// user_post_item.jsx
 .user-post-container {
   margin: 23px auto;
   padding: 20px;
@@ -44,6 +45,10 @@
 .user-post-name {
   margin-bottom: 30px;
   font-size: 14px;
+}
+
+.user-post-name:hover {
+  text-decoration: underline;
 }
 
 .user-post-img-container {
@@ -76,4 +81,5 @@
   display: flex;
   justify-content: space-between;
   font-size: 14px;
+  color: rgb(150, 150, 150);
 }
