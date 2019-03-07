@@ -15,8 +15,26 @@
   font-size: 30px;
 }
 
-.user-profile-description {
+.user-profile-content {
   margin: 150px auto;
   font-size: 12;
   color: rgb(150, 150, 150);
+}
+
+.preview {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  margin: auto 20px;
+  height: 200px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
 }

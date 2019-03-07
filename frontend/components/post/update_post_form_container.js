@@ -30,7 +30,7 @@ class UpdatePostForm extends React.Component {
     
     if (!post.id) {
       // maybe redirect or somehow stay on same page
-      return null;
+      return <div>Loading...</div>;
     }
 
     if (post.authorId !== currentUserId) {
