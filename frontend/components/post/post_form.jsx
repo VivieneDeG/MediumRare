@@ -34,7 +34,7 @@ class PostForm extends React.Component {
               onChange={this.update('title')} />
           </label>
 
-          <label className="post-form-body">Body
+          <label className="post-form-body">What's on your mind?
             <textarea
               value={this.state.body}
               onChange={this.update('body')} />
