@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class PostShow extends React.Component {
   componentDidMount() {
@@ -18,7 +19,9 @@ class PostShow extends React.Component {
       <div className="post-show-container">
         <header className="post-show-header">
           <h1 className="post-show-title">{post.title}</h1>
-          <p className="post-show-author">{post.author}</p>
+          <Link to={`/users/${post.authorId}`}>
+            <p className="post-show-author">{post.author}</p>
+          </Link>
         </header>
         <div className="post-show-page">
           <pre className="post-show-body">{post.body}</pre>
