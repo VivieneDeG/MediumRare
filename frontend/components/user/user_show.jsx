@@ -5,6 +5,7 @@ import UserPostItemContainer from './user_post_item_container';
 class UserShow extends React.Component {
   componentDidMount() {
     this.props.fetchUser(this.props.match.params.userId);
+    window.scrollTo(0, 0);
   }
   
   componentDidUpdate(prevProps) {
@@ -15,6 +16,7 @@ class UserShow extends React.Component {
     if (postIds && prevProps.user.postIds != postIds) {
       this.props.user.postIds.forEach(id => this.props.fetchPost(id));
     }
+    window.scrollTo(0, 0);
   }
 
   getProfileContent() {
@@ -42,7 +44,7 @@ class UserShow extends React.Component {
 
       return (
         <div className="user-profile-content">
-          <h3 className="user-content-heading">Featured Stories</h3>
+          <h3 className="user-content-heading">Featured</h3>
           {postItems}
         </div>
       )

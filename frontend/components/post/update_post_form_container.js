@@ -22,6 +22,7 @@ const mapDispatchToProps = dispatch => ({
 class UpdatePostForm extends React.Component {
   componentDidMount() {
     this.props.fetchPost(this.props.match.params.postId);
+    window.scrollTo(0, 0);
   }
 
   componentDidUpdate(prevProps) {
@@ -31,6 +32,7 @@ class UpdatePostForm extends React.Component {
     if (this.props.post.authorId !== this.props.currentUserId) {
       this.props.history.replace(`/posts/${this.props.post.id}`);
     }
+    window.scrollTo(0, 0);
   }
 
   render() {

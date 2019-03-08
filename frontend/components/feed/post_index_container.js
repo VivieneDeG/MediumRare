@@ -9,7 +9,6 @@ const mapStateToProps = ({ entities: { posts, users }}) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  // fetchUser: id => dispatch(fetchUser(id)),
   fetchAllPosts: () => dispatch(fetchAllPosts()),
 });
 

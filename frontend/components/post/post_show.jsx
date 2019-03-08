@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 class PostShow extends React.Component {
   componentDidMount() {
     this.props.fetchPost(this.props.match.params.postId);
+    window.scrollTo(0, 0);
   }
 
   componentDidUpdate(prevProps) {
     if (prevProps.post.id != this.props.match.params.postId) {
       this.props.fetchPost(this.props.match.params.postId);
     }
+    window.scrollTo(0, 0);
   }
 
   render() {
