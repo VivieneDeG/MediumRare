@@ -1,5 +1,12 @@
 import React from 'react';
+import { css } from '@emotion/core';
 import PostIndexItem from './post_index_item';
+import BeatLoader from 'react-spinners/BeatLoader';
+
+const override = css`
+    display: block;
+    margin: auto;
+`;
 
 class PostIndex extends React.Component {
   componentDidMount() {
@@ -11,7 +18,11 @@ class PostIndex extends React.Component {
     const { posts } = this.props;
     
     if (posts.length == 0) {
-      return <div>Loading...</div>
+      return <div className="loading">
+        <BeatLoader
+          css={override}
+          color={'#03a97d'} />
+      </div>
     }
 
     const postIndexItems = posts.map(post => {

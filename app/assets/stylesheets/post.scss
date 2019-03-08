@@ -4,7 +4,7 @@
   justify-content: flex-start;
   margin: 30px auto;
   width: 700px;
-  height: 800px;
+  height: 100%;
 }
 
 .post-form {
@@ -133,4 +133,13 @@
 .post-form-delete:hover {
   border: 1px solid rgb(210, 0, 0);
   color: rgb(210, 0, 0);
+}
+
+
+.loading {
+  display: flex;
+  align-content: center;
+  // justify-content: baseline;
+  margin: auto;
+  height: 100%;
 }

@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { css } from '@emotion/core';
 import UserPostItemContainer from './user_post_item_container';
+import BeatLoader from 'react-spinners/BeatLoader';
+
+const override = css`
+    display: block;
+    margin: auto;
+`;
 
 class UserShow extends React.Component {
   componentDidMount() {
@@ -21,10 +28,6 @@ class UserShow extends React.Component {
 
   getProfileContent() {
     const { user } = this.props;
-
-    if (!user.postIds) {
-      return <div>Loading...</div>
-    }
 
     if (user.postIds.length > 0) {
       const posts = [];
@@ -58,6 +61,14 @@ class UserShow extends React.Component {
 
   render() {
     const { user } = this.props;
+
+    if (!user.postIds) {
+      return <div className="loading">
+        <BeatLoader
+          css={override}
+          color={'#03a97d'} />
+      </div>
+    }
     
     return (
       <div className="user-profile-container">

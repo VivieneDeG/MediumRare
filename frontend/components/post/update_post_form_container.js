@@ -1,11 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { css } from '@emotion/core';
 import {
   fetchPost,
   updatePost,
   deletePost
 } from '../../actions/post_actions';
 import PostForm from './post_form';
+import BeatLoader from 'react-spinners/BeatLoader';
+
+const override = css`
+    display: block;
+    margin: auto;
+`;
 
 const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
   post: posts[ownProps.match.params.postId] || { title: "", body: "" },
@@ -40,7 +47,11 @@ class UpdatePostForm extends React.Component {
     const { post, formType, currentUserId, processForm, deletePost, history } = this.props;
     
     if (!post.id) {
-      return <div>Loading...</div>;
+      return <div className="loading">
+        <BeatLoader
+          css={override}
+          color={'#03a97d'} />
+      </div>
     }
     
     return (
