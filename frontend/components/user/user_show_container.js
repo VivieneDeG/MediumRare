@@ -3,9 +3,10 @@ import { fetchUser } from '../../actions/user_actions';
 import { fetchPost } from '../../actions/post_actions';
 import UserShow from './user_show';
 
-const mapStateToProps = ({entities: { users, posts }}, ownProps) => ({
+const mapStateToProps = ({session, entities: { users, posts }}, ownProps) => ({
   user: users[ownProps.match.params.userId] || { name: ""},
   posts: posts,
+  currentUserId: session.id,
 });
 
 const mapDispatchToProps = dispatch => ({

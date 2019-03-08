@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
   end
 
   def require_login
-    render json: { session: ["Must be logged in."]} unless logged_in?
+    render json: {session: ["Must be logged in."]} unless logged_in?
   end
 
   def logout

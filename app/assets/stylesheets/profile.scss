@@ -1,19 +1,26 @@
 // user_show.jsx
 .user-profile-container {
-  display: flex;
-  align-items: center;
-}
-
-.user-profile-header {
-  margin: 60px auto;
+  margin: 70px auto;
   width: 678px;
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
+.user-profile-header {
+  display: flex;
+  align-items: center;
+}
+
 .user-profile-name {
-  margin: 10px auto;
   font-weight: 600;
   font-size: 30px;
+}
+
+.create-post-button {
+  margin-left: 20px;
+  width: 90px;
+  height: 23px;
+  font-size: 13px;
+  text-align: center;
 }
 
 .user-profile-content {
@@ -31,7 +38,7 @@
 }
 
 
-// user_post_item.jsx
+// user_post_item_container.jsx
 .user-post-container {
   margin: 23px auto;
   padding: 20px;
@@ -42,13 +49,31 @@
   color: rgb(0, 0, 0);
 }
 
+.user-post-heading {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
 .user-post-name {
-  margin-bottom: 30px;
   font-size: 14px;
 }
 
 .user-post-name:hover {
   text-decoration: underline;
+}
+
+.user-post-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-post-update, .user-post-delete {
+  margin-bottom: 5px;
+  width: 70px;
+  height: 18px;
+  font-size: 11.5px;
+  text-align: center;
 }
 
 .user-post-img-container {
@@ -82,4 +107,23 @@
   justify-content: space-between;
   font-size: 14px;
   color: rgb(150, 150, 150);
+}
+
+
+// buttons
+.create-post-button, .user-post-update, .user-post-delete {
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(210, 210, 210);
+  color: rgb(110, 110, 110);
+}
+
+.create-post-button:hover, .user-post-update:hover {
+  border: 1px solid rgb(80, 80, 80);
+  color: rgb(80, 80, 80);
+}
+
+.user-post-delete:hover {
+  border: 1px solid rgb(210, 0, 0);
+  color: rgb(210, 0, 0);
 }

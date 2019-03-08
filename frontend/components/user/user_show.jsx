@@ -1,5 +1,6 @@
 import React from 'react';
-import UserPostItem from './user_post_item';
+import { Link } from 'react-router-dom';
+import UserPostItemContainer from './user_post_item_container';
 
 class UserShow extends React.Component {
   componentDidMount() {
@@ -33,10 +34,11 @@ class UserShow extends React.Component {
 
       const postItems = posts.map(post => {
         return (
-          <UserPostItem
+          <UserPostItemContainer
             key={post.id}
             user={user}
-            post={post} />
+            post={post}
+            userId={this.props.match.params.userId} />
         );
       });
 
@@ -61,8 +63,13 @@ class UserShow extends React.Component {
       <div className="user-profile-container">
         <header className="user-profile-header">
           <h1 className="user-profile-name">{user.name}</h1>
-          {this.getProfileContent()}
+          {this.props.currentUserId == this.props.match.params.userId &&
+            <Link to="/posts/new">
+              <button className="create-post-button">New Story</button>
+            </Link>
+          }
         </header>
+          {this.getProfileContent()}
       </div>
     )
   }
