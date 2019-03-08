@@ -1,24 +1,21 @@
-# README
+# MediumRare
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Live Demo](https://medium-rare-stories.herokuapp.com/#/)
 
-Things you may want to cover:
+MediumRare is a clone of the online publishing platform Medium where users can post stories, opinion pieces, or articles about topics that matter to them.
 
-* Ruby version
+# Features
+### Log in/Sign up
 
-* System dependencies
 
-* Configuration
+### Home page/Feed
 
-* Database creation
 
-* Database initialization
+### View stories
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Create/Update stories
 
-* Deployment instructions
 
-* ...
+### User profile
+
