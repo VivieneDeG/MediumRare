@@ -15,14 +15,6 @@
   font-size: 30px;
 }
 
-.create-post-button {
-  margin-left: 20px;
-  width: 90px;
-  height: 23px;
-  font-size: 13px;
-  text-align: center;
-}
-
 .user-profile-content {
   margin: 130px auto;
   font-size: 16px;
@@ -68,14 +60,6 @@
   flex-direction: column;
 }
 
-.user-post-update, .user-post-delete {
-  margin-bottom: 5px;
-  width: 70px;
-  height: 18px;
-  font-size: 11.5px;
-  text-align: center;
-}
-
 .user-post-img-container {
   display: flex;
   align-items: center;
@@ -116,6 +100,22 @@
   background: rgb(255, 255, 255);
   border: 1px solid rgb(210, 210, 210);
   color: rgb(110, 110, 110);
+}
+
+.create-post-button {
+  margin-left: 20px;
+  width: 90px;
+  height: 23px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.user-post-update, .user-post-delete {
+  margin-bottom: 5px;
+  width: 70px;
+  height: 18px;
+  font-size: 11.5px;
+  text-align: center;
 }
 
 .create-post-button:hover, .user-post-update:hover {

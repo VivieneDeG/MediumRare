@@ -13,16 +13,25 @@ class PostShow extends React.Component {
   }
 
   render() {
-    const { post } = this.props;
+    const { post, currentUserId } = this.props;
 
     return (
       <div className="post-show-container">
         <header className="post-show-header">
+          {currentUserId == post.authorId &&
+            <div className="post-show-buttons">
+              <button className="post-show-update">
+                <Link to={`/posts/${post.id}/edit`}>Update</Link>
+              </button>
+            </div>
+          }
+
           <h1 className="post-show-title">{post.title}</h1>
           <p className="post-show-author">
             <Link to={`/users/${post.authorId}`}>{post.author}</Link>
           </p>
         </header>
+
         <div className="post-show-page">
           <pre className="post-show-body">{post.body}</pre>
         </div>

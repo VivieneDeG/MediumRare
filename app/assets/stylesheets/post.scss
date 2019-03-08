@@ -16,30 +16,7 @@
 
 .post-form-buttons {
   align-self: flex-end;
-  margin: 10px 0px;
-}
-
-.post-form-delete, .post-form-submit {
-  margin-left: 10px;
-  width: 104px;
-  height: 23px;
-  border-radius: 4px;
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 13px;
-  text-align: center;
-  background: rgb(255, 255, 255);
-  border: 1px solid rgb(3, 169, 125);
-  color: rgb(3, 169, 125);
-}
-
-.post-form-submit:hover {
-  border: 1px solid rgb(2, 158, 116);
-  color: rgb(1, 143, 105);
-}
-
-.post-form-delete:hover {
-  border: 1px solid rgb(210, 0, 0);
-  color: rgb(210, 0, 0);
+  margin-bottom: 10px;
 }
 
 .post-form-title {
@@ -74,12 +51,18 @@
 
 // post_show.jsx
 .post-show-container {
-  margin: 40px auto;
+  margin: 30px auto;
   width: 700px;
 }
 
+.post-show-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0px;
+}
+
 .post-show-title {
-  margin: 20px auto;
+  margin-bottom: 20px;
   font-family: 'Lora', Georgia, serif;
   font-size: 40px;
 }
@@ -99,4 +82,32 @@
   font-family: 'Lora', Georgia, serif;
   font-size: 19px;
   white-space: pre-wrap;
+}
+
+
+// buttons
+.post-form-delete, .post-form-submit, .post-show-update {
+  width: 104px;
+  height: 23px;
+  border-radius: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(3, 169, 125);
+  color: rgb(3, 169, 125);
+}
+
+.post-form-delete, .post-form-submit {
+  margin-left: 10px;
+}
+
+.post-form-submit:hover, .post-show-update:hover {
+  border: 1px solid rgb(2, 158, 116);
+  color: rgb(1, 143, 105);
+}
+
+.post-form-delete:hover {
+  border: 1px solid rgb(210, 0, 0);
+  color: rgb(210, 0, 0);
 }
