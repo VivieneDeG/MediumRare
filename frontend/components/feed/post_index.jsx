@@ -25,7 +25,7 @@ class PostIndex extends React.Component {
       </div>
     }
 
-    const postIndexItems = posts.map(post => {
+    let postIndexItems = posts.map(post => {
       return (
         <PostIndexItem
           key={post.id}
@@ -33,6 +33,8 @@ class PostIndex extends React.Component {
       );
     });
 
+    postIndexItems = postIndexItems.reverse();
+    
     return (
       <div className="user-profile-container">
         <h1 className="user-profile-name">Featured Stories</h1>
