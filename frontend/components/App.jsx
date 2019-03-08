@@ -7,6 +7,7 @@ import UserShowContainer from './user/user_show_container';
 import CreatePostFormContainer from './post/create_post_form_container';
 import UpdatePostFormContatiner from './post/update_post_form_container';
 import PostShowContainer from './post/post_show_container';
+import PostIndexContainer from './feed/post_index_container';
 
 const App = () => (
   <>
@@ -27,7 +28,7 @@ const App = () => (
       <ProtectedRoute exact path="/posts/:postId/edit" component={UpdatePostFormContatiner} />
       <Route exact path="/posts/:postId" component={PostShowContainer} />
       <Route exact path="/users/:userId" component={UserShowContainer} />
-      <Route exact path="/" />
+      <Route exact path="/" component={PostIndexContainer} />
       <Redirect to="/" />
     </Switch>
   </>

@@ -20,22 +20,22 @@ class UserPostItem extends React.Component {
   }
 
   render() {
-    const { post, user, userId, currentUserId } = this.props;
+    const { post, currentUserId } = this.props;
     return (
       <div className="user-post-container">
     
         <div className="user-post-heading">
           <div className="user-post-heading-left">
-            <Link to={`/users/${user.id}`} className="user-post-pic">
+            <Link to={`/users/${post.authorId}`} className="user-post-pic">
               <i className="fas fa-user-circle"></i>
             </Link>
 
             <p className="user-post-name">
-              <Link to={`/users/${user.id}`}>{user.name}</Link>
+              <Link to={`/users/${post.authorId}`}>{post.author}</Link>
             </p>
           </div>
 
-          {currentUserId == userId &&
+          {currentUserId == post.authorId &&
             <div className="user-post-buttons">
               <Link to={`/posts/${post.id}/edit`}>
                 <button className="user-post-update">Update</button>

@@ -36,9 +36,7 @@ class UserShow extends React.Component {
         return (
           <UserPostItemContainer
             key={post.id}
-            user={user}
-            post={post}
-            userId={this.props.match.params.userId} />
+            post={post} />
         );
       });
 
