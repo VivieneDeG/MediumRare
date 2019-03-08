@@ -56,8 +56,8 @@ class UserPostItem extends React.Component {
         </Link>
         
         <footer className="user-post-footer">
-          <p className="user-post-claps">Claps</p>
-          <p className="user-post-comments">Comments</p>
+          <p className="user-post-claps">24 Claps</p>
+          <p className="user-post-comments">3 Comments</p>
         </footer>
       </div>
     )

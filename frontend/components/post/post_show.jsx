@@ -37,6 +37,10 @@ class PostShow extends React.Component {
           </div>
         </header>
 
+        <div className="post-show-img-container">
+          <img src="https://images.unsplash.com/photo-1519068737630-e5db30e12e42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" />
+        </div>
+
         <div className="post-show-page">
           <pre className="post-show-body">{post.body}</pre>
         </div>

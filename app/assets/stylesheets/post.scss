@@ -87,7 +87,19 @@
   text-decoration: underline;
 }
 
+.post-show-img-container {
+  display: flex;
+  align-items: center;
+  height: 190px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.post-show-img-container > img {
+  width: 100%;
+}
+
 .post-show-body {
+  margin: 40px auto;
   line-height: 1.8;
   letter-spacing: 0.15px;
   font-family: 'Lora', Georgia, serif;
