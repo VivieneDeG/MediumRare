@@ -23,6 +23,20 @@
 
 
 // greeting.jsx
+.nav-bar-name {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 16px;
+}
+
+.nav-bar-profile-link {
+  display: flex;
+  margin: auto 12px;
+  font-size: 33px;
+  color: rgb(140, 175, 165);
+}
+
+
+// buttons
 .login-button {
   margin: auto 20px;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -49,14 +63,4 @@
 .signup-button:hover, .logout-button:hover {
   border: 1px solid rgb(2, 158, 116);
   color: rgb(1, 143, 105);
-}
-
-.nav-bar-msg {
-  margin: auto 20px;
-  font-family: 'Lora', Georgia, serif;
-  font-size: 16px;
-}
-
-.profile-link {
-  font-weight: 700;
 }

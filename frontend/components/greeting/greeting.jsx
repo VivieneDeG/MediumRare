@@ -14,9 +14,14 @@ const Greeting = ({currentUser, logout, openModal}) => {
   } else {
     return (
       <div className="nav-bar-right">
-        <h3 className="nav-bar-msg">
-          Hey <Link to={`/users/${currentUser.id}`} className="profile-link">
-            {currentUser.name}</Link>, what's your big idea today?</h3>
+        <h3 className="nav-bar-name">
+          {currentUser.name}
+        </h3>
+
+        <Link to={`/users/${currentUser.id}`} className="nav-bar-profile-link">
+          <i className="fas fa-user-circle"></i>
+        </Link>
+
         <Link to="/">
           <button className="logout-button" 
             onClick={logout}>Log Out</button>

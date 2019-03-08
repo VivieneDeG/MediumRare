@@ -25,9 +25,15 @@ class UserPostItem extends React.Component {
       <div className="user-post-container">
     
         <div className="user-post-heading">
-          <p className="user-post-name">
-            <Link to={`/users/${user.id}`}>{user.name}</Link>
-          </p>
+          <div className="user-post-heading-left">
+            <Link to={`/users/${user.id}`} className="user-post-pic">
+              <i className="fas fa-user-circle"></i>
+            </Link>
+
+            <p className="user-post-name">
+              <Link to={`/users/${user.id}`}>{user.name}</Link>
+            </p>
+          </div>
 
           {currentUserId == userId &&
             <div className="user-post-buttons">

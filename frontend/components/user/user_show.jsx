@@ -62,13 +62,19 @@ class UserShow extends React.Component {
     return (
       <div className="user-profile-container">
         <header className="user-profile-header">
+          <div className="user-profile-header-left">
           <h1 className="user-profile-name">{user.name}</h1>
-          {this.props.currentUserId == this.props.match.params.userId &&
-            <Link to="/posts/new">
-              <button className="create-post-button">New Story</button>
-            </Link>
-          }
+            {this.props.currentUserId == this.props.match.params.userId &&
+              <Link to="/posts/new">
+                <button className="create-post-button">New Story</button>
+              </Link>
+            }
+          </div>
+          <div className="user-profile-pic">
+            <i className="fas fa-user-circle"></i>
+          </div>
         </header>
+
           {this.getProfileContent()}
       </div>
     )

@@ -7,6 +7,12 @@
 
 .user-profile-header {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.user-profile-header-left {
+  display: flex;
   align-items: center;
 }
 
@@ -15,8 +21,15 @@
   font-size: 30px;
 }
 
+.user-profile-pic {
+  display: flex;
+  align-self: flex-start;
+  font-size: 130px;
+  color: rgb(140, 175, 165);
+}
+
 .user-profile-content {
-  margin: 130px auto;
+  margin: 30px auto;
   font-size: 16px;
   color: rgb(150, 150, 150);
 }
@@ -47,8 +60,21 @@
   height: 60px;
 }
 
+.user-post-heading-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.user-post-pic {
+  display: flex;
+  font-size: 40px;
+  color: rgb(140, 175, 165);
+}
+
 .user-post-name {
   font-size: 14px;
+  margin: 10px;
 }
 
 .user-post-name:hover {

@@ -67,9 +67,20 @@
   font-size: 40px;
 }
 
+.post-show-author-div {
+  display: flex;
+  align-items: center;
+}
+
 .post-show-author {
-  margin: 20px auto;
+  margin: 0px 10px;
   font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.post-show-author-pic {
+  font-size: 48px;
+  color: rgb(140, 175, 165);
 }
 
 .post-show-author:hover {
