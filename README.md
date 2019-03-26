@@ -4,6 +4,15 @@
 
 MediumRare is a clone of the online publishing platform Medium where users can post stories, opinion pieces, or articles about topics that matter to them.
 
+# Technologies
++ Ruby on Rails
++ Redux
++ React
++ jQuery
++ JavaScript
++ PostgreSQL
++ CSS
+
 # Features
 ### Log in/Sign up
 A modal displays log in and sign up forms. 
@@ -28,12 +37,3 @@ Logged in users can write new stories and update their existing stories.
 ### User profile
 A user's profile can be viewed for stories they wrote.
 ![User profile](https://github.com/VivDeG/MediumRare/blob/master/app/assets/images/user_profile.png)
-
-# Technologies
-+ Ruby on Rails
-+ Redux
-+ React
-+ jQuery
-+ JavaScript
-+ PostgreSQL
-+ CSS
