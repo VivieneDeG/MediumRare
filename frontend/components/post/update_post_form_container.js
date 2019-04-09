@@ -15,7 +15,7 @@ const override = css`
 `;
 
 const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
-  post: posts[ownProps.match.params.postId] || { title: "", body: "" },
+  post: posts[ownProps.match.params.postId] || { title: "", body: "", image: "" },
   formType: "Update Story",
   currentUserId: session.id,
 });

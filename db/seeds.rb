@@ -51,6 +51,7 @@ ApplicationRecord.transaction do
     — Winston Churchill, Fifty Years Hence (1931)
     
     (Original article from Seth Bannon on Medium)",
+    image: "https://images.unsplash.com/photo-1551447456-b9ef333d1ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 5)
 
   # https://medium.com/s/the-nuance/are-mushrooms-really-a-miracle-food-56b7700bd9b1
@@ -88,6 +89,7 @@ ApplicationRecord.transaction do
     So, at least for now, skip the supplements. Instead, just add more mushrooms to your diet.
     
     (Original article from Markham Heid on Medium)",
+    image: "https://images.unsplash.com/photo-1552825897-bb5efa86eab1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 7)
 
   # https://medium.com/the-entrepreneurs-journey/build-the-steak-not-the-sizzle-9cb61cfd9484
@@ -111,6 +113,7 @@ ApplicationRecord.transaction do
     Now this is where some people might talk about the whole idea of \"Fake it 'till you make it,\" but they're missing a really important detail that's right in front of them. The part of that statement that really matters is that you actually have to make it eventually. There is no such thing as \"Fake it 'till you fake it.\" Even though I think a lot of people behave as though that were the case.
     
     (Original article from Gary Vaynerchuk on Medium)",
+    image: "https://images.unsplash.com/photo-1542365887-1149961dccc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 2)
 
   # https://medium.com/near-future/real-meat-without-growing-a-full-animal-3ac06e93d6d8
@@ -150,6 +153,7 @@ ApplicationRecord.transaction do
     And we cannot do it alone. We're calling on anybody and everybody inspired by the potential of cultured meat to reach out to us. To change the world, we're going to need a diverse coalition of folks from all walks of life to get involved. We couldn't be more excited.
       
     (Original article from Uma Valeti, MD on Medium)",
+    image: "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
     author_id: 1)
 
   # https://medium.com/@caranicoletti/to-meat-or-not-to-meat-5a4ca2eb5f5d
@@ -163,6 +167,7 @@ ApplicationRecord.transaction do
     Do you eat meat? Why or why not?
     
     (Original article from Cara Nicoletti on Medium)",
+    image: "https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
     author_id: 4)
 
   # https://medium.com/@boobsradley/between-my-hectic-job-and-nourishing-social-life-it-s-not-always-easy-to-find-the-time-to-make-aa9c48a5458b
@@ -188,6 +193,7 @@ ApplicationRecord.transaction do
     Tomorrow I'll probably have that pudding again.
     
     (Original article from Julieanne Smolinski on Medium)",
+    image: "https://images.unsplash.com/photo-1452967712862-0cca1839ff27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 3)
 
   # https://medium.com/cooking-with-sarah/recipe-17-steak-on-a-cast-iron-skillet-f82a1484a566
@@ -248,6 +254,7 @@ ApplicationRecord.transaction do
     Find the original recipe here: https://m.youtube.com/watch?v=AmC9SmCBUj4
 
     (Original article from Sarah Charles on Medium)",
+    image: "https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
     author_id: 6)
 
     # https://medium.com/@katiecaisse/i-stopped-eating-meat-and-this-is-what-happened-996b9a81a6a
@@ -275,6 +282,7 @@ ApplicationRecord.transaction do
     Making this change made me happy. It made me feel free from foods that truly made me feel terrible. It brought me closer to a community who truly strives for a balanced lifestyle, empowerment, peace, personal growth, and self fulfillment. This change provided me more than a healthy body. This change provided me a healthy mindset, a support system, and a greater sense of myself.
     
     (Original article from Katie Caisse on Medium)",
+    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 8)
 
   # https://medium.com/@sarah_k_mock/meat-is-dead-long-live-meat-a86a7cfe7ecf
@@ -302,6 +310,7 @@ ApplicationRecord.transaction do
     Am I saying it's more environmentally ethical to be a mindful omnivore that favors grass fed meat over dogmatic vegetarianism? No. (But wouldn't that be nice.) I think it's important to be cautious when confronted with ideas we think are wrong, because often \"wrong\" is really just \"inconveniently right.\" If we all fall madly in love with the alternative foods of the future, we can populate the Great Plains with any kind of roaming herd we like, tear down all the fences (that aren't for human safety), and see what happens. We wax doom-and-gloom about our kids not being able to see the polar bears, but who knows, maybe our children will get to see the re-emergence of the American Bison, 2 million two ton animals, surging across the high plains of Wyoming, while they watch from their drones, or hover crafts, or Mars. The amazing thing is, that's possible.
 
     (Original article from Sarah Mock on Medium)",
+    image: "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 2)
 
   # https://medium.com/@sethbannon/cleaning-the-record-on-clean-meat-4888815a8614
@@ -339,6 +348,7 @@ ApplicationRecord.transaction do
     In reality, both plant based alternatives and clean meat are necessary parts of the solution. Animal agriculture is simply unsustainable, contributing more to greenhouse gas emissions than all trains, trucks, cars, planes, and boats combined. The demand for plant based alternatives is growing, as is the demand for real meat. Given the severity of the climate crisis, and the size of the meat markets, there's both a need and room for several ten billion dollar solutions to be built. So can't everyone just get along?
 
     (Original article from Seth Bannon on Medium)",
+    image: "https://images.unsplash.com/photo-1547050605-2f268cd5daf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 7)
 
   # https://medium.com/@invoker/how-to-use-the-steak-clause-to-win-your-next-negotiation-55b4dafbea94
@@ -370,6 +380,7 @@ ApplicationRecord.transaction do
     I know the Steak Dinner Clause idea is a little unconventional, but give it a try the next time you're stuck in a negotiation. When our lawyer, Paula, first saw it in our contract, she laughed and thought it was a joke. Then she thought for a while and said it was one of the best pieces of legal work she'd seen. In the end, anything that can transform an roadblock into an opportunity is probably worth a second look.
 
     (Original article from Ryan Holmes on Medium)",
+    image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 1)
 
   # https://medium.com/slackjaw/is-food-that-is-falling-more-appealing-an-investigation-16426f13d256
@@ -393,6 +404,7 @@ ApplicationRecord.transaction do
     Say it with me: Stable Table Food 2017 ™
 
     (Original article from Corinne Kocher on Medium)",
+    image: "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80",
     author_id: 4)
 
   # https://medium.com/thrive-global/brain-food-its-not-the-coconut-oil-or-the-fish-it-s-the-greens-f3dbc5f1e59
@@ -406,6 +418,7 @@ ApplicationRecord.transaction do
     Food fads come and go. The current hot button in the ketogenic world is that carbs kill brains, as if there were only one carb, and coconut oil protects your thinking power. While further studies are needed, heading for the salad bar and staying far away from animal based ketogenic diets, associated with a higher rate of death in many studies, is advised. If you do not like to eat green leafy vegetables, learn to make a healthy smoothie hiding them with frozen or fresh blueberries, another brain supportive food choice.
 
     (Original article from Joel Kahn on Medium)",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2731&q=80",
     author_id: 2)
 
   # https://medium.com/@gabrieliosa/if-in-london-try-the-sushi-at-this-place-and-youll-fall-in-love-with-japanese-food-486efa2a7089
@@ -429,6 +442,7 @@ ApplicationRecord.transaction do
     If you're a fan of sushi or a virgin of Japanese cuisine, you have to check this place out. This is not a paid endorsement, it's just my way of thanking the staff of this little gem of a place, steps away from the Earl's Court Underground Station in Kensington, for their service and delicious food, and for turning an ordinary lunch in London into an experience to remember forever.
 
     (Original article from Gabriel Iosa on Medium)",
+    image: "https://images.unsplash.com/photo-1540648639573-8c848de23f0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1724&q=80",
     author_id: 1)
 
   # https://medium.com/@shanisilver/single-girl-soup-whatevers-in-the-house-chicken-tortilla-9f0a36258c2d
@@ -486,6 +500,7 @@ ApplicationRecord.transaction do
     **https://cookieandkate.com/enchilada-sauce-recipe
 
     (Original article from Shani Silver on Medium)",
+    image: "https://images.unsplash.com/photo-1551020690-d3a2c9defc27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
     author_id: 3)
 
   # https://medium.com/@chazhutton/stop-buying-pasta-you-idiot-1f90bf761b60
@@ -563,6 +578,7 @@ ApplicationRecord.transaction do
     Or, in reality — you completely fucked it all up, and you're throwing it in a bin. But that's okay, just pour some more flour, crack some eggs, start again and remember, Be the pasta.
 
     (Original article from Chaz Hutton on Medium)",
+    image: "https://images.unsplash.com/photo-1447279506476-3faec8071eee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
     author_id: 8)
 
   # https://medium.com/@TrukeLayser/actually-imma-keep-cooking-pasta-from-a-box-thanks-7f7eb9cf5e5
@@ -595,6 +611,7 @@ ApplicationRecord.transaction do
     Join the movement and cook boxed pasta. It saves time, you won't make a mess, and there won't be poop on your floor.
 
     (Original article from Luke Trayser on Medium)",
+    image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1585&q=80",
     author_id: 7)
 
   # https://medium.com/personal-growth/the-1-healthiest-food-for-adding-years-to-your-life-5de374d613da
@@ -640,6 +657,7 @@ ApplicationRecord.transaction do
     Here's to a long, happy, and healthy life!
 
     (Original article from Andrew Merle on Medium)",
+    image: "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80",
     author_id: 1)
 
   # https://medium.com/the-coffeelicious/why-you-should-be-a-food-snob-71d2c8d2317
@@ -684,6 +702,7 @@ ApplicationRecord.transaction do
     Along with being simply delicious, of course.
 
     (Original article from Sarah Sunday on Medium)",
+    image: "https://images.unsplash.com/photo-1543900348-f03d06be7653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
     author_id: 5)
 
   # https://medium.com/cooking-with-sarah/recipe-25-steak-tacos-with-guacamole-fbd7954cbd80
@@ -730,6 +749,7 @@ ApplicationRecord.transaction do
     Find the original recipe here: https://gimmedelicious.com/2014/09/11/mexican-steak-tacos-with-simple-guacamole/
     
     (Original article from Sarah Charles on Medium)",
+    image: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
     author_id: 6)
 
   # https://medium.com/the-mission/how-to-make-chicken-stock-and-grow-up-487f1c9736a7
@@ -815,6 +835,7 @@ ApplicationRecord.transaction do
     And I choose embarrassment over ignorance.
 
     (Original article from Meghann McNiff on Medium)",
+    image: "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 2)
 
   # https://medium.com/food-is-the-new-internet/get-ready-for-a-meat-revolution-df21cd27c7fc
@@ -858,39 +879,8 @@ ApplicationRecord.transaction do
     Note: Rival startup Beyond Meat recently launched their own \"bleeding\" plant burger in Whole Foods stores last month. There have not been many definitive reviews yet, so it remains to be seen if it can fully compete with Impossible's innovation.
 
     (Original article from Janay Laing on Medium)",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 8)
-
-  # https://medium.com/mel-magazine/every-cut-of-steak-ranked-by-how-un-healthy-they-are-513a46d96000
-  Post.create!(title: "Every Cut of Steak, Ranked by How (Un)Healthy They Are",
-    body: "We've already written about how the meat industry is ruining steak by engineering larger cows. \"We're eating meat that has steroids in it,\" Jean-Claude Setin, master butcher and owner of Le French Butcher in L.A. told us earlier this year. \"We're eating meat that has appetite enhancers in it. We're eating meat that has sugar in it.\"
-
-    Ugh.
-
-    Still, even among the worryingly delicious selection of genetically mutated, 'roided-out cow meat out there, there are certain cuts of steak that are healthier and leaner than others. The problem is that most of these leaner cuts are, sadly, less tasty, and therefore, less likely to appear on a restaurant's menu. There's also the fact that, according to dietitian Sarah Mirkin, meat isn't a particularly healthy option to begin with. \"Personally I don't consider red meat to be healthy,\" says Mirkin. \"I recommend limiting it to once per week. Studies suggest that having red meat more often than this can substantially decrease one's lifespan.\"
-
-    That said, we have a job to do, and that job is to rank cuts of steak by which one is less likely to cause Type 2 diabetes (and a laundry list of other diseases caused by eating too much fat).
-
-    One more note before we dive in: You may notice that the first five cuts of steak listed below rarely show up on a restaurant's menu. Frankly, I'd never even heard of the first three cuts, because while they may be the leanest, they're also, taste-wise, likely to turn you into a vegetarian sooner than you can say bovine spongiform encephalopathy. Anyway, here we go...
-
-
-    1. Sirloin Tip Side Steak: \"Sirloin tip side steak is the leanest choice,\" says Mirkin. She's right: This cut is one of the few on the list that could be considered \"extra lean\" by the USDA's standard (5 grams of total fat and 2 grams of saturated fat), according to the Mayo Clinic. The sirloin tip side steak is taken from the rump and hind legs: \"The muscles in this area are used for movement, so the beef is leaner and less tender,\" reports Beef. It's What's For Dinner.
-
-    2. Eye of Round Steak: Another extra lean cut of steak, this is also taken from the rump and hind legs of a cow, but it's considered even tougher and less juicy. \"Eye of round is one of the few unredeemable cuts of meat; think tough and tasteless,\" writes Lynne Rossetto Kasper for The Splendid Table. According to Livestrong, the best way to prepare this otherwise shitty cut of beef is to pan-fry it or braise it so that you can retain some semblance of tenderness.
-
-    3. Top and Bottom Round Steak (tied): Also considered extra lean by USDA standards, these two cuts of steak are the ones that are usually cut up and served in cubes. But while these cuts of steak both come from the back end of the cow, there are some differences. \"The top round is very lean but tends to be more tender than the bottom round, and is often cut into steaks (which are sometimes labeled \"London broil\"),\" reports The Oregonian.
-
-    5. Top Sirloin: The last lean cut of steak on this list (by USDA standards, clocking in at anywhere between 3 to 5 grams of fat) is the perfect balance between healthy, moderately priced and tender enough to not feel like a piece of rubber. \"Gleaned from the loin section of the beast, this cut of steak offers up good flavor and moderately tender meat at a budget-friendly price,\" reports Bodybuilding.com. Mirkin tells me that she recommends choosing meat cuts that say \"sirloin\" or \"round\" and trimming all the visible fat.
-
-    6. Filet Mignon: French for \"tender fillet,\" this most expensive cut of steak is cut from the tenderloin portion of the cow, a slither of flesh between the ribs and the rear end. But although it has a fairly high amount of saturated fat (6 grams in a 3-ounce piece), it's also high in protein (23 grams). \"Women need 45 grams of protein a day and men need 55 grams, so having filet mignon would get you about halfway there,\" Connie Diekman, a registered dietitian in St. Louis and past-president of the American Academy of Nutrition and Dietetics, told Healthy Eating.
-
-    7. Skirt and Flank Steak (tied): Regularly mistaken for one another because of their similarly long and flat shape, these two cuts of meat are known more for their flavor than their tenderness. The skirt steak (8 grams of fat) is the slightly healthier option of the two, and is cut from the plate of a beef animal (aka just below the ribs) and has a more intense beef flavor than flank steak. \"It does contain more tough muscles than flank steak, though, so should only be cooked to rare or medium rare for the most tender texture,\" writes Christine Gallary for the The Kitchn. Flank steak (10 grams of fat), which is cut from the flank area (aka right below the short loin), is slightly thicker and wider than skirt steak. It's also the type of beef you usually encounter in fajitas and is often used in Asian cuisines.
-
-    9. Porterhouse and T-bone Steak (tied): Both of these boney, taste-bud-roller-coaster rides are cut from a mix of both the short loin and the tenderloin. In the case of a Porterhouse, the steaks are cut from the rear end of the short loin, and therefore, include more tenderloin (filet). T-bone steaks, on the other hand, are cut from the front of the short loin and include less tenderloin. Technically the Porterhouse has less fat (16.4 grams) than the T-bone (25.6 grams), making it the healthier option of the two. But most experts can't agree on how much tenderloin is needed to differentiate a Porterhouse from a T-bone steak. According to the Department of Agriculture's Institutional Meat Purchase Specifications, \"The tenderloin of a Porterhouse must be 'at least 1.25 inches thick at its widest, while that of a T-bone must be at least 0.5 inches.\" However, some steaks with a larger tenderloin are still referred to as the \"King of the T-Bone\" by some.
-
-    11. Ribeye Steak: Taken straight from the rib section, this indelible half fat, half protein cut of steak has 10 grams more fat than the T-bone steak and 3 grams less protein, making it the least healthy cut on this list. But according to Livestrong, if you broil your ribeye steak, the fat content will drip away. \"If you fry your steak, it will retain more fat than if you broil it,\" reports Livestrong. Cooking your rib eye steak well-done also will help relieve some of its fat content. But let's be real, the ribeye's increased fat content is precisely why this hunk of meat is so damn tasty, and if you cook your steak well done, well, you're a monster. So for the love of God, if you're going to risk your life by eating ribeye, don't scorch it in the process.
-
-    (Original article from Andrew Fiouzi on Medium)",
-    author_id: 4)
 
   # https://medium.com/the-year-of-the-looking-glass/the-secret-of-the-chicken-and-the-egg-206b7f1ce83b
   Post.create!(title: "The Secret of the Chicken and the Egg",
@@ -957,6 +947,40 @@ ApplicationRecord.transaction do
     But then again, it seems just a little more real.
 
     (Original article from Julie Zhuo on Medium)",
+    image: "https://images.unsplash.com/photo-1518492104633-130d0cc84637?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1252&q=80",
+    author_id: 4)
+
+  # https://medium.com/mel-magazine/every-cut-of-steak-ranked-by-how-un-healthy-they-are-513a46d96000
+  Post.create!(title: "Every Cut of Steak, Ranked by How (Un)Healthy They Are",
+    body: "We've already written about how the meat industry is ruining steak by engineering larger cows. \"We're eating meat that has steroids in it,\" Jean-Claude Setin, master butcher and owner of Le French Butcher in L.A. told us earlier this year. \"We're eating meat that has appetite enhancers in it. We're eating meat that has sugar in it.\"
+
+    Ugh.
+
+    Still, even among the worryingly delicious selection of genetically mutated, 'roided-out cow meat out there, there are certain cuts of steak that are healthier and leaner than others. The problem is that most of these leaner cuts are, sadly, less tasty, and therefore, less likely to appear on a restaurant's menu. There's also the fact that, according to dietitian Sarah Mirkin, meat isn't a particularly healthy option to begin with. \"Personally I don't consider red meat to be healthy,\" says Mirkin. \"I recommend limiting it to once per week. Studies suggest that having red meat more often than this can substantially decrease one's lifespan.\"
+
+    That said, we have a job to do, and that job is to rank cuts of steak by which one is less likely to cause Type 2 diabetes (and a laundry list of other diseases caused by eating too much fat).
+
+    One more note before we dive in: You may notice that the first five cuts of steak listed below rarely show up on a restaurant's menu. Frankly, I'd never even heard of the first three cuts, because while they may be the leanest, they're also, taste-wise, likely to turn you into a vegetarian sooner than you can say bovine spongiform encephalopathy. Anyway, here we go...
+
+
+    1. Sirloin Tip Side Steak: \"Sirloin tip side steak is the leanest choice,\" says Mirkin. She's right: This cut is one of the few on the list that could be considered \"extra lean\" by the USDA's standard (5 grams of total fat and 2 grams of saturated fat), according to the Mayo Clinic. The sirloin tip side steak is taken from the rump and hind legs: \"The muscles in this area are used for movement, so the beef is leaner and less tender,\" reports Beef. It's What's For Dinner.
+
+    2. Eye of Round Steak: Another extra lean cut of steak, this is also taken from the rump and hind legs of a cow, but it's considered even tougher and less juicy. \"Eye of round is one of the few unredeemable cuts of meat; think tough and tasteless,\" writes Lynne Rossetto Kasper for The Splendid Table. According to Livestrong, the best way to prepare this otherwise shitty cut of beef is to pan-fry it or braise it so that you can retain some semblance of tenderness.
+
+    3. Top and Bottom Round Steak (tied): Also considered extra lean by USDA standards, these two cuts of steak are the ones that are usually cut up and served in cubes. But while these cuts of steak both come from the back end of the cow, there are some differences. \"The top round is very lean but tends to be more tender than the bottom round, and is often cut into steaks (which are sometimes labeled \"London broil\"),\" reports The Oregonian.
+
+    5. Top Sirloin: The last lean cut of steak on this list (by USDA standards, clocking in at anywhere between 3 to 5 grams of fat) is the perfect balance between healthy, moderately priced and tender enough to not feel like a piece of rubber. \"Gleaned from the loin section of the beast, this cut of steak offers up good flavor and moderately tender meat at a budget-friendly price,\" reports Bodybuilding.com. Mirkin tells me that she recommends choosing meat cuts that say \"sirloin\" or \"round\" and trimming all the visible fat.
+
+    6. Filet Mignon: French for \"tender fillet,\" this most expensive cut of steak is cut from the tenderloin portion of the cow, a slither of flesh between the ribs and the rear end. But although it has a fairly high amount of saturated fat (6 grams in a 3-ounce piece), it's also high in protein (23 grams). \"Women need 45 grams of protein a day and men need 55 grams, so having filet mignon would get you about halfway there,\" Connie Diekman, a registered dietitian in St. Louis and past-president of the American Academy of Nutrition and Dietetics, told Healthy Eating.
+
+    7. Skirt and Flank Steak (tied): Regularly mistaken for one another because of their similarly long and flat shape, these two cuts of meat are known more for their flavor than their tenderness. The skirt steak (8 grams of fat) is the slightly healthier option of the two, and is cut from the plate of a beef animal (aka just below the ribs) and has a more intense beef flavor than flank steak. \"It does contain more tough muscles than flank steak, though, so should only be cooked to rare or medium rare for the most tender texture,\" writes Christine Gallary for the The Kitchn. Flank steak (10 grams of fat), which is cut from the flank area (aka right below the short loin), is slightly thicker and wider than skirt steak. It's also the type of beef you usually encounter in fajitas and is often used in Asian cuisines.
+
+    9. Porterhouse and T-bone Steak (tied): Both of these boney, taste-bud-roller-coaster rides are cut from a mix of both the short loin and the tenderloin. In the case of a Porterhouse, the steaks are cut from the rear end of the short loin, and therefore, include more tenderloin (filet). T-bone steaks, on the other hand, are cut from the front of the short loin and include less tenderloin. Technically the Porterhouse has less fat (16.4 grams) than the T-bone (25.6 grams), making it the healthier option of the two. But most experts can't agree on how much tenderloin is needed to differentiate a Porterhouse from a T-bone steak. According to the Department of Agriculture's Institutional Meat Purchase Specifications, \"The tenderloin of a Porterhouse must be 'at least 1.25 inches thick at its widest, while that of a T-bone must be at least 0.5 inches.\" However, some steaks with a larger tenderloin are still referred to as the \"King of the T-Bone\" by some.
+
+    11. Ribeye Steak: Taken straight from the rib section, this indelible half fat, half protein cut of steak has 10 grams more fat than the T-bone steak and 3 grams less protein, making it the least healthy cut on this list. But according to Livestrong, if you broil your ribeye steak, the fat content will drip away. \"If you fry your steak, it will retain more fat than if you broil it,\" reports Livestrong. Cooking your rib eye steak well-done also will help relieve some of its fat content. But let's be real, the ribeye's increased fat content is precisely why this hunk of meat is so damn tasty, and if you cook your steak well done, well, you're a monster. So for the love of God, if you're going to risk your life by eating ribeye, don't scorch it in the process.
+
+    (Original article from Andrew Fiouzi on Medium)",
+    image: "https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 7)
 end
  

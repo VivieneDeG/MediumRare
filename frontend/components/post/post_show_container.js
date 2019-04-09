@@ -3,7 +3,7 @@ import { fetchPost } from '../../actions/post_actions';
 import PostShow from './post_show';
 
 const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
-  post: posts[ownProps.match.params.postId] || { title: "", body: "" },
+  post: posts[ownProps.match.params.postId] || { title: "", body: "", image: "" },
   currentUserId: session.id,
 });
 
