@@ -29,13 +29,6 @@ class PostIndex extends React.Component {
     posts.reverse();
 
     let postIndexHero = <PostIndexHero posts={posts.slice(0, 5)} />
-    // posts.slice(0, 5).map(post => {
-    //   return (
-    //     <PostIndexItem
-    //       key={post.id}
-    //       post={post} />
-    //   );
-    // });
 
     let postIndexItems = posts.slice(5).map(post => {
       return (
@@ -48,7 +41,7 @@ class PostIndex extends React.Component {
     return (
       <div>
         {postIndexHero}
-        <h1>Featured Stories</h1>
+        {/* <h1>Featured Stories</h1> */}
         {postIndexItems}
       </div>
     )

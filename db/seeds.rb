@@ -660,51 +660,6 @@ ApplicationRecord.transaction do
     image: "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80",
     author_id: 1)
 
-  # https://medium.com/the-coffeelicious/why-you-should-be-a-food-snob-71d2c8d2317
-  Post.create!(title: "Why You Should Be a Food Snob",
-    body: "Since when did caring about the standards of your food and appreciating high quality food become mockingly synonymous with 'elitist?'
-
-    I don't know, and I really don't care.
-
-    All I know is that needs to change.
-
-    People should care about where their food comes from. They should demand higher standards for how the food they put into their bodies is brought before them. This is what fuels our life. It should be our priority to make sure it is up to standard. In production and in result.
-
-    In this day and age, it has never been more important where our food comes from and how it was grown. Our food choices directly contribute to the environment and to the sustainability of food in the future.
-
-    What and how we eat and what it means:
-    - The bananas we consume, the Cavendish, are genetically identical, and if a disease were to effect them they could be wiped out easily. They are clones of each other, and thus equally at risk for potential disease.
-
-    - Cattle and livestock are the source of 15% of carbon emissions.
-
-    - Cattle consume the majority of antibiotics and are most likely the primary cause for antibiotic superbugs.
-
-    - The global shipping of our food across the world creates large amounts of emissions and pollution, along with costing a great deal. Because of shipping and how we buy it, in North America, a third of food product is wasted.
-
-    - Animals raised in close proximity, such as chicken coops, can cause disease to spread rapidly as seen in this years avian flu epidemic.
-
-    - Industrial farming encourages breeding for ease-of-transport rather than nutrition. This is also lowers genetic diversity and contributes to the loss of other types of fruits and vegetables.
-
-    - Over eighty percent of the world's almonds are grown in California. The price of the almond has been fluctuating based on the changing climate and drought in California. The fate of the majority of the almond is tied to California.
-
-    And that is just the tip of the iceberg.
-
-    I'm not a anti-GMO or super pro-organic person. I am pro-sustainability and being conscious about the choices of the products that go into my body. There should be an active discussion about how food is grown. Everyone should be able to talk about it and be knowledgeable about it. Food is one of the few things in this world that all humans experience and need. All classes and types of people eat. This is a global issue.
-
-    Think about what you are buying. Do you know how it was grown? Do you know where it came from? Are the practices going into its production ones that are sustainable, so that it can continue to be produced and eaten?
-
-    You don't have to be ignorant. You shouldn't be. Take a moment and learn about what you are eating. Do it for yourself and for the food itself. Respect it.
-
-    As for purchasing power, if you are able, try to buy the products that you have learned to be more sustainable. Paying more for a piece of meat or choosing to shop organic is not simply buying better food for your palette; it is buying a better future.
-
-    And if someone calls you a food snob, take it with pride. Because you know about your food. You are an informed consumer that chooses foods that support good agriculture practices.
-
-    Along with being simply delicious, of course.
-
-    (Original article from Sarah Sunday on Medium)",
-    image: "https://images.unsplash.com/photo-1543900348-f03d06be7653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-    author_id: 5)
-
   # https://medium.com/cooking-with-sarah/recipe-25-steak-tacos-with-guacamole-fbd7954cbd80
   Post.create!(title: "Recipe 25: Steak Tacos with Guacamole",
     body: "What You'll Need
@@ -751,6 +706,51 @@ ApplicationRecord.transaction do
     (Original article from Sarah Charles on Medium)",
     image: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
     author_id: 6)
+
+  # https://medium.com/the-coffeelicious/why-you-should-be-a-food-snob-71d2c8d2317
+  Post.create!(title: "Why You Should Be a Food Snob",
+    body: "Since when did caring about the standards of your food and appreciating high quality food become mockingly synonymous with 'elitist?'
+
+    I don't know, and I really don't care.
+
+    All I know is that needs to change.
+
+    People should care about where their food comes from. They should demand higher standards for how the food they put into their bodies is brought before them. This is what fuels our life. It should be our priority to make sure it is up to standard. In production and in result.
+
+    In this day and age, it has never been more important where our food comes from and how it was grown. Our food choices directly contribute to the environment and to the sustainability of food in the future.
+
+    What and how we eat and what it means:
+    - The bananas we consume, the Cavendish, are genetically identical, and if a disease were to effect them they could be wiped out easily. They are clones of each other, and thus equally at risk for potential disease.
+
+    - Cattle and livestock are the source of 15% of carbon emissions.
+
+    - Cattle consume the majority of antibiotics and are most likely the primary cause for antibiotic superbugs.
+
+    - The global shipping of our food across the world creates large amounts of emissions and pollution, along with costing a great deal. Because of shipping and how we buy it, in North America, a third of food product is wasted.
+
+    - Animals raised in close proximity, such as chicken coops, can cause disease to spread rapidly as seen in this years avian flu epidemic.
+
+    - Industrial farming encourages breeding for ease-of-transport rather than nutrition. This is also lowers genetic diversity and contributes to the loss of other types of fruits and vegetables.
+
+    - Over eighty percent of the world's almonds are grown in California. The price of the almond has been fluctuating based on the changing climate and drought in California. The fate of the majority of the almond is tied to California.
+
+    And that is just the tip of the iceberg.
+
+    I'm not a anti-GMO or super pro-organic person. I am pro-sustainability and being conscious about the choices of the products that go into my body. There should be an active discussion about how food is grown. Everyone should be able to talk about it and be knowledgeable about it. Food is one of the few things in this world that all humans experience and need. All classes and types of people eat. This is a global issue.
+
+    Think about what you are buying. Do you know how it was grown? Do you know where it came from? Are the practices going into its production ones that are sustainable, so that it can continue to be produced and eaten?
+
+    You don't have to be ignorant. You shouldn't be. Take a moment and learn about what you are eating. Do it for yourself and for the food itself. Respect it.
+
+    As for purchasing power, if you are able, try to buy the products that you have learned to be more sustainable. Paying more for a piece of meat or choosing to shop organic is not simply buying better food for your palette; it is buying a better future.
+
+    And if someone calls you a food snob, take it with pride. Because you know about your food. You are an informed consumer that chooses foods that support good agriculture practices.
+
+    Along with being simply delicious, of course.
+
+    (Original article from Sarah Sunday on Medium)",
+    image: "https://images.unsplash.com/photo-1543900348-f03d06be7653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    author_id: 5)
 
   # https://medium.com/the-mission/how-to-make-chicken-stock-and-grow-up-487f1c9736a7
   Post.create!(title: "How to Make Chicken Stock (...and grow up)",
