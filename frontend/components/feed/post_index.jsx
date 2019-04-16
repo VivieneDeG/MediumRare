@@ -39,8 +39,9 @@ class PostIndex extends React.Component {
     });
     
     return (
-      <div>
+      <div className="post-index-container">
         {postIndexHero}
+        <div className="line-break" />
         {/* <h1>Featured Stories</h1> */}
         {postIndexItems}
       </div>

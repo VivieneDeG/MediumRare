@@ -23,9 +23,7 @@ const PostIndexHero = ({ posts }) => {
       <div className="hero-middle">
         <div className="hero-middle-item">
           <Link to={`/posts/${posts[1].id}`}>
-            <div className="hero-middle-img-container">
-              <img src={`${posts[1].image}`} />
-            </div>
+            <img className="hero-middle-img" src={`${posts[1].image}`} />
           </Link>
           <div className="hero-middle-text">
             <Link to={`/posts/${posts[1].id}`}>
@@ -40,9 +38,7 @@ const PostIndexHero = ({ posts }) => {
 
         <div className="hero-middle-item">
           <Link to={`/posts/${posts[2].id}`}>
-            <div className="hero-middle-img-container">
-              <img src={`${posts[2].image}`} />
-            </div>
+            <img className="hero-middle-img" src={`${posts[2].image}`} />
           </Link>
           <div className="hero-middle-text">
             <Link to={`/posts/${posts[2].id}`}>
@@ -57,9 +53,7 @@ const PostIndexHero = ({ posts }) => {
 
         <div className="hero-middle-item">
           <Link to={`/posts/${posts[3].id}`}>
-            <div className="hero-middle-img-container">
-              <img src={`${posts[3].image}`} />
-            </div>
+            <img className="hero-middle-img" src={`${posts[3].image}`} />
           </Link>
           <div className="hero-middle-text">
             <Link to={`/posts/${posts[3].id}`}>
