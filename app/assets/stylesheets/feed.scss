@@ -1,12 +1,26 @@
 // post_index.jsx
 .post-index-container {
-  margin: 50px auto;
+  margin: 50px auto 30px auto;
   max-width: 1032px;
 }
 
 .line-break {
-  margin: 30px auto;
+  margin: 30px auto 20px auto;
   border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.footer-break {
+  margin: 20px auto;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.footer-text {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: rgb(117, 117, 117);
+  font-size: 13px;
 }
 
 

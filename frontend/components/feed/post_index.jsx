@@ -42,8 +42,18 @@ class PostIndex extends React.Component {
       <div className="post-index-container">
         {postIndexHero}
         <div className="line-break" />
-        {/* <h1>Featured Stories</h1> */}
         {postIndexItems}
+        <div className="footer-break" />
+        <div className="footer-text">
+          <p>Help</p>
+          <p>Status</p>
+          <p>Writers</p>
+          <p>Blog</p>
+          <p>Careers</p>
+          <p>Privacy</p>
+          <p>Terms</p>
+          <p>About</p>
+        </div>
       </div>
     )
   }
