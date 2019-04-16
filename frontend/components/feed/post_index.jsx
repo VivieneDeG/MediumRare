@@ -1,5 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/core';
+import PostIndexHero from './post_index_hero';
 import PostIndexItem from './post_index_item';
 import BeatLoader from 'react-spinners/BeatLoader';
 
@@ -25,19 +26,29 @@ class PostIndex extends React.Component {
       </div>
     }
 
-    let postIndexItems = posts.map(post => {
+    posts.reverse();
+
+    let postIndexHero = <PostIndexHero posts={posts.slice(0, 5)} />
+    // posts.slice(0, 5).map(post => {
+    //   return (
+    //     <PostIndexItem
+    //       key={post.id}
+    //       post={post} />
+    //   );
+    // });
+
+    let postIndexItems = posts.slice(5).map(post => {
       return (
         <PostIndexItem
           key={post.id}
           post={post} />
       );
     });
-
-    postIndexItems = postIndexItems.reverse();
     
     return (
-      <div className="user-profile-container">
-        <h1 className="user-profile-name">Featured Stories</h1>
+      <div>
+        {postIndexHero}
+        <h1>Featured Stories</h1>
         {postIndexItems}
       </div>
     )

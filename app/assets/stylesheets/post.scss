@@ -20,19 +20,24 @@
 }
 
 .post-form-title {
-  width: 694px;
   padding-left: 5px;
+  width: 694px;
   font-size: 35px;
   border-left: 1px solid rgb(211, 211, 211);
   color: rgb(0, 0, 0);
 }
 
-.post-form-title::placeholder {
-  color: rgb(180, 180, 180);
+.post-form-image {
+  margin-top: 10px;
+  padding-left: 5px;
+  width: 694px;
+  font-size: 14px;
+  border-left: 1px solid rgb(211, 211, 211);
+  color: rgb(110, 110, 110);
 }
 
 .post-form-body {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 5px;
   width: 694px;
   height: 100%;
@@ -44,6 +49,7 @@
   color: rgb(0, 0, 0);
 }
 
+.post-form-title::placeholder, .post-form-image::placeholder,
 .post-form-body::placeholder {
   color: rgb(180, 180, 180);
 }

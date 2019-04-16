@@ -52,7 +52,7 @@ class PostForm extends React.Component {
             onChange={this.update('title')} />
             
           <input type="text"
-            className="post-form-image-url"
+            className="post-form-image"
             placeholder="Image URL"
             value={this.state.image}
             onChange={this.update('image')} />

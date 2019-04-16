@@ -103,12 +103,13 @@
 }
 
 .user-post-preview {
-  margin: 20px auto;
+  margin: 15px auto;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-family: 'Lora', Georgia, serif;
+  // font-family: 'Lora', Georgia, serif;
+  color: #757575;
   font-size: 17px;
 }
 

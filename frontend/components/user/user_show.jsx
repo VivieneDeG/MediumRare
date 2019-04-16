@@ -37,15 +37,13 @@ class UserShow extends React.Component {
         }
       });
 
-      let postItems = posts.map(post => {
+      let postItems = posts.reverse().map(post => {
         return (
           <UserPostItemContainer
             key={post.id}
             post={post} />
         );
       });
-
-      postItems = postItems.reverse();
 
       return (
         <div className="user-profile-content">
