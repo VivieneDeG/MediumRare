@@ -9,6 +9,14 @@
   border-bottom: 1px solid rgb(217, 217, 217);
 }
 
+.post-index-main {
+  display: flex;
+}
+
+.post-index-items {
+  width: 64%;
+}
+
 .footer-break {
   margin: 20px auto;
   border-bottom: 1px solid rgb(230, 230, 230);
@@ -120,7 +128,6 @@
 .post-index-item-container {
   display: flex;
   margin: 50px 0;
-  width: 64%;
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
@@ -160,4 +167,20 @@
   height: 120px;
   width: 150px;
   object-fit: cover;
+}
+
+
+// popular_posts.jsx
+.popular-posts-container {
+  margin: 0 auto;
+  width: 264px;
+}
+
+.popular-line-break {
+  margin: 20px auto 30px auto;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.popular-posts-item {
+  display: flex;
 }

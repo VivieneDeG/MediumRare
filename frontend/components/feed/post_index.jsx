@@ -2,6 +2,7 @@ import React from 'react';
 import { css } from '@emotion/core';
 import PostIndexHero from './post_index_hero';
 import PostIndexItem from './post_index_item';
+import PopularPosts from './popular_posts';
 import BeatLoader from 'react-spinners/BeatLoader';
 
 const override = css`
@@ -37,12 +38,19 @@ class PostIndex extends React.Component {
           post={post} />
       );
     });
+
+    let popularPosts = <PopularPosts posts={[posts[14], posts[13], posts[16], posts[20]]} />
     
     return (
       <div className="post-index-container">
         {postIndexHero}
         <div className="line-break" />
-        {postIndexItems}
+        <div className="post-index-main">
+          <div className="post-index-items">
+            {postIndexItems}
+          </div>
+          {popularPosts}
+        </div>
         <div className="footer-break" />
         <div className="footer-text">
           <p>Help</p>
