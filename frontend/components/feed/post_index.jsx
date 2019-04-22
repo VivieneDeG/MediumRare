@@ -39,7 +39,8 @@ class PostIndex extends React.Component {
       );
     });
 
-    let popularPosts = <PopularPosts posts={[posts[14], posts[13], posts[16], posts[20]]} />
+    let popularPosts = <PopularPosts
+        posts={[posts[13], posts[12], posts[15], posts[9], posts[17]]} />
     
     return (
       <div className="post-index-container">

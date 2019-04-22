@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PopularPosts = ({ posts }) => {
   return (
     <div className="popular-posts-container">
-      <h3 className="popular-posts-title">
+      <h3 className="popular-posts-heading">
         Popular on Medium
       </h3>
       <div className="popular-line-break"></div>
@@ -61,6 +61,20 @@ const PopularPosts = ({ posts }) => {
           </Link>
           <p className="popular-posts-author">
             <Link to={`/users/${posts[3].authorId}`}>{posts[3].author}</Link>
+          </p>
+        </div>
+      </div>
+
+      <div className="popular-posts-item">
+        <div className="popular-posts-number">
+          05
+        </div>
+        <div className="popular-posts-links">
+          <Link to={`/posts/${posts[4].id}`}>
+            <h1 className="popular-posts-title">{posts[4].title}</h1>
+          </Link>
+          <p className="popular-posts-author">
+            <Link to={`/users/${posts[4].authorId}`}>{posts[4].author}</Link>
           </p>
         </div>
       </div>

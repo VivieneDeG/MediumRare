@@ -5,7 +5,7 @@
 }
 
 .line-break {
-  margin: 30px auto 20px auto;
+  margin: 30px auto 0 auto;
   border-bottom: 1px solid rgb(217, 217, 217);
 }
 
@@ -172,15 +172,54 @@
 
 // popular_posts.jsx
 .popular-posts-container {
-  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  margin: 0 30px 0 auto;
+  height: fit-content;
   width: 264px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.popular-posts-heading {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .popular-line-break {
-  margin: 20px auto 30px auto;
+  margin: 18px auto 30px auto;
   border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .popular-posts-item {
   display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+}
+
+.popular-posts-number {
+  margin-top: -4px;
+  color: rgb(217, 217, 217);
+  font-size: 26px;
+}
+
+.popular-posts-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 218px;
+}
+
+.popular-posts-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.popular-posts-author {
+  font-size: 12px;
 }
