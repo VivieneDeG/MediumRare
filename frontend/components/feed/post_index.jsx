@@ -27,7 +27,9 @@ class PostIndex extends React.Component {
       </div>
     }
 
-    
+    if (posts[0].title == "I Just Ate Meat For The First Time In 20 Years") {
+      posts.reverse();
+    }
 
     let postIndexHero = <PostIndexHero posts={posts.slice(0, 5)} />
 
