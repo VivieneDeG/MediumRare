@@ -19,7 +19,7 @@ class PostIndex extends React.Component {
   render() {
     const { posts } = this.props;
     
-    if (posts.length == 0) {
+    if (posts.length < 20) {
       return <div className="loading">
         <BeatLoader
           css={override}
@@ -27,7 +27,7 @@ class PostIndex extends React.Component {
       </div>
     }
 
-    posts.reverse();
+    
 
     let postIndexHero = <PostIndexHero posts={posts.slice(0, 5)} />
 
