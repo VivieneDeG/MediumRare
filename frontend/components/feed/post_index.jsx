@@ -41,8 +41,9 @@ class PostIndex extends React.Component {
       );
     });
 
+    const l = posts.length;
     let popularPosts = <PopularPosts
-        posts={[posts[13], posts[12], posts[15], posts[9], posts[17]]} />
+        posts={[posts[l-11], posts[l-12], posts[l-9], posts[l-15], posts[l-7]]} />
     
     return (
       <div className="post-index-container">
