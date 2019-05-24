@@ -5,7 +5,7 @@ const PopularPosts = ({ posts }) => {
   return (
     <div className="popular-posts-container">
       <h3 className="popular-posts-heading">
-        Popular on Medium
+        Popular on MediumRare
       </h3>
       <div className="popular-line-break"></div>
 
