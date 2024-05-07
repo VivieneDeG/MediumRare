@@ -145,7 +145,6 @@
 .loading {
   display: flex;
   align-content: center;
-  // justify-content: baseline;
   margin: auto;
-  height: 100%;
+  height: calc(100vh - 130px);   // minus header height * 2, centers in window
 }

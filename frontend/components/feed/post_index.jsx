@@ -1,14 +1,13 @@
 import React from 'react';
-import { css } from '@emotion/core';
 import PostIndexHero from './post_index_hero';
 import PostIndexItem from './post_index_item';
 import PopularPosts from './popular_posts';
 import BeatLoader from 'react-spinners/BeatLoader';
 
-const override = css`
-    display: block;
-    margin: auto;
-`;
+const override = {
+  display: "block",
+  margin: "auto"
+};
 
 class PostIndex extends React.Component {
   componentDidMount() {
@@ -22,7 +21,9 @@ class PostIndex extends React.Component {
     if (posts.length < 20) {
       return <div className="loading">
         <BeatLoader
-          css={override}
+          cssOverride={override}
+          size={20}
+          margin={5}
           color={'#03a97d'} />
       </div>
     }

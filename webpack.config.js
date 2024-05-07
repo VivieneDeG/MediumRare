@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
     filename: 'bundle.js',
   },
+  mode: 'development',
   module: {
     rules: [
       {
@@ -14,9 +15,8 @@ module.exports = {
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
-          query: {
+          options: {
             presets: ['@babel/env', '@babel/react'],
-            "plugins": ["emotion"]
           }
         },
       }
