@@ -31,7 +31,7 @@ class PostShow extends React.Component {
           <h1 className="post-show-title">{post.title}</h1>
           <div className="post-show-author-div">
             <Link to={`/users/${post.authorId}`} className="post-show-author-pic">
-              <i className="fas fa-user-circle"></i>
+              <i className="fa-solid fa-circle-user"></i>
             </Link>
             <p className="post-show-author">
               <Link to={`/users/${post.authorId}`}>{post.author}</Link>

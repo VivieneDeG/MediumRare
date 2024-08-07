@@ -19,7 +19,7 @@ const Greeting = ({currentUser, logout, openModal}) => {
         </h3>
 
         <Link to={`/users/${currentUser.id}`} className="nav-bar-profile-link">
-          <i className="fas fa-user-circle"></i>
+          <i className="fa-solid fa-circle-user"></i>
         </Link>
 
         <Link to="/">

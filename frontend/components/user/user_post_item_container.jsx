@@ -27,7 +27,7 @@ class UserPostItem extends React.Component {
         <div className="user-post-heading">
           <div className="user-post-heading-left">
             <Link to={`/users/${post.authorId}`} className="user-post-pic">
-              <i className="fas fa-user-circle"></i>
+              <i className="fa-solid fa-circle-user"></i>
             </Link>
 
             <p className="user-post-name">

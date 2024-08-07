@@ -83,7 +83,7 @@ class UserShow extends React.Component {
             }
           </div>
           <div className="user-profile-pic">
-            <i className="fas fa-user-circle"></i>
+            <i className="fa-solid fa-circle-user"></i>
           </div>
         </header>
 
