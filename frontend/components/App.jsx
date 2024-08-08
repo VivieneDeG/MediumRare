@@ -1,8 +1,7 @@
 import React from 'react';
-import { Route, Redirect, Link, Switch } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom';
 import { ProtectedRoute } from '../util/route_util';
-import Modal from './modal/modal';
-import GreetingContainer from './greeting/greeting_container';
+import { Footer, Header, Modal } from './_util';
 import UserShowContainer from './user/user_show_container';
 import CreatePostFormContainer from './post/create_post_form_container';
 import UpdatePostFormContatiner from './post/update_post_form_container';
@@ -12,16 +11,7 @@ import PostIndexContainer from './feed/post_index_container';
 const App = () => (
   <>
     <Modal />
-    <header>
-      <div className="nav-bar-container">
-        <nav className="nav-bar">
-          <Link to="/" className="header-link">
-            <h1>MediumRare</h1>
-          </Link>
-          <GreetingContainer />
-        </nav>
-      </div>
-    </header>
+    <Header />
 
     <Switch>
       <ProtectedRoute exact path="/posts/new" component={CreatePostFormContainer} />
@@ -31,6 +21,8 @@ const App = () => (
       <Route exact path="/" component={PostIndexContainer} />
       <Redirect to="/" />
     </Switch>
+
+    <Footer />
   </>
 );
 

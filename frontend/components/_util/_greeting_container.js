@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { logout } from '../../actions/session_actions';
 import { openModal } from '../../actions/modal_actions';
-import Greeting from './greeting';
+import Greeting from './_greeting';
 
 const mapStateToProps = ({session, entities: { users }}) => ({
   currentUser: users[session.id],
