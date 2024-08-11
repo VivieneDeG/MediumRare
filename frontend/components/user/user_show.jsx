@@ -67,7 +67,7 @@ class UserShow extends React.Component {
           cssOverride={override}
           size={20}
           margin={5}
-          color={'#03a97d'} />
+          color={'#52ae4f'} />
       </div>
     }
     
