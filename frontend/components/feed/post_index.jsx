@@ -28,13 +28,15 @@ class PostIndex extends React.Component {
       </div>
     }
 
-    if (posts[0].title == "I Just Ate Meat For The First Time In 20 Years") {
+    if (posts[0].title == "Why You Should Be a Food Snob") {
       posts.reverse();
     }
 
-    let postIndexHero = <PostIndexHero posts={posts.slice(0, 5)} />
+    const l = posts.length;
+    let postIndexHero = <PostIndexHero
+        posts={[posts[l-10], posts[l-5], posts[l-8], posts[l-3], posts[l-1]]} />
 
-    let postIndexItems = posts.slice(5).map(post => {
+    let postIndexItems = posts.map(post => {
       return (
         <PostIndexItem
           key={post.id}
@@ -42,7 +44,6 @@ class PostIndex extends React.Component {
       );
     });
 
-    const l = posts.length;
     let popularPosts = <PopularPosts
         posts={[posts[l-11], posts[l-12], posts[l-9], posts[l-15], posts[l-7]]} />
     

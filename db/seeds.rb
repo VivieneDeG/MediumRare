@@ -21,37 +21,49 @@ ApplicationRecord.transaction do
   User.create!(name: "Robert Langdon", email: "mystery@history.org", password: "professor")
 
   # Posts
-  # https://medium.com/@sethbannon/i-just-ate-meat-for-the-first-time-in-20-years-214d0f875568
-  Post.create!(title: "I Just Ate Meat For The First Time In 20 Years",
-    body: "Yesterday I ate meat for the first time in 20 years and I couldn't be happier. Let me explain why.
+  # https://medium.com/the-coffeelicious/why-you-should-be-a-food-snob-71d2c8d2317
+  Post.create!(title: "Why You Should Be a Food Snob",
+    body: "Since when did caring about the standards of your food and appreciating high quality food become mockingly synonymous with 'elitist?'
 
-    Humans have a long history with meat. Nearly 10,000 years ago, homo sapiens began domesticating animals for meat, milk, and hides. While the scale and sophistication of the effort has grown greatly since our ancestors in Mesopotamia began domesticating goats, the basic formula hasn't changed all that much. We selectively breed animals with traits we want, feed them for months to years, and then slaughter them to make beef, pork, chicken, turkey, gelatin, and leather, sometimes after extracting their breastmilk for a time. Functionally, we're using animals as technology to turn plant inputs into outputs that we like to eat, drink, or wear.
+    I don't know, and I really don't care.
 
-    The problem is that meat produced through animal agriculture is terrible for the environment (contributing more to greenhouse emissions than all cars, trucks, and planes combined) and raises serious animal welfare concerns. It's why I decided to stop eating it when I was 12 and never took it back up — not because I don't like the taste of meat (I do!) but because of the extremely problematic way meat is made.
+    All I know is that needs to change.
 
-    This is all about to change.
+    People should care about where their food comes from. They should demand higher standards for how the food they put into their bodies is brought before them. This is what fuels our life. It should be our priority to make sure it is up to standard. In production and in result.
 
-    In the past couple years, a new crop of startups has fundamentally reimagined how we make food. Instead of domesticating animals, these startups are domesticating cells directly. Instead of animal farms, they have cell farms.
+    In this day and age, it has never been more important where our food comes from and how it was grown. Our food choices directly contribute to the environment and to the sustainability of food in the future.
 
-    Take beef as an example. For the purpose of meat production, a cow can be thought of as a biological machine, inside which certain processes happen that produce something we like to eat. Specifically, muscle cells and fat cells are dividing and multiplying inside the cow's body, producing tissue that, after slaughter, is turned into beef.
+    What and how we eat and what it means:
+    - The bananas we consume, the Cavendish, are genetically identical, and if a disease were to effect them they could be wiped out easily. They are clones of each other, and thus equally at risk for potential disease.
 
-    What if we could bring about that same process of cell division, but outside of the cow? That's exactly what Silicon Valley based Memphis Meats is working on. Their technology allows them to produce real beef, without the need to raise and slaughter a cow, by allowing cells to multiply in bioreactors.
+    - Cattle and livestock are the source of 15% of carbon emissions.
 
-    This isn't science fiction. This isn't years away. Memphis Meats is making their clean meat today. And as of yesterday, I can report that it is delicious.
+    - Cattle consume the majority of antibiotics and are most likely the primary cause for antibiotic superbugs.
 
-    Due to being an early investor through my fund Fifty Years, I was lucky to be invited to a tasting event held in San Francisco, in the same kitchen frequently used by Julia Child. They cooked up a two course meal of Southern Fried Chicken and Duck à l'orange using their clean meat.
+    - The global shipping of our food across the world creates large amounts of emissions and pollution, along with costing a great deal. Because of shipping and how we buy it, in North America, a third of food product is wasted.
 
-    For the first time ever, with the Wall Street Journal looking on, they cooked up and showed off real chicken pieces (not ground meat!) and real duck. Though the taste and texture was identical to conventional meat, their clean meat wasn't harvested from the carcasses of slaughtered animals.
+    - Animals raised in close proximity, such as chicken coops, can cause disease to spread rapidly as seen in this years avian flu epidemic.
 
-    With studies showing clean meat could potentially be produced with 96% less greenhouse gas emissions, 45% less energy, 99% less land use, and 96% less water use than meat made through animal agriculture, there's a lot to be excited about.
+    - Industrial farming encourages breeding for ease-of-transport rather than nutrition. This is also lowers genetic diversity and contributes to the loss of other types of fruits and vegetables.
 
-    So, after 20 years of not eating meat, yesterday I ate fried chicken and roast duck and couldn't be happier.
+    - Over eighty percent of the world's almonds are grown in California. The price of the almond has been fluctuating based on the changing climate and drought in California. The fate of the majority of the almond is tied to California.
 
-    \"We shall escape the absurdity of growing a whole chicken in order to eat the breast or wing, by growing these parts separately under a suitable medium.\"
-    — Winston Churchill, Fifty Years Hence (1931)
-    
-    (Original article from Seth Bannon on Medium)",
-    image: "https://images.unsplash.com/photo-1551447456-b9ef333d1ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    And that is just the tip of the iceberg.
+
+    I'm not a anti-GMO or super pro-organic person. I am pro-sustainability and being conscious about the choices of the products that go into my body. There should be an active discussion about how food is grown. Everyone should be able to talk about it and be knowledgeable about it. Food is one of the few things in this world that all humans experience and need. All classes and types of people eat. This is a global issue.
+
+    Think about what you are buying. Do you know how it was grown? Do you know where it came from? Are the practices going into its production ones that are sustainable, so that it can continue to be produced and eaten?
+
+    You don't have to be ignorant. You shouldn't be. Take a moment and learn about what you are eating. Do it for yourself and for the food itself. Respect it.
+
+    As for purchasing power, if you are able, try to buy the products that you have learned to be more sustainable. Paying more for a piece of meat or choosing to shop organic is not simply buying better food for your palette; it is buying a better future.
+
+    And if someone calls you a food snob, take it with pride. Because you know about your food. You are an informed consumer that chooses foods that support good agriculture practices.
+
+    Along with being simply delicious, of course.
+
+    (Original article from Sarah Sunday on Medium)",
+    image: "https://images.unsplash.com/photo-1543900348-f03d06be7653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
     author_id: 5)
 
   # https://medium.com/s/the-nuance/are-mushrooms-really-a-miracle-food-56b7700bd9b1
@@ -92,28 +104,90 @@ ApplicationRecord.transaction do
     image: "https://images.unsplash.com/photo-1552825897-bb5efa86eab1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 7)
 
-  # https://medium.com/the-entrepreneurs-journey/build-the-steak-not-the-sizzle-9cb61cfd9484
-  Post.create!(title: "Build the Steak, not the Sizzle",
-    body: "I have no doubt that there are many people who, upon their introduction to me - whether it was at a conference, or through a video I made online - didn't necessarily like me. Or maybe they liked me and thought \"this guy is full of it.\" The cynicism around me and my brand is pretty high, and I'm very aware of it. But I love it.
+  # https://medium.com/the-mission/how-to-make-chicken-stock-and-grow-up-487f1c9736a7
+  Post.create!(title: "How to Make Chicken Stock (...and grow up)",
+    body: "In our own ways, big and small, we all have to learn how to be adults.
 
-    The reason I love this is because I know that once you look under the hood, I deliver. You can market your ass off, but if your product sucks, you're dead. Your steak can sizzle and look crazy appetizing, but if it doesn't taste any good, your customers aren't coming back.
+    In my early thirties I lived in Boston, while traveling a lot for work and pleasure. In between trips, while home, I sheepishly explored domestic undertakings. Having dinner parties was one of my most favorite things to do. Only snag is that I really don't know how to cook.
 
-    In order to build a functional business that can take on a life of its own, your product just has to be real.
+    I insisted on hosting many nights at my house, and forced my friends to endure chopping root vegetables with cheese knives while I set the table, lit the candles and played my favorite music to set the mood.
 
-    You need to spend all of your time and energy on creating something that actually brings value to the people you're asking for money!
+    Luckily I have great friends.
 
-    I know it sounds obvious, but it's something I can't overstate. It's imperative.
+    One night we roasted a chicken. Afterwards my friend said, \"Now you can make a really great stock.\"
 
-    So let's take a step back and talk about me. I was 30 years old when I began to produce Wine Library TV episodes. I had already built a very large business. By the time I segued into making videos about business and marketing, I was 34 years old. So as far as a spectator was concerned I came out of nowhere and was all this and all that, but I had already built the businesses to back up everything I said. One of the reasons I created VaynerMedia in the last few years was to remind everybody (and myself!) that I actually build businesses (VM has 300 employees up from 20 just 2 years ago and has taken zero funding) .
+    \"Totally,\" I replied, as if I were a normal person and knew what this meant or how to do it.
 
-    It is insane to me that people can speak on marketing and business without having even built a business. I mean I can respect that sometimes the best sports analysts never played the game, but those people tend to have other qualifications like being the son of a head coach who was groomed since birth or some other variable, they are also far and few between.
+    As the youngest of five I wasn't allowed in the laundry room. My jobs included unloading the dishwasher and occasionally folding the clothes, which I'm sure was eventually taken away because I only remember trying to trap the cat under the laundry basket. And competing over who could fly the underwear farthest across the room — using only the ceiling fan.
 
-    Do you have any idea how many \"Social media experts\" were literally selling real-estate four years ago? Now I'm not going to get dragged into that mess because the truth remains undefeated. I mean how in the hell does anybody listen to a marketing author if her/his book is a best-seller on its first week when he gets all his friends to buy, and then is ranked 100,000th on Amazon two weeks later?! I released JJJRH 10 weeks ago. It's currently in the top 300 books on Amazon. If that wasn't the case, what good is my advice?
+    I sometimes like to say I was raised like a boy because, you know, I am pretty sporty. But I think the truth is, I was raised like the youngest of five — by parents who liked things a certain way and found it easier to do it themselves. I was allowed, and in fact told, to go play video games while my mom and older sisters cooked thanksgiving dinner.
 
-    Now this is where some people might talk about the whole idea of \"Fake it 'till you make it,\" but they're missing a really important detail that's right in front of them. The part of that statement that really matters is that you actually have to make it eventually. There is no such thing as \"Fake it 'till you fake it.\" Even though I think a lot of people behave as though that were the case.
-    
-    (Original article from Gary Vaynerchuk on Medium)",
-    image: "https://images.unsplash.com/photo-1542365887-1149961dccc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    I'm thirty-eight, and when I go to my mother's house — it's better to ask my fifty-two year old sister to do my laundry, than to watch my mother's anxiety.
+
+    I went to college not knowing how to use an iron. My college was the Air Force Academy, and we learned weird things to do with an iron. We strapped down the sheets with shirt guarders (funny little contraptions that attach your socks to your shirts — to keep your socks up and your shirt down) and then ironed the sheets, after the bed was made.
+
+    A friend of mine still has a scar on her neck from ironing her shirt collar,after she was dressed. Of course we also had an extra iron on hand for the in room grilled cheese delicacy.
+
+    I absolutely took advantage of the laundry service privilege. This didn't give me away exactly. Many of us used it because we were so sleep deprived. No one had the energy to stay awake long enough to wait for the dryer to be done.
+
+    Freshman year a friend of mine actually fell asleep while he was explaining a math equation, in the front of the room, at the chalkboard.
+
+    I remember watching my college boyfriend do his laundry. We were seniors and had more free time to do things, like sleep. He didn't know it, but I was taking notes.
+
+    His friend asked him,
+
+    \"Do you want me to separate the whites?\"
+
+    \"No, just throw them all in together on cold and use the permanent press setting.\"
+
+    I've ruined a lot of clothes since then, and picked up a few other tips along the way, but hallelujah. I was free. I knew how to use a washing machine.
+
+    You might be wondering how I learned to use a tampon. And luckily the box comes with very explicit instructions and pictures.
+
+    So when my friend told me, \"All you have to do is boil the bones with the all of the left over vegetables scraps for a few hours.\" I thought, I think I can do that.
+
+    And then I called the next day for more details.
+
+    \"Bay leaf, right?\"
+
+    \"Yes.\"
+
+    \"Salt. Pepper?\"
+
+    \"No salt. A few pepper corns.\"
+
+    \"Anything else?\"
+
+    \"Plenty of onion, leek and fennel scraps. You definitely need a few carrots and celery stalks, but you have that, right?\"
+
+    \"Oh, yea, got it!\"
+
+    Hours went by and I kept eagerly checking. It smelled good, but man did it taste watery.
+
+    \"So it's been five hours, and it still doesn't taste good? What am I missing?\"
+
+    \"You've been simmering it for five hours?\"
+
+    \"Ya, I even turned it up a little bit for the last hour.\"
+
+    \"Hm, that doesn't sound right.\"
+
+    \"Right, I had to turn it down again because it was boiling over the lid and making a mess.\"
+
+    \"Wait, the lid? You have to simmer it with the lid OFF. The whole point is to boil it down.\"
+
+    Depending on how you were raised, you can probably choose to mindlessly live out the habits you were raised with — and get by just fine.
+
+    We each have the choice to keep our perspectives long and skinny, and live life looking through the straws of our youth.
+
+    Or, we can have the courage to let life break us open. We can actively explore our blind spots, because no matter how perfectly you were raised, you have them too.
+
+    WHAT I'VE LEARNED THE HARD WAY, is that these lessons will probably keep sneaking up on me.
+
+    And I choose embarrassment over ignorance.
+
+    (Original article from Meghann McNiff on Medium)",
+    image: "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 2)
 
   # https://medium.com/near-future/real-meat-without-growing-a-full-animal-3ac06e93d6d8
@@ -156,18 +230,72 @@ ApplicationRecord.transaction do
     image: "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
     author_id: 1)
 
-  # https://medium.com/@caranicoletti/to-meat-or-not-to-meat-5a4ca2eb5f5d
-  Post.create!(title: "To Meat or Not to Meat",
-    body: "I grew up working in my family's butcher shop, so eating meat never really felt like it was a choice for me. Meat was what we ate, because meat was what we did — it was that simple. It wasn't until I read Charlotte's Web in the third grade, and many of my classmates vowed never to eat meat again, that I paused to think more critically about my family's trade.
+  # https://medium.com/the-year-of-the-looking-glass/the-secret-of-the-chicken-and-the-egg-206b7f1ce83b
+  Post.create!(title: "The Secret of the Chicken and the Egg",
+    body: "It would have been a completely unremarkable, certainly unmemorable Safeway grocery store run if not for the book that caught my eye on the way to the checkout aisle.
 
-    Despite the fact that the question of whether or not it's possible to eat meat and still love animals has followed me since then, as an adult I still choose to eat meat. I have also chosen to follow in my grandfather and great grandfather's footsteps and to work as a butcher — a profession that most people don't see as lining up with being an animal-lover.
+    This was two, maybe three years ago, and yet I still remember this book and its cover.
 
-    However, it's because I love animals that I chose this path — I want to learn as much as I can about our food systems so that I'm better able to educate people on how to eat meat in a kinder, more responsible, and mindful way.
+    Of course, I was instantly wary. The faux wax seal, the quill-pen script, the ancient parchment paper aglow with some kind of magical beams—it wore the sheepskin of a Dan Brown mega-thriller, except it unapologetically declared itself to be truth. Get whatever you want. Discover the secret to life, the book jacket proclaimed.
 
-    Do you eat meat? Why or why not?
-    
-    (Original article from Cara Nicoletti on Medium)",
-    image: "https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
+    The promises were too grand, the scent of scam too strong to ignore. Clearly, there wasn't some abracadabra shortcut, some kernel of wisdom wrapped in gold foil and tucked away in a dusty safe somewhere, \"the culmination of centuries of great thinkers, scientists, artists and philosophers,\" passed discretely from generation to generation...
+
+    ...was there?
+
+    Curiosity kills the cat, and that day it made a chump out of me. I tossed the book into my shopping cart and headed for the checkout line.
+
+    At a conference last week about marketplaces, Gagan Biyani shared some pearls of insight from his experiences at Udemy and Lyft. He spoke of the classic chicken and the egg problem. If you're a seller (a purveyor of some mighty fine pastries, perhaps), you'll want to bring your goods to a market where there will be lots of baked-good aficionados. If you're looking to throw a pastry party, you'll want to go somewhere with a handsome selection of croissants and eclairs.
+
+    What this boils down to is that if you've got eggs, it's easy to get chickens. If you've got chickens, it's easy to get eggs. Customers beget sellers. Sellers beget customers. There's even an economic term for this: the virtuous cycle.
+
+    But what happens if you have no eggs and no chickens?
+
+    I've often felt that if things were fair, then the ease or reward of any particular endeavor should be proportional to how valuable or good it is. But this is the opposite of how many things function. For instance:
+
+    In physics: the law of inertia states that the innate force of matter... endeavors to preserve its present state, whether it be of rest or of moving uniformly forward in a straight line. (Wikipedia)
+
+    In finance: it's easier to create more wealth when you already have wealth.
+
+    In the office: you are more likely to receive confidence-boosting signals (compliments and promotions and the like) if you already project confidence.
+
+    In lifestyles: destructive habits are more difficult to break than to fall into. It is harder for a smoker to say no to an offered cigarette than a non-smoker. Somebody who came from an abusive family is more likely to fall into another abusive relationship. Recovering alcoholics relapse when things are stressful, which only creates more stress.
+
+    In relationships: the more adamantly two people disagree, the harder it is for them to earn each other's trust and resolve the disagreement.
+
+    \"Fairness is a concept for children,\" Candace Bushnell was once quoted as saying. (Her book Sex and the City sparked a cultural phenomenon with a hit show and two movies, but she herself earned very little from those successes.)
+
+    There is no such thing as fair or unfair. There is only how the world works.
+
+    Do you want to know what The Secret is?
+
+    It's simultaneously both accurate and disappointing.
+
+    If you think positively — if you truly, honestly believe that you can attain or achieve something — then you will achieve it.
+
+    I don't think most great thinkers, scientists, artists and philosophers would disagree with that. They probably thought positively and believed they could do what they set out to do.
+
+    But what the book left out is the hard part.
+
+    How do you get the egg or the chicken in the first place?
+
+    How can you fundamentally change the way you think?
+
+    One great line from Gagan Biyani's talk last week has stayed with me: faking the chicken. It means doing whatever it takes to get the chicken in place so that you can start reaping the benefit of eggs.
+
+    Using his example, if you're building a marketplace, even if you have no buyers, incentivize sellers to come on board. Maybe pay them directly. Once the sellers are there, you can leverage them to attract buyers.
+
+    Or, if you're lacking confidence, fake it until you make it. Act as if you have conviction in what you're saying even if the entire neighborhood's butterfly population has taken up residence in your stomach.
+
+    Or, if something seems out of your capabilities, surround yourself with people that have done it before. Take inspiration from those who make it look possible, and maybe even easy. Trick yourself into thinking you already have the chicken.
+
+    At the end of the day, that's life — the constant wrestling with and pushing of the self. The cycle of striving for better and better cycles, so that we can achieve something of meaning in an unfair world.
+
+    Compared to the original Secret, it's not as enticing of a promise.
+
+    But then again, it seems just a little more real.
+
+    (Original article from Julie Zhuo on Medium)",
+    image: "https://images.unsplash.com/photo-1518492104633-130d0cc84637?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1252&q=80",
     author_id: 4)
 
   # https://medium.com/@boobsradley/between-my-hectic-job-and-nourishing-social-life-it-s-not-always-easy-to-find-the-time-to-make-aa9c48a5458b
@@ -257,32 +385,48 @@ ApplicationRecord.transaction do
     image: "https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
     author_id: 6)
 
-    # https://medium.com/@katiecaisse/i-stopped-eating-meat-and-this-is-what-happened-996b9a81a6a
-    Post.create!(title: "I Stopped Eating Meat and This Is What Happened",
-    body: "In August of 2017 I stopped eating meat and animal by-products after watching the documentary \"What The Health\".
+  # https://medium.com/food-is-the-new-internet/get-ready-for-a-meat-revolution-df21cd27c7fc
+  Post.create!(title: "Get Ready for a Meat Revolution",
+    body: "You might call it the Manhattan Project of food. It's been the subject of breathless whispers, rumors and speculation throughout Silicon Valley and beyond. They've attracted tons of press and generated major waves on social media, including a now legendary viral video. And this summer, Impossible Foods is finally getting ready to take center stage. That's because this most mysterious and uber-funded startup will launch the product it has obsessively worked on for over 3 years, and could change how we look at meat forever.
 
-    I want to be clear that I do not label myself as a vegan and I did not initially do this as part of a moral value. I did this for myself and because of my health.
+    It all started in 2011, when renowned Stanford biochemist Patrick Brown desired to turn his scientific expertise toward solving a major world problem. It didn't take long to zero in on the perfect candidate: beef — more specifically, hamburgers. His chosen challenge? Make burgers using plants instead of cows.
 
-    1. Death by Dairy
-    
-    I first started by cutting out all dairy and eggs beginning in June of 2017. Eggs always caused me severe stomach and digestive issues and I never really enjoyed them all that much so, what was the big deal with saying \"Smell ya later?\" I'll tell you, the big deal was that almost all of my digestive issues resolved, embarrassing acne and flaky dry patches on my skin cleared and haven't come back, and I began to feel more energized.The most rewarding benefit truly was my dissipating acne. I was spending a decent amount of money monthly on prescription acne medication, increased copays for \"specialist\" appointments to visit my dermatologist, and there was never any change in my skin. I truly don't think my skin has ever been so clear and so bright. I can confidently say that I've never felt more confident with my skin and it saves me money.
+    Why an animal-free burger? The burger is arguably America's most iconic food, and in recent times has also become one of the most controversial. In turns out, beef is one of the most resource-intensive, habitat-destroying, pollution-generating, contaminant-laden products on the planet. To create the 1 billion burgers eaten by Americans each year, countless tracts of land have been converted into corn and soybean fields to feed millions of cattle, who in turn generate staggering levels of greenhouse gases, require ridiculous amounts of water, and whose waste often contaminates the food supply with E. coli and other serious germs. It's not a pretty picture — and as the global demand for beef and other meat is expected to skyrocket in the near future, making beef more sustainable has become an international matter of urgency.
 
-    Not once did my dermatologist suggest that my acne could be caused by dairy. He always blamed hormones and \"growing up\" and suggested that the only solution would be oily and smelly creams and lotions. Bullshit.
+    So Brown and his new company, Impossible Foods, set out to do, well, the impossible — perfectly recreate beef using purely plant ingredients. Clearly this was no easy task; vegans and vegetarians have tried for years to replicate beef with plant-based patties, and the results have usually been less than impressive.
 
-    2. Beans Beans They're Good For Your....
+    That's because ground beef is a multi-layered matrix whose various muscles, tissues and proteins give beef complex flavors, textures and smells that can't be made using plants.
 
-    Everything? Replacing meat based protein sources with plant-based protein sources was the icing on the cake. My energy dramatically increased, my mood was heightened, I was sleeping better, and I no longer was suffering from painful bloating after meals. I replaced meat with beans, tofu, some meat alternatives such as Gardein, and lentils. I love cooking, it's truly a passion of mine. I spent time in the kitchen re familiarizing myself with alternative options and learning how to replace animal products with plant products in meals. The whole learning process only took a week or so and it was more than worth it. It allowed me to become independently creative in the kitchen and experiment with new things and new ingredients.
+    Or so we thought.
 
-    3. It's Not For Everyone and Intuitive Eating is Okay
+    Deep in their Bay Area headquarters, Impossible Foods worked industriously to measure, analyze and extract components of plants they believed could replicate those found inside beef. It was a super-ambitious job, and they aimed for total perfection: every aspect of beef, from its lush reddish-pink hues to the intoxicating sizzle and aromas it emanates on the grill to the perfect char and juiciness of a medium-rare burger; everything had to be reverse-engineered using plants.
 
-    Our bodies tell us what we need if we listen closely and treat it kindly. The same way it tells you you're hungry and thirsty is the same way it tells you when you need more vitamins, protein, and other nutritional deficits. There are plenty of days where my body screams \"you need more protein\" and sometimes on these days I'll have a very small piece of fish or a plant-based protein shake. Not everyone is fit for a plant-based diet, and I understand that. It takes patients to make the change and you have to really want to do it for yourself. Life is all about balance. I don't typically dive on into dairy. Mostly because it has never ended well for me. But once every few months I will have some fish and if I pop into a coffee shop that doesn't have milk alternatives, I splash a little skim milk in my cup and move on with my day. It's not the end of the world.
+    They labored on this groundbreaking process for years, rarely telling the outside world about their work. Then, in 2014, they offered the public a tantalizing first glimpse at their prototype plant-only burger, aptly christened The Impossible Burger, and it looked... pretty darn good.
 
-    Life is about balance.
+    Next, they invited the Wall Street Journal for a rare tour of their Redwood, CA research facility, which revealed the inner workings of their Willy Wonka-esque lab as white-coated workers weighed and analyzed burger samples or tossed bales of leafy vegetables into giant metal vats. But the marquee moment came when Dr. Brown revealed their holiest discovery: making plants bleed. That is, they'd isolated a molecule (known as \"heme\") that gives red meat its characteristic taste and color, and discovered it could also be found in certain plants' roots systems. This supreme revelation along with amazing images of plants leaking red pools of blood proceeded to blow the internet's mind, and the video became a viral sensation.
 
-    Making this change made me happy. It made me feel free from foods that truly made me feel terrible. It brought me closer to a community who truly strives for a balanced lifestyle, empowerment, peace, personal growth, and self fulfillment. This change provided me more than a healthy body. This change provided me a healthy mindset, a support system, and a greater sense of myself.
-    
-    (Original article from Katie Caisse on Medium)",
-    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    And they weren't done making headlines. In the summer of 2015 it was reported that none other than Google had attempted a buy-out of Impossible Foods with an offer in the neighborhood of $200 to $300 million, but were ultimately rebuffed, reportedly because that sum just didn't impress the startup.
+
+    Impossible shocked everyone again when, last fall, they raised an incredible $108 million in a single investment round from a circle of heavy-hitters including Bill Gates, Li Ka-Shing and Khosla Ventures. The news seemed to surprise even startup-seasoned Silicon Valley and sent the tech media abuzz with speculation. It was now obvious Impossible Foods wasn't working on any old veggie burger; this company was serious about innovating meat, and their product just might be the first plant-based burger with a real shot at usurping cows.
+
+    And now, beginning this summer, the world will finally get a chance to find out. This spring, they announced the Impossible Burger would be launching in a select group of restaurants in several cities starting in July. The news came amid a dazzling marketing campaign where they unveiled the finished Impossible Burger — a product of several years of intense research and development — to a bevy of some of the most influential people in the food world, and the results have been astonishing.
+
+    Justin Sterling of Food and Wine Magazine, who tasted the Impossible Burger at a special cooking demo, proclaimed the burger was \"a revolutionary new product\" that is \"far more complex and sophisticated than any existing non-animal patty\", while Bon Appetit's Christine Chaey enthused that the burger \"was everything I'd expect one to be: dense, chewy, salty, and satisfyingly fatty\" and that did \"a shockingly good job of convincing my brain (it was) in fact, meat.\" Meanwhile, world-famous chef and renowned carnivore David Chang had this to offer on Instagram:
+
+    \"Today I tasted the future and it was vegan: this burger was juicy/bloody and had real texture like beef. But more delicious and way better for the planet. I can't really comprehend its impact quite yet...but I think it might change the whole game\"
+
+    So how did Impossible do the impossible and turn plants into meat? That, it appears, might have to remain a guarded secret, but you may be surprised to learn the burger is made of some highly un-carnivorous ingredients like potato protein, grains, coconut oil, and even honeydew melon, as well as that special \"heme\". Best of all, the burgers require only a fraction of the land, water and energy that conventional beef burgers use, and is naturally free of the common germs and contaminants found inside the latter.
+
+    With these luminous endorsements and a growing populace of meat-eaters eager to adopt more sustainable options, the potential for Impossible's product launch are huge.
+
+    And the advent of a plant-based burger could have a major cultural significance as well. For the first time in human history, we've succeeded in making a complex meat product every bit as good as the conventional kind without relying on animals to grow it. In the same way the automobile liberated us from the inefficiency and restraints of driving horses and ushered in a new era of global transportation, animal-free meat could similarly grant us untold freedom to make meat products better than they've ever been before: in taste, nutritional quality, safety, and economic productivity. The innovation of meat might represent our greatest leap forward to a more sustainable food system, while enhancing our enjoyment of meat in ways we never previously imagined.
+
+    Today's conventional meat industry is a massive, trillion-dollar business that stretches around the globe. But because of its shocking recklessness towards the environment, human health, and many other issues, it is also incredibly ripe for disruption. If Impossible Food's plant-only burger tastes and performs nearly anywhere as good as claimed, this startup is well-positioned to launch a brand new meat revolution, and if that's the case, consider the Impossible Burger the opening shot.
+
+    Note: Rival startup Beyond Meat recently launched their own \"bleeding\" plant burger in Whole Foods stores last month. There have not been many definitive reviews yet, so it remains to be seen if it can fully compete with Impossible's innovation.
+
+    (Original article from Janay Laing on Medium)",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 8)
 
   # https://medium.com/@sarah_k_mock/meat-is-dead-long-live-meat-a86a7cfe7ecf
@@ -313,42 +457,37 @@ ApplicationRecord.transaction do
     image: "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 2)
 
-  # https://medium.com/@sethbannon/cleaning-the-record-on-clean-meat-4888815a8614
-  Post.create!(title: "Cleaning the record on clean meat",
-    body: "Lora Kolodny of TechCrunch recently ran a fascinating interview with Impossible Food's CEO Pat Brown. I'm a big fan of their work but Pat gets quite a number of things very wrong when discussing clean meat. I'm a bit of a clean meat aficionado, so let's examine his points one by one to set the record straight.
+  # https://medium.com/mel-magazine/every-cut-of-steak-ranked-by-how-un-healthy-they-are-513a46d96000
+  Post.create!(title: "Every Cut of Steak, Ranked by How (Un)Healthy They Are",
+    body: "We've already written about how the meat industry is ruining steak by engineering larger cows. \"We're eating meat that has steroids in it,\" Jean-Claude Setin, master butcher and owner of Le French Butcher in L.A. told us earlier this year. \"We're eating meat that has appetite enhancers in it. We're eating meat that has sugar in it.\"
 
-    \"First of all, it's not true you can do a better job that way. Because then you buy into, at best, the same limitations that a cow has.\"
+    Ugh.
 
-    This misses entirely one of the core innovations of clean meat! Namely, that by focusing only on the biological processes that cause a cow to produce meat and ignoring the rest, you can dramatically improve the efficacy by which meat is made. Cows spend energy and resources on growing many things that have nothing to do with meat — bones and brains and hooves and fur and the list goes on. By growing meat only in a controlled environment and not these other things, clean meat production leaves behind the limitations of a cow.
+    Still, even among the worryingly delicious selection of genetically mutated, 'roided-out cow meat out there, there are certain cuts of steak that are healthier and leaner than others. The problem is that most of these leaner cuts are, sadly, less tasty, and therefore, less likely to appear on a restaurant's menu. There's also the fact that, according to dietitian Sarah Mirkin, meat isn't a particularly healthy option to begin with. \"Personally I don't consider red meat to be healthy,\" says Mirkin. \"I recommend limiting it to once per week. Studies suggest that having red meat more often than this can substantially decrease one's lifespan.\"
 
-    As evidence for this, consider that to harvest meat from a cow you need to birth it, let it grow in a field for 2 to 3 years (feeding it all the while), only to slaughter it and cut it up for meat. Clean meat, however, can be produced from scratch in as little as two weeks. Clean meat does away with the limitations of traditional animal agriculture.
+    That said, we have a job to do, and that job is to rank cuts of steak by which one is less likely to cause Type 2 diabetes (and a laundry list of other diseases caused by eating too much fat).
 
-    A study out of Oxford University showed clean meat could potentially be produced with 96% less greenhouse gas emissions, 45% less energy, 99% less land use, and 96% less water use than meat made through animal agriculture. Same limitations as a cow? No sir.
+    One more note before we dive in: You may notice that the first five cuts of steak listed below rarely show up on a restaurant's menu. Frankly, I'd never even heard of the first three cuts, because while they may be the leanest, they're also, taste-wise, likely to turn you into a vegetarian sooner than you can say bovine spongiform encephalopathy. Anyway, here we go...
 
-    \"And it's economically completely un-scalable.\"
 
-    I'm not sure what he's basing this on but it's not the consensus opinion held by the top researchers in the field. I invite Pat to join me later this year at the next International Conference on Cultured Meat in Maastricht. I've attended the last two years and met many of the preeminent researchers in the field. Essentially everyone believes the cost to produce a pound of clean meat will soon match the cost to produce a pound of meat through animal agriculture. It's only a matter of time. And many see a path, at scale, to producing clean meat that's even cheaper than that harvested from slaughtered cows.
+    1. Sirloin Tip Side Steak: \"Sirloin tip side steak is the leanest choice,\" says Mirkin. She's right: This cut is one of the few on the list that could be considered \"extra lean\" by the USDA's standard (5 grams of total fat and 2 grams of saturated fat), according to the Mayo Clinic. The sirloin tip side steak is taken from the rump and hind legs: \"The muscles in this area are used for movement, so the beef is leaner and less tender,\" reports Beef. It's What's For Dinner.
 
-    I'd love to show Pat a graph of the production cost curve for clean meat! When Dr. Mark Post grew the first cultured burger in 2013 it cost $330,000 to make — about $1,056,000 per pound. Only 3 years later, Memphis Meats had brought costs down 58 fold to $18,000 per pound. One year later in early 2017 they dropped the costs another 2x to $9,000 per pound. I can't disclose specifics, but I can say they've continued to drop costs significantly in the last few months. And they've achieved these costs reductions without the benefits of commercial scale, and on only $3M of funding (disclosure: I'm an investor through Fifty Years), while Impossible Foods has raised $182M.
+    2. Eye of Round Steak: Another extra lean cut of steak, this is also taken from the rump and hind legs of a cow, but it's considered even tougher and less juicy. \"Eye of round is one of the few unredeemable cuts of meat; think tough and tasteless,\" writes Lynne Rossetto Kasper for The Splendid Table. According to Livestrong, the best way to prepare this otherwise shitty cut of beef is to pan-fry it or braise it so that you can retain some semblance of tenderness.
 
-    To back up his claims, Pat says:
+    3. Top and Bottom Round Steak (tied): Also considered extra lean by USDA standards, these two cuts of steak are the ones that are usually cut up and served in cubes. But while these cuts of steak both come from the back end of the cow, there are some differences. \"The top round is very lean but tends to be more tender than the bottom round, and is often cut into steaks (which are sometimes labeled \"London broil\"),\" reports The Oregonian.
 
-    \"If we could grow tissues that were a meaningful replica of animal tissues at an affordable price from stem cells, it would revolutionize medicine. Look around you. It's not happening.\"
+    5. Top Sirloin: The last lean cut of steak on this list (by USDA standards, clocking in at anywhere between 3 to 5 grams of fat) is the perfect balance between healthy, moderately priced and tender enough to not feel like a piece of rubber. \"Gleaned from the loin section of the beast, this cut of steak offers up good flavor and moderately tender meat at a budget-friendly price,\" reports Bodybuilding.com. Mirkin tells me that she recommends choosing meat cuts that say \"sirloin\" or \"round\" and trimming all the visible fat.
 
-    Again, this points to a big misunderstanding. The reason tissue engineering has not transformed the field of regenerative medicine has nothing to do with the costs of culturing or bioprinting tissue, and has everything to do with the difficulties of getting the body to accept a bioengineered organ. The immune system is designed to detect and fight off foreign elements, and tissue engineers vis a vis medicine haven't overcome this hurdle yet. Furthermore, bioprinted organs require both function and structure — a difficult challenge the field hasn't yet overcome. Clean meat, meanwhile, requires only a mass of cultured cells.
+    6. Filet Mignon: French for \"tender fillet,\" this most expensive cut of steak is cut from the tenderloin portion of the cow, a slither of flesh between the ribs and the rear end. But although it has a fairly high amount of saturated fat (6 grams in a 3-ounce piece), it's also high in protein (23 grams). \"Women need 45 grams of protein a day and men need 55 grams, so having filet mignon would get you about halfway there,\" Connie Diekman, a registered dietitian in St. Louis and past-president of the American Academy of Nutrition and Dietetics, told Healthy Eating.
 
-    The challenges that are holding back the use of tissue engineering in medicine don't exist with clean meat and so don't pose the same impediments.
+    7. Skirt and Flank Steak (tied): Regularly mistaken for one another because of their similarly long and flat shape, these two cuts of meat are known more for their flavor than their tenderness. The skirt steak (8 grams of fat) is the slightly healthier option of the two, and is cut from the plate of a beef animal (aka just below the ribs) and has a more intense beef flavor than flank steak. \"It does contain more tough muscles than flank steak, though, so should only be cooked to rare or medium rare for the most tender texture,\" writes Christine Gallary for the The Kitchn. Flank steak (10 grams of fat), which is cut from the flank area (aka right below the short loin), is slightly thicker and wider than skirt steak. It's also the type of beef you usually encounter in fajitas and is often used in Asian cuisines.
 
-    \"The simple answer is because [clean meat] is one of the stupidest ideas ever expressed.\"
-    
-    Hard to argue with this one :-) Surely if he poked around the internet he'd see clean meat doesn't rank anywhere near the top of the list.
+    9. Porterhouse and T-bone Steak (tied): Both of these boney, taste-bud-roller-coaster rides are cut from a mix of both the short loin and the tenderloin. In the case of a Porterhouse, the steaks are cut from the rear end of the short loin, and therefore, include more tenderloin (filet). T-bone steaks, on the other hand, are cut from the front of the short loin and include less tenderloin. Technically the Porterhouse has less fat (16.4 grams) than the T-bone (25.6 grams), making it the healthier option of the two. But most experts can't agree on how much tenderloin is needed to differentiate a Porterhouse from a T-bone steak. According to the Department of Agriculture's Institutional Meat Purchase Specifications, \"The tenderloin of a Porterhouse must be 'at least 1.25 inches thick at its widest, while that of a T-bone must be at least 0.5 inches.\" However, some steaks with a larger tenderloin are still referred to as the \"King of the T-Bone\" by some.
 
-    I understand why Pat might feel threatened by clean meat — perhaps he sees the field as a competitor. Consumers do unfortunately still have an overwhelming preference for real meat burgers vs plant based burgers — and Impossible Foods is going to great lengths to get plants to taste and feel like what clean meat already is — real meat. This might explain why, at the top of the interview, he objects to Impossible burgers being called \"plant meat\" and says he prefers to just call them \"meat\". It's true that, with the possible exception of Beyond Meat's Beyond Burger, Impossible comes closest to the taste of a real meat burger, using only plants. But they are, at the end of the day, made of plants, and not animal muscle and fat. Clean meat, on the other hand, is just that — real meat.
+    11. Ribeye Steak: Taken straight from the rib section, this indelible half fat, half protein cut of steak has 10 grams more fat than the T-bone steak and 3 grams less protein, making it the least healthy cut on this list. But according to Livestrong, if you broil your ribeye steak, the fat content will drip away. \"If you fry your steak, it will retain more fat than if you broil it,\" reports Livestrong. Cooking your rib eye steak well-done also will help relieve some of its fat content. But let's be real, the ribeye's increased fat content is precisely why this hunk of meat is so damn tasty, and if you cook your steak well done, well, you're a monster. So for the love of God, if you're going to risk your life by eating ribeye, don't scorch it in the process.
 
-    In reality, both plant based alternatives and clean meat are necessary parts of the solution. Animal agriculture is simply unsustainable, contributing more to greenhouse gas emissions than all trains, trucks, cars, planes, and boats combined. The demand for plant based alternatives is growing, as is the demand for real meat. Given the severity of the climate crisis, and the size of the meat markets, there's both a need and room for several ten billion dollar solutions to be built. So can't everyone just get along?
-
-    (Original article from Seth Bannon on Medium)",
-    image: "https://images.unsplash.com/photo-1547050605-2f268cd5daf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    (Original article from Andrew Fiouzi on Medium)",
+    image: "https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 7)
 
   # https://medium.com/@invoker/how-to-use-the-steak-clause-to-win-your-next-negotiation-55b4dafbea94
@@ -707,280 +846,141 @@ ApplicationRecord.transaction do
     image: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
     author_id: 6)
 
-  # https://medium.com/the-coffeelicious/why-you-should-be-a-food-snob-71d2c8d2317
-  Post.create!(title: "Why You Should Be a Food Snob",
-    body: "Since when did caring about the standards of your food and appreciating high quality food become mockingly synonymous with 'elitist?'
+  # https://medium.com/@sethbannon/i-just-ate-meat-for-the-first-time-in-20-years-214d0f875568
+  Post.create!(title: "I Just Ate Meat For The First Time In 20 Years",
+    body: "Yesterday I ate meat for the first time in 20 years and I couldn't be happier. Let me explain why.
 
-    I don't know, and I really don't care.
+    Humans have a long history with meat. Nearly 10,000 years ago, homo sapiens began domesticating animals for meat, milk, and hides. While the scale and sophistication of the effort has grown greatly since our ancestors in Mesopotamia began domesticating goats, the basic formula hasn't changed all that much. We selectively breed animals with traits we want, feed them for months to years, and then slaughter them to make beef, pork, chicken, turkey, gelatin, and leather, sometimes after extracting their breastmilk for a time. Functionally, we're using animals as technology to turn plant inputs into outputs that we like to eat, drink, or wear.
 
-    All I know is that needs to change.
+    The problem is that meat produced through animal agriculture is terrible for the environment (contributing more to greenhouse emissions than all cars, trucks, and planes combined) and raises serious animal welfare concerns. It's why I decided to stop eating it when I was 12 and never took it back up — not because I don't like the taste of meat (I do!) but because of the extremely problematic way meat is made.
 
-    People should care about where their food comes from. They should demand higher standards for how the food they put into their bodies is brought before them. This is what fuels our life. It should be our priority to make sure it is up to standard. In production and in result.
+    This is all about to change.
 
-    In this day and age, it has never been more important where our food comes from and how it was grown. Our food choices directly contribute to the environment and to the sustainability of food in the future.
+    In the past couple years, a new crop of startups has fundamentally reimagined how we make food. Instead of domesticating animals, these startups are domesticating cells directly. Instead of animal farms, they have cell farms.
 
-    What and how we eat and what it means:
-    - The bananas we consume, the Cavendish, are genetically identical, and if a disease were to effect them they could be wiped out easily. They are clones of each other, and thus equally at risk for potential disease.
+    Take beef as an example. For the purpose of meat production, a cow can be thought of as a biological machine, inside which certain processes happen that produce something we like to eat. Specifically, muscle cells and fat cells are dividing and multiplying inside the cow's body, producing tissue that, after slaughter, is turned into beef.
 
-    - Cattle and livestock are the source of 15% of carbon emissions.
+    What if we could bring about that same process of cell division, but outside of the cow? That's exactly what Silicon Valley based Memphis Meats is working on. Their technology allows them to produce real beef, without the need to raise and slaughter a cow, by allowing cells to multiply in bioreactors.
 
-    - Cattle consume the majority of antibiotics and are most likely the primary cause for antibiotic superbugs.
+    This isn't science fiction. This isn't years away. Memphis Meats is making their clean meat today. And as of yesterday, I can report that it is delicious.
 
-    - The global shipping of our food across the world creates large amounts of emissions and pollution, along with costing a great deal. Because of shipping and how we buy it, in North America, a third of food product is wasted.
+    Due to being an early investor through my fund Fifty Years, I was lucky to be invited to a tasting event held in San Francisco, in the same kitchen frequently used by Julia Child. They cooked up a two course meal of Southern Fried Chicken and Duck à l'orange using their clean meat.
 
-    - Animals raised in close proximity, such as chicken coops, can cause disease to spread rapidly as seen in this years avian flu epidemic.
+    For the first time ever, with the Wall Street Journal looking on, they cooked up and showed off real chicken pieces (not ground meat!) and real duck. Though the taste and texture was identical to conventional meat, their clean meat wasn't harvested from the carcasses of slaughtered animals.
 
-    - Industrial farming encourages breeding for ease-of-transport rather than nutrition. This is also lowers genetic diversity and contributes to the loss of other types of fruits and vegetables.
+    With studies showing clean meat could potentially be produced with 96% less greenhouse gas emissions, 45% less energy, 99% less land use, and 96% less water use than meat made through animal agriculture, there's a lot to be excited about.
 
-    - Over eighty percent of the world's almonds are grown in California. The price of the almond has been fluctuating based on the changing climate and drought in California. The fate of the majority of the almond is tied to California.
+    So, after 20 years of not eating meat, yesterday I ate fried chicken and roast duck and couldn't be happier.
 
-    And that is just the tip of the iceberg.
-
-    I'm not a anti-GMO or super pro-organic person. I am pro-sustainability and being conscious about the choices of the products that go into my body. There should be an active discussion about how food is grown. Everyone should be able to talk about it and be knowledgeable about it. Food is one of the few things in this world that all humans experience and need. All classes and types of people eat. This is a global issue.
-
-    Think about what you are buying. Do you know how it was grown? Do you know where it came from? Are the practices going into its production ones that are sustainable, so that it can continue to be produced and eaten?
-
-    You don't have to be ignorant. You shouldn't be. Take a moment and learn about what you are eating. Do it for yourself and for the food itself. Respect it.
-
-    As for purchasing power, if you are able, try to buy the products that you have learned to be more sustainable. Paying more for a piece of meat or choosing to shop organic is not simply buying better food for your palette; it is buying a better future.
-
-    And if someone calls you a food snob, take it with pride. Because you know about your food. You are an informed consumer that chooses foods that support good agriculture practices.
-
-    Along with being simply delicious, of course.
-
-    (Original article from Sarah Sunday on Medium)",
-    image: "https://images.unsplash.com/photo-1543900348-f03d06be7653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    \"We shall escape the absurdity of growing a whole chicken in order to eat the breast or wing, by growing these parts separately under a suitable medium.\"
+    — Winston Churchill, Fifty Years Hence (1931)
+    
+    (Original article from Seth Bannon on Medium)",
+    image: "https://images.unsplash.com/photo-1551447456-b9ef333d1ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 5)
 
-  # https://medium.com/the-mission/how-to-make-chicken-stock-and-grow-up-487f1c9736a7
-  Post.create!(title: "How to Make Chicken Stock (...and grow up)",
-    body: "In our own ways, big and small, we all have to learn how to be adults.
+  # https://medium.com/the-entrepreneurs-journey/build-the-steak-not-the-sizzle-9cb61cfd9484
+  Post.create!(title: "Build the Steak, not the Sizzle",
+    body: "I have no doubt that there are many people who, upon their introduction to me - whether it was at a conference, or through a video I made online - didn't necessarily like me. Or maybe they liked me and thought \"this guy is full of it.\" The cynicism around me and my brand is pretty high, and I'm very aware of it. But I love it.
 
-    In my early thirties I lived in Boston, while traveling a lot for work and pleasure. In between trips, while home, I sheepishly explored domestic undertakings. Having dinner parties was one of my most favorite things to do. Only snag is that I really don't know how to cook.
+    The reason I love this is because I know that once you look under the hood, I deliver. You can market your ass off, but if your product sucks, you're dead. Your steak can sizzle and look crazy appetizing, but if it doesn't taste any good, your customers aren't coming back.
 
-    I insisted on hosting many nights at my house, and forced my friends to endure chopping root vegetables with cheese knives while I set the table, lit the candles and played my favorite music to set the mood.
+    In order to build a functional business that can take on a life of its own, your product just has to be real.
 
-    Luckily I have great friends.
+    You need to spend all of your time and energy on creating something that actually brings value to the people you're asking for money!
 
-    One night we roasted a chicken. Afterwards my friend said, \"Now you can make a really great stock.\"
+    I know it sounds obvious, but it's something I can't overstate. It's imperative.
 
-    \"Totally,\" I replied, as if I were a normal person and knew what this meant or how to do it.
+    So let's take a step back and talk about me. I was 30 years old when I began to produce Wine Library TV episodes. I had already built a very large business. By the time I segued into making videos about business and marketing, I was 34 years old. So as far as a spectator was concerned I came out of nowhere and was all this and all that, but I had already built the businesses to back up everything I said. One of the reasons I created VaynerMedia in the last few years was to remind everybody (and myself!) that I actually build businesses (VM has 300 employees up from 20 just 2 years ago and has taken zero funding) .
 
-    As the youngest of five I wasn't allowed in the laundry room. My jobs included unloading the dishwasher and occasionally folding the clothes, which I'm sure was eventually taken away because I only remember trying to trap the cat under the laundry basket. And competing over who could fly the underwear farthest across the room — using only the ceiling fan.
+    It is insane to me that people can speak on marketing and business without having even built a business. I mean I can respect that sometimes the best sports analysts never played the game, but those people tend to have other qualifications like being the son of a head coach who was groomed since birth or some other variable, they are also far and few between.
 
-    I sometimes like to say I was raised like a boy because, you know, I am pretty sporty. But I think the truth is, I was raised like the youngest of five — by parents who liked things a certain way and found it easier to do it themselves. I was allowed, and in fact told, to go play video games while my mom and older sisters cooked thanksgiving dinner.
+    Do you have any idea how many \"Social media experts\" were literally selling real-estate four years ago? Now I'm not going to get dragged into that mess because the truth remains undefeated. I mean how in the hell does anybody listen to a marketing author if her/his book is a best-seller on its first week when he gets all his friends to buy, and then is ranked 100,000th on Amazon two weeks later?! I released JJJRH 10 weeks ago. It's currently in the top 300 books on Amazon. If that wasn't the case, what good is my advice?
 
-    I'm thirty-eight, and when I go to my mother's house — it's better to ask my fifty-two year old sister to do my laundry, than to watch my mother's anxiety.
-
-    I went to college not knowing how to use an iron. My college was the Air Force Academy, and we learned weird things to do with an iron. We strapped down the sheets with shirt guarders (funny little contraptions that attach your socks to your shirts — to keep your socks up and your shirt down) and then ironed the sheets, after the bed was made.
-
-    A friend of mine still has a scar on her neck from ironing her shirt collar,after she was dressed. Of course we also had an extra iron on hand for the in room grilled cheese delicacy.
-
-    I absolutely took advantage of the laundry service privilege. This didn't give me away exactly. Many of us used it because we were so sleep deprived. No one had the energy to stay awake long enough to wait for the dryer to be done.
-
-    Freshman year a friend of mine actually fell asleep while he was explaining a math equation, in the front of the room, at the chalkboard.
-
-    I remember watching my college boyfriend do his laundry. We were seniors and had more free time to do things, like sleep. He didn't know it, but I was taking notes.
-
-    His friend asked him,
-
-    \"Do you want me to separate the whites?\"
-
-    \"No, just throw them all in together on cold and use the permanent press setting.\"
-
-    I've ruined a lot of clothes since then, and picked up a few other tips along the way, but hallelujah. I was free. I knew how to use a washing machine.
-
-    You might be wondering how I learned to use a tampon. And luckily the box comes with very explicit instructions and pictures.
-
-    So when my friend told me, \"All you have to do is boil the bones with the all of the left over vegetables scraps for a few hours.\" I thought, I think I can do that.
-
-    And then I called the next day for more details.
-
-    \"Bay leaf, right?\"
-
-    \"Yes.\"
-
-    \"Salt. Pepper?\"
-
-    \"No salt. A few pepper corns.\"
-
-    \"Anything else?\"
-
-    \"Plenty of onion, leek and fennel scraps. You definitely need a few carrots and celery stalks, but you have that, right?\"
-
-    \"Oh, yea, got it!\"
-
-    Hours went by and I kept eagerly checking. It smelled good, but man did it taste watery.
-
-    \"So it's been five hours, and it still doesn't taste good? What am I missing?\"
-
-    \"You've been simmering it for five hours?\"
-
-    \"Ya, I even turned it up a little bit for the last hour.\"
-
-    \"Hm, that doesn't sound right.\"
-
-    \"Right, I had to turn it down again because it was boiling over the lid and making a mess.\"
-
-    \"Wait, the lid? You have to simmer it with the lid OFF. The whole point is to boil it down.\"
-
-    Depending on how you were raised, you can probably choose to mindlessly live out the habits you were raised with — and get by just fine.
-
-    We each have the choice to keep our perspectives long and skinny, and live life looking through the straws of our youth.
-
-    Or, we can have the courage to let life break us open. We can actively explore our blind spots, because no matter how perfectly you were raised, you have them too.
-
-    WHAT I'VE LEARNED THE HARD WAY, is that these lessons will probably keep sneaking up on me.
-
-    And I choose embarrassment over ignorance.
-
-    (Original article from Meghann McNiff on Medium)",
-    image: "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    Now this is where some people might talk about the whole idea of \"Fake it 'till you make it,\" but they're missing a really important detail that's right in front of them. The part of that statement that really matters is that you actually have to make it eventually. There is no such thing as \"Fake it 'till you fake it.\" Even though I think a lot of people behave as though that were the case.
+    
+    (Original article from Gary Vaynerchuk on Medium)",
+    image: "https://images.unsplash.com/photo-1542365887-1149961dccc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 2)
 
-  # https://medium.com/food-is-the-new-internet/get-ready-for-a-meat-revolution-df21cd27c7fc
-  Post.create!(title: "Get Ready for a Meat Revolution",
-    body: "You might call it the Manhattan Project of food. It's been the subject of breathless whispers, rumors and speculation throughout Silicon Valley and beyond. They've attracted tons of press and generated major waves on social media, including a now legendary viral video. And this summer, Impossible Foods is finally getting ready to take center stage. That's because this most mysterious and uber-funded startup will launch the product it has obsessively worked on for over 3 years, and could change how we look at meat forever.
+    # https://medium.com/@katiecaisse/i-stopped-eating-meat-and-this-is-what-happened-996b9a81a6a
+    Post.create!(title: "I Stopped Eating Meat and This Is What Happened",
+    body: "In August of 2017 I stopped eating meat and animal by-products after watching the documentary \"What The Health\".
 
-    It all started in 2011, when renowned Stanford biochemist Patrick Brown desired to turn his scientific expertise toward solving a major world problem. It didn't take long to zero in on the perfect candidate: beef — more specifically, hamburgers. His chosen challenge? Make burgers using plants instead of cows.
+    I want to be clear that I do not label myself as a vegan and I did not initially do this as part of a moral value. I did this for myself and because of my health.
 
-    Why an animal-free burger? The burger is arguably America's most iconic food, and in recent times has also become one of the most controversial. In turns out, beef is one of the most resource-intensive, habitat-destroying, pollution-generating, contaminant-laden products on the planet. To create the 1 billion burgers eaten by Americans each year, countless tracts of land have been converted into corn and soybean fields to feed millions of cattle, who in turn generate staggering levels of greenhouse gases, require ridiculous amounts of water, and whose waste often contaminates the food supply with E. coli and other serious germs. It's not a pretty picture — and as the global demand for beef and other meat is expected to skyrocket in the near future, making beef more sustainable has become an international matter of urgency.
+    1. Death by Dairy
+    
+    I first started by cutting out all dairy and eggs beginning in June of 2017. Eggs always caused me severe stomach and digestive issues and I never really enjoyed them all that much so, what was the big deal with saying \"Smell ya later?\" I'll tell you, the big deal was that almost all of my digestive issues resolved, embarrassing acne and flaky dry patches on my skin cleared and haven't come back, and I began to feel more energized.The most rewarding benefit truly was my dissipating acne. I was spending a decent amount of money monthly on prescription acne medication, increased copays for \"specialist\" appointments to visit my dermatologist, and there was never any change in my skin. I truly don't think my skin has ever been so clear and so bright. I can confidently say that I've never felt more confident with my skin and it saves me money.
 
-    So Brown and his new company, Impossible Foods, set out to do, well, the impossible — perfectly recreate beef using purely plant ingredients. Clearly this was no easy task; vegans and vegetarians have tried for years to replicate beef with plant-based patties, and the results have usually been less than impressive.
+    Not once did my dermatologist suggest that my acne could be caused by dairy. He always blamed hormones and \"growing up\" and suggested that the only solution would be oily and smelly creams and lotions. Bullshit.
 
-    That's because ground beef is a multi-layered matrix whose various muscles, tissues and proteins give beef complex flavors, textures and smells that can't be made using plants.
+    2. Beans Beans They're Good For Your....
 
-    Or so we thought.
+    Everything? Replacing meat based protein sources with plant-based protein sources was the icing on the cake. My energy dramatically increased, my mood was heightened, I was sleeping better, and I no longer was suffering from painful bloating after meals. I replaced meat with beans, tofu, some meat alternatives such as Gardein, and lentils. I love cooking, it's truly a passion of mine. I spent time in the kitchen re familiarizing myself with alternative options and learning how to replace animal products with plant products in meals. The whole learning process only took a week or so and it was more than worth it. It allowed me to become independently creative in the kitchen and experiment with new things and new ingredients.
 
-    Deep in their Bay Area headquarters, Impossible Foods worked industriously to measure, analyze and extract components of plants they believed could replicate those found inside beef. It was a super-ambitious job, and they aimed for total perfection: every aspect of beef, from its lush reddish-pink hues to the intoxicating sizzle and aromas it emanates on the grill to the perfect char and juiciness of a medium-rare burger; everything had to be reverse-engineered using plants.
+    3. It's Not For Everyone and Intuitive Eating is Okay
 
-    They labored on this groundbreaking process for years, rarely telling the outside world about their work. Then, in 2014, they offered the public a tantalizing first glimpse at their prototype plant-only burger, aptly christened The Impossible Burger, and it looked... pretty darn good.
+    Our bodies tell us what we need if we listen closely and treat it kindly. The same way it tells you you're hungry and thirsty is the same way it tells you when you need more vitamins, protein, and other nutritional deficits. There are plenty of days where my body screams \"you need more protein\" and sometimes on these days I'll have a very small piece of fish or a plant-based protein shake. Not everyone is fit for a plant-based diet, and I understand that. It takes patients to make the change and you have to really want to do it for yourself. Life is all about balance. I don't typically dive on into dairy. Mostly because it has never ended well for me. But once every few months I will have some fish and if I pop into a coffee shop that doesn't have milk alternatives, I splash a little skim milk in my cup and move on with my day. It's not the end of the world.
 
-    Next, they invited the Wall Street Journal for a rare tour of their Redwood, CA research facility, which revealed the inner workings of their Willy Wonka-esque lab as white-coated workers weighed and analyzed burger samples or tossed bales of leafy vegetables into giant metal vats. But the marquee moment came when Dr. Brown revealed their holiest discovery: making plants bleed. That is, they'd isolated a molecule (known as \"heme\") that gives red meat its characteristic taste and color, and discovered it could also be found in certain plants' roots systems. This supreme revelation along with amazing images of plants leaking red pools of blood proceeded to blow the internet's mind, and the video became a viral sensation.
+    Life is about balance.
 
-    And they weren't done making headlines. In the summer of 2015 it was reported that none other than Google had attempted a buy-out of Impossible Foods with an offer in the neighborhood of $200 to $300 million, but were ultimately rebuffed, reportedly because that sum just didn't impress the startup.
-
-    Impossible shocked everyone again when, last fall, they raised an incredible $108 million in a single investment round from a circle of heavy-hitters including Bill Gates, Li Ka-Shing and Khosla Ventures. The news seemed to surprise even startup-seasoned Silicon Valley and sent the tech media abuzz with speculation. It was now obvious Impossible Foods wasn't working on any old veggie burger; this company was serious about innovating meat, and their product just might be the first plant-based burger with a real shot at usurping cows.
-
-    And now, beginning this summer, the world will finally get a chance to find out. This spring, they announced the Impossible Burger would be launching in a select group of restaurants in several cities starting in July. The news came amid a dazzling marketing campaign where they unveiled the finished Impossible Burger — a product of several years of intense research and development — to a bevy of some of the most influential people in the food world, and the results have been astonishing.
-
-    Justin Sterling of Food and Wine Magazine, who tasted the Impossible Burger at a special cooking demo, proclaimed the burger was \"a revolutionary new product\" that is \"far more complex and sophisticated than any existing non-animal patty\", while Bon Appetit's Christine Chaey enthused that the burger \"was everything I'd expect one to be: dense, chewy, salty, and satisfyingly fatty\" and that did \"a shockingly good job of convincing my brain (it was) in fact, meat.\" Meanwhile, world-famous chef and renowned carnivore David Chang had this to offer on Instagram:
-
-    \"Today I tasted the future and it was vegan: this burger was juicy/bloody and had real texture like beef. But more delicious and way better for the planet. I can't really comprehend its impact quite yet...but I think it might change the whole game\"
-
-    So how did Impossible do the impossible and turn plants into meat? That, it appears, might have to remain a guarded secret, but you may be surprised to learn the burger is made of some highly un-carnivorous ingredients like potato protein, grains, coconut oil, and even honeydew melon, as well as that special \"heme\". Best of all, the burgers require only a fraction of the land, water and energy that conventional beef burgers use, and is naturally free of the common germs and contaminants found inside the latter.
-
-    With these luminous endorsements and a growing populace of meat-eaters eager to adopt more sustainable options, the potential for Impossible's product launch are huge.
-
-    And the advent of a plant-based burger could have a major cultural significance as well. For the first time in human history, we've succeeded in making a complex meat product every bit as good as the conventional kind without relying on animals to grow it. In the same way the automobile liberated us from the inefficiency and restraints of driving horses and ushered in a new era of global transportation, animal-free meat could similarly grant us untold freedom to make meat products better than they've ever been before: in taste, nutritional quality, safety, and economic productivity. The innovation of meat might represent our greatest leap forward to a more sustainable food system, while enhancing our enjoyment of meat in ways we never previously imagined.
-
-    Today's conventional meat industry is a massive, trillion-dollar business that stretches around the globe. But because of its shocking recklessness towards the environment, human health, and many other issues, it is also incredibly ripe for disruption. If Impossible Food's plant-only burger tastes and performs nearly anywhere as good as claimed, this startup is well-positioned to launch a brand new meat revolution, and if that's the case, consider the Impossible Burger the opening shot.
-
-    Note: Rival startup Beyond Meat recently launched their own \"bleeding\" plant burger in Whole Foods stores last month. There have not been many definitive reviews yet, so it remains to be seen if it can fully compete with Impossible's innovation.
-
-    (Original article from Janay Laing on Medium)",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    Making this change made me happy. It made me feel free from foods that truly made me feel terrible. It brought me closer to a community who truly strives for a balanced lifestyle, empowerment, peace, personal growth, and self fulfillment. This change provided me more than a healthy body. This change provided me a healthy mindset, a support system, and a greater sense of myself.
+    
+    (Original article from Katie Caisse on Medium)",
+    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 8)
 
-  # https://medium.com/the-year-of-the-looking-glass/the-secret-of-the-chicken-and-the-egg-206b7f1ce83b
-  Post.create!(title: "The Secret of the Chicken and the Egg",
-    body: "It would have been a completely unremarkable, certainly unmemorable Safeway grocery store run if not for the book that caught my eye on the way to the checkout aisle.
+  # https://medium.com/@caranicoletti/to-meat-or-not-to-meat-5a4ca2eb5f5d
+  Post.create!(title: "To Meat or Not to Meat",
+    body: "I grew up working in my family's butcher shop, so eating meat never really felt like it was a choice for me. Meat was what we ate, because meat was what we did — it was that simple. It wasn't until I read Charlotte's Web in the third grade, and many of my classmates vowed never to eat meat again, that I paused to think more critically about my family's trade.
 
-    This was two, maybe three years ago, and yet I still remember this book and its cover.
+    Despite the fact that the question of whether or not it's possible to eat meat and still love animals has followed me since then, as an adult I still choose to eat meat. I have also chosen to follow in my grandfather and great grandfather's footsteps and to work as a butcher — a profession that most people don't see as lining up with being an animal-lover.
 
-    Of course, I was instantly wary. The faux wax seal, the quill-pen script, the ancient parchment paper aglow with some kind of magical beams—it wore the sheepskin of a Dan Brown mega-thriller, except it unapologetically declared itself to be truth. Get whatever you want. Discover the secret to life, the book jacket proclaimed.
+    However, it's because I love animals that I chose this path — I want to learn as much as I can about our food systems so that I'm better able to educate people on how to eat meat in a kinder, more responsible, and mindful way.
 
-    The promises were too grand, the scent of scam too strong to ignore. Clearly, there wasn't some abracadabra shortcut, some kernel of wisdom wrapped in gold foil and tucked away in a dusty safe somewhere, \"the culmination of centuries of great thinkers, scientists, artists and philosophers,\" passed discretely from generation to generation...
-
-    ...was there?
-
-    Curiosity kills the cat, and that day it made a chump out of me. I tossed the book into my shopping cart and headed for the checkout line.
-
-    At a conference last week about marketplaces, Gagan Biyani shared some pearls of insight from his experiences at Udemy and Lyft. He spoke of the classic chicken and the egg problem. If you're a seller (a purveyor of some mighty fine pastries, perhaps), you'll want to bring your goods to a market where there will be lots of baked-good aficionados. If you're looking to throw a pastry party, you'll want to go somewhere with a handsome selection of croissants and eclairs.
-
-    What this boils down to is that if you've got eggs, it's easy to get chickens. If you've got chickens, it's easy to get eggs. Customers beget sellers. Sellers beget customers. There's even an economic term for this: the virtuous cycle.
-
-    But what happens if you have no eggs and no chickens?
-
-    I've often felt that if things were fair, then the ease or reward of any particular endeavor should be proportional to how valuable or good it is. But this is the opposite of how many things function. For instance:
-
-    In physics: the law of inertia states that the innate force of matter... endeavors to preserve its present state, whether it be of rest or of moving uniformly forward in a straight line. (Wikipedia)
-
-    In finance: it's easier to create more wealth when you already have wealth.
-
-    In the office: you are more likely to receive confidence-boosting signals (compliments and promotions and the like) if you already project confidence.
-
-    In lifestyles: destructive habits are more difficult to break than to fall into. It is harder for a smoker to say no to an offered cigarette than a non-smoker. Somebody who came from an abusive family is more likely to fall into another abusive relationship. Recovering alcoholics relapse when things are stressful, which only creates more stress.
-
-    In relationships: the more adamantly two people disagree, the harder it is for them to earn each other's trust and resolve the disagreement.
-
-    \"Fairness is a concept for children,\" Candace Bushnell was once quoted as saying. (Her book Sex and the City sparked a cultural phenomenon with a hit show and two movies, but she herself earned very little from those successes.)
-
-    There is no such thing as fair or unfair. There is only how the world works.
-
-    Do you want to know what The Secret is?
-
-    It's simultaneously both accurate and disappointing.
-
-    If you think positively — if you truly, honestly believe that you can attain or achieve something — then you will achieve it.
-
-    I don't think most great thinkers, scientists, artists and philosophers would disagree with that. They probably thought positively and believed they could do what they set out to do.
-
-    But what the book left out is the hard part.
-
-    How do you get the egg or the chicken in the first place?
-
-    How can you fundamentally change the way you think?
-
-    One great line from Gagan Biyani's talk last week has stayed with me: faking the chicken. It means doing whatever it takes to get the chicken in place so that you can start reaping the benefit of eggs.
-
-    Using his example, if you're building a marketplace, even if you have no buyers, incentivize sellers to come on board. Maybe pay them directly. Once the sellers are there, you can leverage them to attract buyers.
-
-    Or, if you're lacking confidence, fake it until you make it. Act as if you have conviction in what you're saying even if the entire neighborhood's butterfly population has taken up residence in your stomach.
-
-    Or, if something seems out of your capabilities, surround yourself with people that have done it before. Take inspiration from those who make it look possible, and maybe even easy. Trick yourself into thinking you already have the chicken.
-
-    At the end of the day, that's life — the constant wrestling with and pushing of the self. The cycle of striving for better and better cycles, so that we can achieve something of meaning in an unfair world.
-
-    Compared to the original Secret, it's not as enticing of a promise.
-
-    But then again, it seems just a little more real.
-
-    (Original article from Julie Zhuo on Medium)",
-    image: "https://images.unsplash.com/photo-1518492104633-130d0cc84637?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1252&q=80",
+    Do you eat meat? Why or why not?
+    
+    (Original article from Cara Nicoletti on Medium)",
+    image: "https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
     author_id: 4)
 
-  # https://medium.com/mel-magazine/every-cut-of-steak-ranked-by-how-un-healthy-they-are-513a46d96000
-  Post.create!(title: "Every Cut of Steak, Ranked by How (Un)Healthy They Are",
-    body: "We've already written about how the meat industry is ruining steak by engineering larger cows. \"We're eating meat that has steroids in it,\" Jean-Claude Setin, master butcher and owner of Le French Butcher in L.A. told us earlier this year. \"We're eating meat that has appetite enhancers in it. We're eating meat that has sugar in it.\"
+  # https://medium.com/@sethbannon/cleaning-the-record-on-clean-meat-4888815a8614
+  Post.create!(title: "Cleaning the record on clean meat",
+    body: "Lora Kolodny of TechCrunch recently ran a fascinating interview with Impossible Food's CEO Pat Brown. I'm a big fan of their work but Pat gets quite a number of things very wrong when discussing clean meat. I'm a bit of a clean meat aficionado, so let's examine his points one by one to set the record straight.
 
-    Ugh.
+    \"First of all, it's not true you can do a better job that way. Because then you buy into, at best, the same limitations that a cow has.\"
 
-    Still, even among the worryingly delicious selection of genetically mutated, 'roided-out cow meat out there, there are certain cuts of steak that are healthier and leaner than others. The problem is that most of these leaner cuts are, sadly, less tasty, and therefore, less likely to appear on a restaurant's menu. There's also the fact that, according to dietitian Sarah Mirkin, meat isn't a particularly healthy option to begin with. \"Personally I don't consider red meat to be healthy,\" says Mirkin. \"I recommend limiting it to once per week. Studies suggest that having red meat more often than this can substantially decrease one's lifespan.\"
+    This misses entirely one of the core innovations of clean meat! Namely, that by focusing only on the biological processes that cause a cow to produce meat and ignoring the rest, you can dramatically improve the efficacy by which meat is made. Cows spend energy and resources on growing many things that have nothing to do with meat — bones and brains and hooves and fur and the list goes on. By growing meat only in a controlled environment and not these other things, clean meat production leaves behind the limitations of a cow.
 
-    That said, we have a job to do, and that job is to rank cuts of steak by which one is less likely to cause Type 2 diabetes (and a laundry list of other diseases caused by eating too much fat).
+    As evidence for this, consider that to harvest meat from a cow you need to birth it, let it grow in a field for 2 to 3 years (feeding it all the while), only to slaughter it and cut it up for meat. Clean meat, however, can be produced from scratch in as little as two weeks. Clean meat does away with the limitations of traditional animal agriculture.
 
-    One more note before we dive in: You may notice that the first five cuts of steak listed below rarely show up on a restaurant's menu. Frankly, I'd never even heard of the first three cuts, because while they may be the leanest, they're also, taste-wise, likely to turn you into a vegetarian sooner than you can say bovine spongiform encephalopathy. Anyway, here we go...
+    A study out of Oxford University showed clean meat could potentially be produced with 96% less greenhouse gas emissions, 45% less energy, 99% less land use, and 96% less water use than meat made through animal agriculture. Same limitations as a cow? No sir.
 
+    \"And it's economically completely un-scalable.\"
 
-    1. Sirloin Tip Side Steak: \"Sirloin tip side steak is the leanest choice,\" says Mirkin. She's right: This cut is one of the few on the list that could be considered \"extra lean\" by the USDA's standard (5 grams of total fat and 2 grams of saturated fat), according to the Mayo Clinic. The sirloin tip side steak is taken from the rump and hind legs: \"The muscles in this area are used for movement, so the beef is leaner and less tender,\" reports Beef. It's What's For Dinner.
+    I'm not sure what he's basing this on but it's not the consensus opinion held by the top researchers in the field. I invite Pat to join me later this year at the next International Conference on Cultured Meat in Maastricht. I've attended the last two years and met many of the preeminent researchers in the field. Essentially everyone believes the cost to produce a pound of clean meat will soon match the cost to produce a pound of meat through animal agriculture. It's only a matter of time. And many see a path, at scale, to producing clean meat that's even cheaper than that harvested from slaughtered cows.
 
-    2. Eye of Round Steak: Another extra lean cut of steak, this is also taken from the rump and hind legs of a cow, but it's considered even tougher and less juicy. \"Eye of round is one of the few unredeemable cuts of meat; think tough and tasteless,\" writes Lynne Rossetto Kasper for The Splendid Table. According to Livestrong, the best way to prepare this otherwise shitty cut of beef is to pan-fry it or braise it so that you can retain some semblance of tenderness.
+    I'd love to show Pat a graph of the production cost curve for clean meat! When Dr. Mark Post grew the first cultured burger in 2013 it cost $330,000 to make — about $1,056,000 per pound. Only 3 years later, Memphis Meats had brought costs down 58 fold to $18,000 per pound. One year later in early 2017 they dropped the costs another 2x to $9,000 per pound. I can't disclose specifics, but I can say they've continued to drop costs significantly in the last few months. And they've achieved these costs reductions without the benefits of commercial scale, and on only $3M of funding (disclosure: I'm an investor through Fifty Years), while Impossible Foods has raised $182M.
 
-    3. Top and Bottom Round Steak (tied): Also considered extra lean by USDA standards, these two cuts of steak are the ones that are usually cut up and served in cubes. But while these cuts of steak both come from the back end of the cow, there are some differences. \"The top round is very lean but tends to be more tender than the bottom round, and is often cut into steaks (which are sometimes labeled \"London broil\"),\" reports The Oregonian.
+    To back up his claims, Pat says:
 
-    5. Top Sirloin: The last lean cut of steak on this list (by USDA standards, clocking in at anywhere between 3 to 5 grams of fat) is the perfect balance between healthy, moderately priced and tender enough to not feel like a piece of rubber. \"Gleaned from the loin section of the beast, this cut of steak offers up good flavor and moderately tender meat at a budget-friendly price,\" reports Bodybuilding.com. Mirkin tells me that she recommends choosing meat cuts that say \"sirloin\" or \"round\" and trimming all the visible fat.
+    \"If we could grow tissues that were a meaningful replica of animal tissues at an affordable price from stem cells, it would revolutionize medicine. Look around you. It's not happening.\"
 
-    6. Filet Mignon: French for \"tender fillet,\" this most expensive cut of steak is cut from the tenderloin portion of the cow, a slither of flesh between the ribs and the rear end. But although it has a fairly high amount of saturated fat (6 grams in a 3-ounce piece), it's also high in protein (23 grams). \"Women need 45 grams of protein a day and men need 55 grams, so having filet mignon would get you about halfway there,\" Connie Diekman, a registered dietitian in St. Louis and past-president of the American Academy of Nutrition and Dietetics, told Healthy Eating.
+    Again, this points to a big misunderstanding. The reason tissue engineering has not transformed the field of regenerative medicine has nothing to do with the costs of culturing or bioprinting tissue, and has everything to do with the difficulties of getting the body to accept a bioengineered organ. The immune system is designed to detect and fight off foreign elements, and tissue engineers vis a vis medicine haven't overcome this hurdle yet. Furthermore, bioprinted organs require both function and structure — a difficult challenge the field hasn't yet overcome. Clean meat, meanwhile, requires only a mass of cultured cells.
 
-    7. Skirt and Flank Steak (tied): Regularly mistaken for one another because of their similarly long and flat shape, these two cuts of meat are known more for their flavor than their tenderness. The skirt steak (8 grams of fat) is the slightly healthier option of the two, and is cut from the plate of a beef animal (aka just below the ribs) and has a more intense beef flavor than flank steak. \"It does contain more tough muscles than flank steak, though, so should only be cooked to rare or medium rare for the most tender texture,\" writes Christine Gallary for the The Kitchn. Flank steak (10 grams of fat), which is cut from the flank area (aka right below the short loin), is slightly thicker and wider than skirt steak. It's also the type of beef you usually encounter in fajitas and is often used in Asian cuisines.
+    The challenges that are holding back the use of tissue engineering in medicine don't exist with clean meat and so don't pose the same impediments.
 
-    9. Porterhouse and T-bone Steak (tied): Both of these boney, taste-bud-roller-coaster rides are cut from a mix of both the short loin and the tenderloin. In the case of a Porterhouse, the steaks are cut from the rear end of the short loin, and therefore, include more tenderloin (filet). T-bone steaks, on the other hand, are cut from the front of the short loin and include less tenderloin. Technically the Porterhouse has less fat (16.4 grams) than the T-bone (25.6 grams), making it the healthier option of the two. But most experts can't agree on how much tenderloin is needed to differentiate a Porterhouse from a T-bone steak. According to the Department of Agriculture's Institutional Meat Purchase Specifications, \"The tenderloin of a Porterhouse must be 'at least 1.25 inches thick at its widest, while that of a T-bone must be at least 0.5 inches.\" However, some steaks with a larger tenderloin are still referred to as the \"King of the T-Bone\" by some.
+    \"The simple answer is because [clean meat] is one of the stupidest ideas ever expressed.\"
+    
+    Hard to argue with this one :-) Surely if he poked around the internet he'd see clean meat doesn't rank anywhere near the top of the list.
 
-    11. Ribeye Steak: Taken straight from the rib section, this indelible half fat, half protein cut of steak has 10 grams more fat than the T-bone steak and 3 grams less protein, making it the least healthy cut on this list. But according to Livestrong, if you broil your ribeye steak, the fat content will drip away. \"If you fry your steak, it will retain more fat than if you broil it,\" reports Livestrong. Cooking your rib eye steak well-done also will help relieve some of its fat content. But let's be real, the ribeye's increased fat content is precisely why this hunk of meat is so damn tasty, and if you cook your steak well done, well, you're a monster. So for the love of God, if you're going to risk your life by eating ribeye, don't scorch it in the process.
+    I understand why Pat might feel threatened by clean meat — perhaps he sees the field as a competitor. Consumers do unfortunately still have an overwhelming preference for real meat burgers vs plant based burgers — and Impossible Foods is going to great lengths to get plants to taste and feel like what clean meat already is — real meat. This might explain why, at the top of the interview, he objects to Impossible burgers being called \"plant meat\" and says he prefers to just call them \"meat\". It's true that, with the possible exception of Beyond Meat's Beyond Burger, Impossible comes closest to the taste of a real meat burger, using only plants. But they are, at the end of the day, made of plants, and not animal muscle and fat. Clean meat, on the other hand, is just that — real meat.
 
-    (Original article from Andrew Fiouzi on Medium)",
-    image: "https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    In reality, both plant based alternatives and clean meat are necessary parts of the solution. Animal agriculture is simply unsustainable, contributing more to greenhouse gas emissions than all trains, trucks, cars, planes, and boats combined. The demand for plant based alternatives is growing, as is the demand for real meat. Given the severity of the climate crisis, and the size of the meat markets, there's both a need and room for several ten billion dollar solutions to be built. So can't everyone just get along?
+
+    (Original article from Seth Bannon on Medium)",
+    image: "https://images.unsplash.com/photo-1547050605-2f268cd5daf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     author_id: 7)
 end
  
