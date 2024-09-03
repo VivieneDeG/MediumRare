@@ -31,8 +31,8 @@
     "postinstall": "webpack"
   },
   "engines": {
-    "node": "22.1.0",
-    "npm": "10.7.0"
+    "node": "22.8.0",
+    "npm": "10.8.2"
   },
   "keywords": [],
   "author": "",
