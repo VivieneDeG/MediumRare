@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer>
+  <footer className="footer">
     <div className="footer-break" />
     <div className="footer-text">
       <p>Help</p>

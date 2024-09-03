@@ -1,3 +1,15 @@
+// App.jsx
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+
 // header.jsx, _greeting.jsx
 .nav-bar-container, .nav-bar, .header-link, .nav-bar-right {
   display: flex;
@@ -68,13 +80,15 @@
 
 
 // footer.jsx
+.footer {
+  min-height: 67px;
+}
+
 .footer-break {
-  // margin: 20px auto;
   border-bottom: 1px solid rgb(242, 242, 242);
 }
 
 .footer-text {
-  // margin: 10px;
   margin: auto;
   padding: 24px;
   display: flex;

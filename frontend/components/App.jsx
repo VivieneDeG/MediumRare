@@ -9,21 +9,23 @@ import PostShowContainer from './post/post_show_container';
 import PostIndexContainer from './feed/post_index_container';
 
 const App = () => (
-  <>
+  <div className="body">
     <Modal />
     <Header />
 
-    <Switch>
-      <ProtectedRoute exact path="/posts/new" component={CreatePostFormContainer} />
-      <ProtectedRoute exact path="/posts/:postId/edit" component={UpdatePostFormContatiner} />
-      <Route exact path="/posts/:postId" component={PostShowContainer} />
-      <Route exact path="/users/:userId" component={UserShowContainer} />
-      <Route exact path="/" component={PostIndexContainer} />
-      <Redirect to="/" />
-    </Switch>
+    <div className="main">
+      <Switch>
+        <ProtectedRoute exact path="/posts/new" component={CreatePostFormContainer} />
+        <ProtectedRoute exact path="/posts/:postId/edit" component={UpdatePostFormContatiner} />
+        <Route exact path="/posts/:postId" component={PostShowContainer} />
+        <Route exact path="/users/:userId" component={UserShowContainer} />
+        <Route exact path="/" component={PostIndexContainer} />
+        <Redirect to="/" />
+      </Switch>
+    </div>
 
     <Footer />
-  </>
+  </div>
 );
 
 export default App;
