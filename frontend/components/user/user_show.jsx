@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import UserPostItemContainer from './user_post_item_container';
-import BeatLoader from 'react-spinners/BeatLoader';
-
-const override = {
-  display: "block",
-  margin: "auto"
-};
+import { Loader } from '../_util';
 
 class UserShow extends React.Component {
   componentDidMount() {
@@ -62,13 +57,7 @@ class UserShow extends React.Component {
     const { user } = this.props;
 
     if (!user.postIds) {
-      return <div className="loading">
-        <BeatLoader
-          cssOverride={override}
-          size={20}
-          margin={5}
-          color={'#52ae4f'} />
-      </div>
+      return <Loader />;
     }
     
     return (

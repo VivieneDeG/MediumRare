@@ -140,11 +140,3 @@
   border: 1px solid rgb(210, 0, 0);
   color: rgb(210, 0, 0);
 }
-
-
-.loading {
-  display: flex;
-  align-content: center;
-  margin: auto;
-  height: calc(100vh - 130px);   // minus header height * 2, centers in window
-}

@@ -79,6 +79,15 @@
 }
 
 
+// loader.jsx
+.loading {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: calc(100vh - 130px);   // minus header height * 2, centers in window
+}
+
+
 // footer.jsx
 .footer {
   min-height: 67px;

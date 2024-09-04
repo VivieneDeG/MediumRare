@@ -2,12 +2,7 @@ import React from 'react';
 import PostIndexHero from './post_index_hero';
 import PostIndexItem from './post_index_item';
 import PopularPosts from './popular_posts';
-import BeatLoader from 'react-spinners/BeatLoader';
-
-const override = {
-  display: "block",
-  margin: "auto"
-};
+import { Loader } from '../_util';
 
 class PostIndex extends React.Component {
   componentDidMount() {
@@ -19,13 +14,7 @@ class PostIndex extends React.Component {
     const { posts } = this.props;
     
     if (posts.length < 20) {
-      return <div className="loading">
-        <BeatLoader
-          cssOverride={override}
-          size={20}
-          margin={5}
-          color={'#52ae4f'} />
-      </div>
+      return <Loader />;
     }
 
     if (posts[0].title == "Why You Should Be a Food Snob") {

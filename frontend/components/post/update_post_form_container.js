@@ -6,12 +6,7 @@ import {
   deletePost
 } from '../../actions/post_actions';
 import PostForm from './post_form';
-import BeatLoader from 'react-spinners/BeatLoader';
-
-const override = {
-  display: "block",
-  margin: "auto"
-};
+import { Loader } from '../_util';
 
 const mapStateToProps = ({session, entities: { posts }}, ownProps) => ({
   post: posts[ownProps.match.params.postId] || { title: "", body: "", image: "" },
@@ -46,13 +41,7 @@ class UpdatePostForm extends React.Component {
     const { post, formType, currentUserId, processForm, deletePost, history } = this.props;
     
     if (!post.id) {
-      return <div className="loading">
-        <BeatLoader
-          cssOverride={override}
-          size={20}
-          margin={5}
-          color={'#52ae4f'} />
-      </div>
+      return <Loader />;
     }
     
     return (
