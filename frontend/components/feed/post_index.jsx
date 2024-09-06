@@ -39,9 +39,9 @@ class PostIndex extends React.Component {
     return (
       <div className="post-index-container">
         {postIndexHero}
-        <div className="line-break" />
         <div className="post-index-main">
           <div className="post-index-items">
+            <h3 className="post-index-latest">Latest</h3>
             {postIndexItems}
           </div>
           {popularPosts}
