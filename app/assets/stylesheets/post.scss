@@ -57,7 +57,7 @@
 
 // post_show.jsx
 .post-show-container {
-  margin: 30px auto;
+  margin: 48px auto;
   width: 700px;
 }
 
@@ -68,8 +68,9 @@
 }
 
 .post-show-title {
-  margin-bottom: 20px;
-  font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
+  margin-bottom: 32px;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-weight: 800;
   font-size: 40px;
 }
 
@@ -79,13 +80,16 @@
 }
 
 .post-show-author {
-  margin: 0px 10px;
+  margin-left: 12px;
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
 .post-show-author-pic {
-  font-size: 48px;
+  margin-left: 5px;
+  height: 44px;
+  width: 44px;
+  font-size: 44px;
   color: rgb(212, 222, 212);
 }
 
@@ -93,23 +97,28 @@
   text-decoration: underline;
 }
 
+.post-show-line-break {
+  margin-top: 24px; 
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
 .post-show-img-container {
   display: flex;
   align-items: center;
   max-height: 450px;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 10px;
 }
 .post-show-img-container > img {
   width: 100%;
 }
 
 .post-show-body {
-  margin: 40px auto;
-  line-height: 1.8;
-  letter-spacing: 0.15px;
+  margin: 42px 10px;
+  line-height: 1.6em;
   font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
-  font-size: 19px;
+  font-size: 20px;
   white-space: pre-line;
 }
 

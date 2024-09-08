@@ -39,6 +39,8 @@ class PostShow extends React.Component {
           </div>
         </header>
 
+        <div className="post-show-line-break" />
+
         <div className="post-show-img-container">
           <img src={`${post.image}`} />
         </div>
