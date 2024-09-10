@@ -3,7 +3,7 @@
   display: flex;
   justify-content: flex-start;
   margin: 30px auto;
-  width: 700px;
+  max-width: 680px;
   height: 100%;
 }
 
@@ -58,7 +58,7 @@
 // post_show.jsx
 .post-show-container {
   margin: 48px auto;
-  width: 700px;
+  max-width: 680px;
 }
 
 .post-show-buttons {
@@ -82,11 +82,11 @@
 .post-show-author {
   margin-left: 12px;
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .post-show-author-pic {
-  margin-left: 5px;
+  margin-left: 2px;
   height: 44px;
   width: 44px;
   font-size: 44px;
@@ -108,18 +108,46 @@
   align-items: center;
   max-height: 450px;
   overflow: hidden;
-  margin: 20px 10px;
+  margin: 20px 0;
 }
 .post-show-img-container > img {
   width: 100%;
 }
 
 .post-show-body {
-  margin: 42px 10px;
+  margin: 42px 0;
   line-height: 1.6em;
   font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
   font-size: 20px;
   white-space: pre-line;
+}
+
+.post-show-footer-container {
+  background: rgb(249, 249, 249);
+  padding: 48px 0;
+}
+
+.post-show-footer {
+  margin: auto;
+  max-width: 680px;
+}
+
+.post-show-footer-author-pic {
+  display: flex;
+  margin-left: 2px;
+  height: 72px;
+  width: 72px;
+  border-radius: 99em;
+  font-size: 72px;
+  background: rgb(255, 255, 255);
+  color: rgb(212, 222, 212);
+}
+
+.post-show-footer-author {
+  margin-top: 16px;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 

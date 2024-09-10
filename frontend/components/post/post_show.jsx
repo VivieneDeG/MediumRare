@@ -18,39 +18,50 @@ class PostShow extends React.Component {
     const { post, currentUserId } = this.props;
 
     return (
-      <div className="post-show-container">
-        <header className="post-show-header">
-          {currentUserId == post.authorId &&
-            <div className="post-show-buttons">
-              <button className="post-show-update">
-                <Link to={`/posts/${post.id}/edit`}>Update</Link>
-              </button>
+      <>
+        <div className="post-show-container">
+          <header className="post-show-header">
+            {currentUserId == post.authorId &&
+              <div className="post-show-buttons">
+                <button className="post-show-update">
+                  <Link to={`/posts/${post.id}/edit`}>Update</Link>
+                </button>
+              </div>
+            }
+
+            <h1 className="post-show-title">{post.title}</h1>
+            <div className="post-show-author-div">
+              <Link to={`/users/${post.authorId}`} className="post-show-author-pic">
+                <i className="fa-solid fa-circle-user"></i>
+              </Link>
+              <p className="post-show-author">
+                <Link to={`/users/${post.authorId}`}>{post.author}</Link>
+              </p>
+            </div>
+          </header>
+
+          <div className="post-show-line-break" />
+
+          {post.image &&
+            <div className="post-show-img-container">
+              <img src={`${post.image}`} />
             </div>
           }
 
-          <h1 className="post-show-title">{post.title}</h1>
-          <div className="post-show-author-div">
-            <Link to={`/users/${post.authorId}`} className="post-show-author-pic">
-              <i className="fa-solid fa-circle-user"></i>
-            </Link>
-            <p className="post-show-author">
-              <Link to={`/users/${post.authorId}`}>{post.author}</Link>
-            </p>
-          </div>
-        </header>
-
-        <div className="post-show-line-break" />
-
-        {post.image &&
-          <div className="post-show-img-container">
-            <img src={`${post.image}`} />
-          </div>
-        }
-
-        <div className="post-show-page">
           <pre className="post-show-body">{post.body}</pre>
         </div>
-      </div>
+
+        <footer className="post-show-footer-container">
+          <div className="post-show-footer">
+            <Link to={`/users/${post.authorId}`} className="post-show-footer-author-pic">
+              <i className="fa-solid fa-circle-user"></i>
+            </Link>
+            <h3 className="post-show-footer-author">
+              <Link to={`/users/${post.authorId}`}>Written by {post.author}</Link>
+            </h3>
+          </div>
+        </footer>
+      </>
     )
   }
 }
