@@ -7,15 +7,19 @@ const PostIndexItem = ({ post }) => {
       <div className="post-index-item-text">
         <Link to={`/posts/${post.id}`}>
           <h1 className="post-index-item-title">{post.title}</h1>
-          <h2 className="post-index-item-preview">{post.body}</h2>
+          <h2 className="post-index-item-preview">{post.preview}</h2>
         </Link>
         <p className="post-index-item-author">
           <Link to={`/users/${post.authorId}`}>{post.author}</Link>
         </p>
       </div>
-      <Link to={`/posts/${post.id}`}>
-        <img className="post-index-item-img" src={`${post.image}`} />
-      </Link>
+
+      {post.image &&
+        <Link to={`/posts/${post.id}`}>
+          <img className="post-index-item-img" src={`${post.image}`} />
+        </Link>
+      }
+
     </div>
   )
 }

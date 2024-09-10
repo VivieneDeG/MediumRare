@@ -13,7 +13,7 @@ const PostIndexHero = ({ posts }) => {
         </Link>
         <Link to={`/posts/${posts[0].id}`}>
           <h1 className="hero-left-title">{posts[0].title}</h1>
-          <h2 className="hero-left-preview">{posts[0].body}</h2>
+          <h2 className="hero-left-preview">{posts[0].preview}</h2>
         </Link>
         <p className="hero-author">
           <Link to={`/users/${posts[0].authorId}`}>{posts[0].author}</Link>
@@ -28,7 +28,7 @@ const PostIndexHero = ({ posts }) => {
           <div className="hero-middle-text">
             <Link to={`/posts/${posts[1].id}`}>
               <h1 className="hero-middle-title">{posts[1].title}</h1>
-              <h2 className="hero-middle-preview">{posts[1].body}</h2>
+              <h2 className="hero-middle-preview">{posts[1].preview}</h2>
             </Link>
             <p className="hero-middle-author">
               <Link to={`/users/${posts[1].authorId}`}>{posts[1].author}</Link>
@@ -43,7 +43,7 @@ const PostIndexHero = ({ posts }) => {
           <div className="hero-middle-text">
             <Link to={`/posts/${posts[2].id}`}>
               <h1 className="hero-middle-title">{posts[2].title}</h1>
-              <h2 className="hero-middle-preview">{posts[2].body}</h2>
+              <h2 className="hero-middle-preview">{posts[2].preview}</h2>
             </Link>
             <p className="hero-middle-author">
               <Link to={`/users/${posts[2].authorId}`}>{posts[2].author}</Link>
@@ -58,7 +58,7 @@ const PostIndexHero = ({ posts }) => {
           <div className="hero-middle-text">
             <Link to={`/posts/${posts[3].id}`}>
               <h1 className="hero-middle-title">{posts[3].title}</h1>
-              <h2 className="hero-middle-preview">{posts[3].body}</h2>
+              <h2 className="hero-middle-preview">{posts[3].preview}</h2>
             </Link>
             <p className="hero-middle-author">
               <Link to={`/users/${posts[3].authorId}`}>{posts[3].author}</Link>
@@ -75,7 +75,7 @@ const PostIndexHero = ({ posts }) => {
         </Link>
         <Link to={`/posts/${posts[4].id}`}>
           <h1 className="hero-right-title">{posts[4].title}</h1>
-          <h2 className="hero-right-preview">{posts[4].body}</h2>
+          <h2 className="hero-right-preview">{posts[4].preview}</h2>
         </Link>
         <p className="hero-author">
           <Link to={`/users/${posts[4].authorId}`}>{posts[4].author}</Link>

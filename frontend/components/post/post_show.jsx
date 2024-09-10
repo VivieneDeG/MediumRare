@@ -41,9 +41,11 @@ class PostShow extends React.Component {
 
         <div className="post-show-line-break" />
 
-        <div className="post-show-img-container">
-          <img src={`${post.image}`} />
-        </div>
+        {post.image &&
+          <div className="post-show-img-container">
+            <img src={`${post.image}`} />
+          </div>
+        }
 
         <div className="post-show-page">
           <pre className="post-show-body">{post.body}</pre>
