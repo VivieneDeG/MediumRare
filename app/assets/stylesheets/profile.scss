@@ -125,8 +125,8 @@
 .create-post-button, .user-post-update, .user-post-delete {
   border-radius: 99em;
   background: rgb(255, 255, 255);
-  border: 1px solid rgb(180, 180, 180);
-  color: rgb(110, 110, 110);
+  border: 1px solid rgb(140, 140, 140);
+  color: rgb(80, 80, 80);
 }
 
 .create-post-button {
@@ -146,8 +146,8 @@
 }
 
 .create-post-button:hover, .user-post-update:hover {
-  border: 1px solid rgb(110, 110, 110);
-  color: rgb(80, 80, 80);
+  border: 1px solid rgb(80, 80, 80);
+  color: rgb(40, 40, 40);
 }
 
 .user-post-delete:hover {
