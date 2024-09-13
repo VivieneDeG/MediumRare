@@ -126,6 +126,7 @@
 // post_index_item.jsx
 .post-index-item-container {
   display: flex;
+  justify-content: space-between;
   padding: 30px 0;
   border-top: 1px solid rgb(230, 230, 230);
 }
