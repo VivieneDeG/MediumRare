@@ -2,15 +2,15 @@
 .post-form-container {
   display: flex;
   justify-content: flex-start;
-  margin: 30px auto;
+  margin: 32px auto;
   max-width: 680px;
-  height: 100%;
+  min-height: calc(100vh - 191px);  // minus header, footer, and margin
 }
 
 .post-form {
   display: flex;
   flex-direction: column;
-  font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   width: 100%;
 }
 
@@ -21,7 +21,6 @@
 
 .post-form-title {
   padding-left: 5px;
-  width: 694px;
   font-size: 35px;
   border-left: 1px solid rgb(200, 200, 200);
   color: rgb(0, 0, 0);
@@ -30,7 +29,6 @@
 .post-form-image {
   margin-top: 10px;
   padding-left: 5px;
-  width: 694px;
   font-size: 14px;
   border-left: 1px solid rgb(200, 200, 200);
   color: rgb(120, 120, 120);
@@ -39,11 +37,11 @@
 .post-form-body {
   margin-top: 10px;
   padding-left: 5px;
-  width: 694px;
   height: 100%;
   resize: none;
   line-height: 1.8;
   letter-spacing: 0.15px;
+  font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
   font-size: 19px;
   border-left: 1px solid rgb(200, 200, 200);
   color: rgb(0, 0, 0);
@@ -51,13 +49,13 @@
 
 .post-form-title::placeholder, .post-form-image::placeholder,
 .post-form-body::placeholder {
-  color: rgb(160, 160, 160);
+  color: rgb(200, 200, 200);
 }
 
 
 // post_show.jsx
 .post-show-container {
-  margin: 48px auto;
+  margin: 42px auto;
   max-width: 680px;
 }
 

@@ -41,14 +41,14 @@ class UserShow extends React.Component {
 
       return (
         <div className="user-profile-content">
-          <h3 className="user-content-heading">Featured</h3>
+          <h3 className="user-content-heading">Stories</h3>
           {postItems}
         </div>
       )
     }
 
     return (
-      <p className="user-profile-content">{user.name} hasn’t been active on MediumRare yet.
+      <p className="user-profile-no-content">{user.name} hasn’t been active on MediumRare yet.
         Check back later to see what's on their mind.</p>
     )
   }
@@ -75,6 +75,8 @@ class UserShow extends React.Component {
             <i className="fa-solid fa-circle-user"></i>
           </div>
         </header>
+
+        <div className="user-profile-line-break" />
 
           {this.getProfileContent()}
       </div>

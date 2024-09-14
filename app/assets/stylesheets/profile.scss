@@ -1,13 +1,13 @@
 // user_show.jsx
 .user-profile-container {
-  margin: 70px auto;
+  margin: 42px auto;
   width: 678px;
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
 }
 
 .user-profile-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -17,29 +17,39 @@
 }
 
 .user-profile-name {
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 42px;
 }
 
 .user-profile-pic {
   display: flex;
   align-self: flex-start;
-  font-size: 130px;
+  height: 88px;
+  width: 88px;
+  font-size: 88px;
   color: rgb(212, 222, 212);
 }
 
+.user-profile-line-break {
+  margin-top: 32px;
+  margin-bottom: 24px; 
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
 .user-profile-content {
-  margin: 30px auto;
-  font-size: 16px;
-  color: rgb(160, 160, 160);
+  margin-bottom: 42px;
 }
 
 .user-content-heading {
-  padding-top: 20px;
-  border-top: 1px solid rgb(230, 230, 230);
   font-weight: 600;
   font-size: 18px;
   color: rgb(0, 0, 0);
+}
+
+.user-profile-no-content {
+  margin-top: 80px;
+  font-size: 16px;
+  color: rgb(120, 120, 120);
 }
 
 
@@ -108,7 +118,6 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  // font-family: 'Lora', Georgia, serif;
   color: rgb(120, 120, 120);
   font-size: 17px;
 }
@@ -117,7 +126,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  color: rgb(160, 160, 160);
+  color: rgb(120, 120, 120);
 }
 
 

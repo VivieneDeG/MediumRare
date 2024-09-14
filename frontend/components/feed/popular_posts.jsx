@@ -7,7 +7,7 @@ const PopularPosts = ({ posts }) => {
       <h3 className="popular-posts-heading">
         Popular on MediumRare
       </h3>
-      <div className="popular-line-break"></div>
+      <div className="popular-line-break" />
 
       <div className="popular-posts-item">
         <div className="popular-posts-number">
