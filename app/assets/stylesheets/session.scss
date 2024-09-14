@@ -22,7 +22,7 @@
 
 .session-header {
   font-family: 'Playfair Display', Georgia, Cambria, serif;
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .session-form {
@@ -32,11 +32,13 @@
 .session-form-label {
   color: rgb(120, 120, 120);
   margin: 10px;
+  font-size: 14px;
+  color: rgb(40, 40, 40);
 }
 
 .session-form-label > input {
   padding: 7px;
-  border-bottom: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(210, 210, 210);
   font-size: 17px;
   width: 290px;
   color: rgb(40, 40, 40);
@@ -55,7 +57,7 @@
   font-size: 14px;
   text-align: center;
   background: rgb(255, 255, 255);
-  border: 1px solid rgb(140, 140, 140);
+  border: 1px solid rgb(120, 120, 120);
   color: rgb(80, 80, 80);
 }
 
@@ -67,15 +69,16 @@
 .session-form-footer {
   display: flex;
   margin: 15px;
-  font-size: 14px;
-  color: rgb(63, 63, 63);
+  font-size: 16px;
+  color: rgb(40, 40, 40);
 }
 
 .other-form-button {
   margin-left: 5px;
-  color: rgb(82, 174, 79);
+  font-weight: 700;
+  color: rgb(26, 137, 23);
 }
 
 .other-form-button:hover {
-  color: rgb(26, 137, 23);
+  color: rgb(15, 115, 12);
 }
