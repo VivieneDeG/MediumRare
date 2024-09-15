@@ -1,7 +1,7 @@
 // user_show.jsx
 .user-profile-container {
   margin: 42px auto;
-  width: 678px;
+  max-width: 680px;
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -41,6 +41,7 @@
 }
 
 .user-content-heading {
+  margin-bottom: 24px;
   font-weight: 600;
   font-size: 18px;
   color: rgb(0, 0, 0);
@@ -55,9 +56,8 @@
 
 // user_post_item_container.jsx
 .user-post-container {
-  margin: 23px auto;
+  margin-bottom: 24px;
   padding: 20px;
-  height: 488;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 4px;
   box-shadow: 0px 1px 4px rgb(220, 220, 220);
@@ -84,11 +84,11 @@
 
 .user-post-name {
   font-size: 14px;
-  margin: 10px;
-}
+  margin: 12px;
 
-.user-post-name:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+}
 }
 
 .user-post-buttons {
@@ -101,9 +101,10 @@
   align-items: center;
   height: 190px;
   overflow: hidden;
-}
-.user-post-img-container > img {
-  width: 100%;
+
+  img {
+    width: 100%;
+  }
 }
 
 .user-post-title {
@@ -113,13 +114,13 @@
 }
 
 .user-post-preview {
-  margin: 15px auto;
+  margin: 14px auto;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   color: rgb(120, 120, 120);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .user-post-footer {
@@ -140,17 +141,17 @@
 
 .create-post-button {
   margin-left: 20px;
-  width: 90px;
-  height: 23px;
-  font-size: 13px;
+  width: 100px;
+  height: 24px;
+  font-size: 14px;
   text-align: center;
 }
 
 .user-post-update, .user-post-delete {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   width: 70px;
   height: 18px;
-  font-size: 11.5px;
+  font-size: 12px;
   text-align: center;
 }
 

@@ -7,15 +7,15 @@
 
 .session-form-container {
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
-  font-size: 12.5px;
+  font-size: 14px;
 }
 
 .session-close {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 5px;
-  padding: 0px 10px;
+  margin: 4px;
+  padding: 0px 8px;
   font-size: 20px;
   color: rgb(120, 120, 120);
 }
@@ -30,56 +30,55 @@
 }
 
 .session-form-label {
-  color: rgb(120, 120, 120);
   margin: 10px;
   font-size: 14px;
-  color: rgb(40, 40, 40);
-}
+  color: rgb(80, 80, 80);
 
-.session-form-label > input {
-  padding: 7px;
-  border-bottom: 1px solid rgb(230, 230, 230);
-  font-size: 17px;
-  text-align: center;
-  width: 290px;
-  color: rgb(40, 40, 40);
+  input {
+    padding: 8px 4px 4px 4px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    font-size: 16px;
+    text-align: center;
+    width: 290px;
+    color: rgb(40, 40, 40);
+  }
 }
 
 .session-errors {
-  margin: 10px;
+  margin-bottom: 12px;
   color: #b22222
 }
 
 .session-form-submit, .demo-button {
-  margin: 5px;
+  margin: 6px;
   width: 130px;
-  height: 37px;
+  height: 36px;
   border-radius: 99em;
   font-size: 14px;
   text-align: center;
   background: rgb(255, 255, 255);
   border: 1px solid rgb(120, 120, 120);
   color: rgb(80, 80, 80);
-}
 
-.session-form-submit:hover, .demo-button:hover {
-  border: 1px solid rgb(80, 80, 80);
-  color: rgb(40, 40, 40);
+  &:hover {
+    border: 1px solid rgb(80, 80, 80);
+    color: rgb(40, 40, 40);
+  }
 }
 
 .session-form-footer {
   display: flex;
-  margin: 15px;
+  margin-top: 20px;
   font-size: 16px;
   color: rgb(40, 40, 40);
 }
 
 .other-form-button {
-  margin-left: 5px;
+  margin-left: 4px;
   font-weight: 700;
   color: rgb(26, 137, 23);
-}
 
-.other-form-button:hover {
-  color: rgb(15, 115, 12);
+  &:hover {
+    color: rgb(15, 115, 12);
+  }
 }

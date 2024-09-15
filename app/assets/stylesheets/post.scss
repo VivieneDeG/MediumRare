@@ -2,9 +2,9 @@
 .post-form-container {
   display: flex;
   justify-content: flex-start;
-  margin: 32px auto;
+  margin: 24px auto;
   max-width: 680px;
-  min-height: calc(100vh - 191px);  // minus header, footer, and margin
+  min-height: calc(100vh - 182px);  // minus header, footer break, footer, and margin
 }
 
 .post-form {
@@ -20,36 +20,33 @@
 }
 
 .post-form-title {
-  padding-left: 5px;
-  font-size: 35px;
-  border-left: 1px solid rgb(200, 200, 200);
+  margin-bottom: 10px;
+  font-size: 40px;
   color: rgb(0, 0, 0);
 }
 
 .post-form-image {
-  margin-top: 10px;
-  padding-left: 5px;
+  margin-bottom: 10px;
   font-size: 14px;
-  border-left: 1px solid rgb(200, 200, 200);
   color: rgb(120, 120, 120);
 }
 
 .post-form-body {
-  margin-top: 10px;
-  padding-left: 5px;
   height: 100%;
   resize: none;
-  line-height: 1.8;
-  letter-spacing: 0.15px;
+  line-height: 1.6em;
   font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
-  font-size: 19px;
-  border-left: 1px solid rgb(200, 200, 200);
+  font-size: 20px;
   color: rgb(0, 0, 0);
 }
 
-.post-form-title::placeholder, .post-form-image::placeholder,
-.post-form-body::placeholder {
-  color: rgb(200, 200, 200);
+.post-form-title, .post-form-image, .post-form-body {
+  padding-left: 6px;
+  border-left: 1px solid rgb(200, 200, 200);
+
+  &::placeholder {
+    color: rgb(200, 200, 200);
+  }
 }
 
 
@@ -62,7 +59,7 @@
 .post-show-buttons {
   display: flex;
   justify-content: flex-end;
-  margin: 10px 0px;
+  margin-bottom: 10px;
 }
 
 .post-show-title {
@@ -81,6 +78,10 @@
   margin-left: 12px;
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .post-show-author-pic {
@@ -89,10 +90,6 @@
   width: 44px;
   font-size: 44px;
   color: rgb(212, 222, 212);
-}
-
-.post-show-author:hover {
-  text-decoration: underline;
 }
 
 .post-show-line-break {
@@ -107,9 +104,10 @@
   max-height: 450px;
   overflow: hidden;
   margin: 20px 0;
-}
-.post-show-img-container > img {
-  width: 100%;
+
+  img {
+    width: 100%;
+  }
 }
 
 .post-show-body {
@@ -151,11 +149,11 @@
 
 // buttons
 .post-form-delete, .post-form-submit, .post-show-update {
-  width: 104px;
-  height: 23px;
+  width: 110px;
+  height: 24px;
   border-radius: 99em;
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   background: rgb(255, 255, 255);
   border: 1px solid rgb(26, 137, 23);

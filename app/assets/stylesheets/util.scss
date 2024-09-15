@@ -45,7 +45,9 @@
 .nav-bar-profile-link {
   display: flex;
   margin: auto 12px;
-  font-size: 33px;
+  height: 32px;
+  width: 32px;
+  font-size: 32px;
   color: rgb(212, 222, 212);
 }
 
@@ -56,10 +58,10 @@
   font-family: 'Fira Sans', Geneva, Arial, sans-serif;
   font-size: 14px;
   color: rgb(26, 137, 23);
-}
 
-.login-button:hover {
-  color: rgb(15, 115, 12);
+  &:hover {
+    color: rgb(15, 115, 12);
+  }
 }
 
 .signup-button, .logout-button {
@@ -72,11 +74,11 @@
   background: rgb(255, 255, 255);
   border: 1px solid rgb(26, 137, 23);
   color: rgb(26, 137, 23);
-}
 
-.signup-button:hover, .logout-button:hover {
-  border: 1px solid rgb(15, 115, 12);
-  color: rgb(15, 115, 12);
+  &:hover {
+    border: 1px solid rgb(15, 115, 12);
+    color: rgb(15, 115, 12);
+  }
 }
 
 
@@ -90,12 +92,12 @@
 
 
 // footer.jsx
-.footer {
-  min-height: 67px;
-}
-
 .footer-break {
   border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.footer {
+  min-height: 68px;
 }
 
 .footer-text {
@@ -106,7 +108,7 @@
   max-width: 680px;
   font-family: 'Fira Sans', Geneva, Arial, sans-serif;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(120, 120, 120);
 }
 
