@@ -31,7 +31,7 @@ class PostShow extends React.Component {
 
             <h1 className="post-show-title">{post.title}</h1>
             <div className="post-show-author-div">
-              <Link to={`/users/${post.authorId}`} className="post-show-author-pic">
+              <Link to={`/users/${post.authorId}`} className="post-show-author-avatar">
                 <i className="fa-solid fa-circle-user"></i>
               </Link>
               <p className="post-show-author">
@@ -53,7 +53,7 @@ class PostShow extends React.Component {
 
         <footer className="post-show-footer-container">
           <div className="post-show-footer">
-            <Link to={`/users/${post.authorId}`} className="post-show-footer-author-pic">
+            <Link to={`/users/${post.authorId}`} className="post-show-footer-avatar">
               <i className="fa-solid fa-circle-user"></i>
             </Link>
             <h3 className="post-show-footer-author">
