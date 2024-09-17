@@ -25,9 +25,19 @@ class UserShow extends React.Component {
 
     if (user.postIds.length > 0) {
       const posts = [];
-      Object.values(this.props.posts).forEach(post => {
-        if (user.postIds.includes(post.id)) {
-          posts.push(post);
+
+      Object.values(this.props.posts).forEach(({body, ...postAttrs}) => {
+        if (user.postIds.includes(postAttrs.id)) {
+          let preview;
+
+          if (body.length > 140) {
+            preview = body.slice(0, 140);
+            preview = preview.slice(0, preview.lastIndexOf(" ")) + "…";
+          } else {
+            preview = body;
+          }
+
+          posts.push({ ...postAttrs, preview: preview });
         }
       });
 

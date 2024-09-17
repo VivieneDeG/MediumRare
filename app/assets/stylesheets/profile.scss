@@ -95,6 +95,11 @@
 
 .user-post-content {
   display: flex;
+  justify-content: space-between;
+}
+
+.user-post-text {
+  width: 100%;
 }
 
 .user-post-title {
@@ -109,7 +114,6 @@
 }
 
 .user-post-preview {
-  // margin-bottom: 24px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;

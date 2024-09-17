@@ -47,9 +47,9 @@ class UserPostItem extends React.Component {
         </div>
     
         <div className="user-post-content">
-          <Link to={`/posts/${post.id}`}>
+          <Link className="user-post-text" to={`/posts/${post.id}`}>
             <h1 className="user-post-title">{post.title}</h1>
-            <h2 className="user-post-preview">{post.body}</h2>
+            <h2 className="user-post-preview">{post.preview}</h2>
           </Link>
           {post.image &&
             <Link to={`/posts/${post.id}`}>

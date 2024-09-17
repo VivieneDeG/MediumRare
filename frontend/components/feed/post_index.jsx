@@ -13,6 +13,7 @@ class PostIndex extends React.Component {
   render() {
     const posts = this.props.posts.map(({body, ...postAttrs}) => {
       let preview;
+
       if (body.length > 140) {
         preview = body.slice(0, 140);
         preview = preview.slice(0, preview.lastIndexOf(" ")) +"…";
