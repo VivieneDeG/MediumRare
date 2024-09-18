@@ -10,23 +10,26 @@
 .post-form {
   display: flex;
   flex-direction: column;
-  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   width: 100%;
+  font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
 }
 
 .post-form-buttons {
   align-self: flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .post-form-title {
   margin-bottom: 10px;
+  padding-top: 12px;
   font-size: 40px;
+  line-height: 1.15em;
   color: rgb(0, 0, 0);
 }
 
 .post-form-image {
   margin-bottom: 10px;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: rgb(120, 120, 120);
 }
@@ -34,14 +37,13 @@
 .post-form-body {
   height: 100%;
   resize: none;
-  line-height: 1.6em;
-  font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
   font-size: 20px;
+  line-height: 1.6em;
   color: rgb(0, 0, 0);
 }
 
 .post-form-title, .post-form-image, .post-form-body {
-  padding-left: 6px;
+  padding-left: 12px;
   border-left: 1px solid rgb(200, 200, 200);
 
   &::placeholder {
@@ -64,9 +66,10 @@
 
 .post-show-title {
   margin-bottom: 32px;
-  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-family:'Nunito Sans', Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-size: 40px;
+  line-height: 1.3em;
 }
 
 .post-show-author-div {
@@ -112,9 +115,9 @@
 
 .post-show-body {
   margin: 42px 0;
-  line-height: 1.6em;
   font-family: 'Nanum Myeongjo', Georgia, Cambria, serif;
   font-size: 20px;
+  line-height: 1.6em;
   white-space: pre-line;
 }
 

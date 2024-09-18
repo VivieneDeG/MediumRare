@@ -53,12 +53,12 @@ class PostForm extends React.Component {
             
           <input type="text"
             className="post-form-image"
-            placeholder="Image URL"
+            placeholder="Image URL (optional)"
             value={this.state.image}
             onChange={this.update('image')} />
             
           <textarea className="post-form-body"
-            placeholder="What's on your mind?"
+            placeholder="Tell your story..."
             value={this.state.body}
             onChange={this.update('body')} />
           
