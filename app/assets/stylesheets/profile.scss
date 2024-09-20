@@ -129,9 +129,8 @@
 // buttons
 .create-post-button, .user-post-update, .user-post-delete {
   border-radius: 99em;
+  text-align: center;
   background: rgb(255, 255, 255);
-  border: 1px solid rgb(120, 120, 120);
-  color: rgb(80, 80, 80);
 }
 
 .create-post-button {
@@ -139,7 +138,6 @@
   width: 100px;
   height: 24px;
   font-size: 14px;
-  text-align: center;
 }
 
 .user-post-update, .user-post-delete {
@@ -147,15 +145,24 @@
   width: 70px;
   height: 18px;
   font-size: 12px;
-  text-align: center;
 }
 
-.create-post-button:hover, .user-post-update:hover {
-  border: 1px solid rgb(80, 80, 80);
-  color: rgb(40, 40, 40);
+.create-post-button, .user-post-update {
+  border: 1px solid rgb(120, 120, 120);
+  color: rgb(80, 80, 80);
+
+  &:hover {
+    border: 1px solid rgb(80, 80, 80);
+    color: rgb(40, 40, 40);
+  }
 }
 
-.user-post-delete:hover {
-  border: 1px solid rgb(210, 0, 0);
-  color: rgb(210, 0, 0);
+.user-post-delete {
+  border: 1px solid rgb(201, 74, 74);
+  color: rgb(201, 74, 74);
+
+  &:hover {
+    border: 1px solid rgb(230, 30, 30);
+    color: rgb(230, 30, 30);
+  }
 }

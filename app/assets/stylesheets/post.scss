@@ -152,6 +152,7 @@
 
 // buttons
 .post-form-delete, .post-form-submit, .post-show-update {
+  margin-left: 10px;
   width: 110px;
   height: 24px;
   border-radius: 99em;
@@ -159,20 +160,24 @@
   font-size: 14px;
   text-align: center;
   background: rgb(255, 255, 255);
+}
+
+.post-form-submit, .post-show-update {
   border: 1px solid rgb(26, 137, 23);
   color: rgb(26, 137, 23);
+
+  &:hover {
+    border: 1px solid rgb(15, 115, 12);
+    color: rgb(15, 115, 12);
+  }
 }
 
-.post-form-delete, .post-form-submit {
-  margin-left: 10px;
-}
+.post-form-delete {
+  border: 1px solid rgb(201, 74, 74);
+  color: rgb(201, 74, 74);
 
-.post-form-submit:hover, .post-show-update:hover {
-  border: 1px solid rgb(15, 115, 12);
-  color: rgb(15, 115, 12);
-}
-
-.post-form-delete:hover {
-  border: 1px solid rgb(210, 0, 0);
-  color: rgb(210, 0, 0);
+  &:hover {
+    border: 1px solid rgb(230, 30, 30);
+    color: rgb(230, 30, 30);
+  }
 }
